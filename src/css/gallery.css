@@ -7,12 +7,12 @@
 .my-container {
   border: 1px solid black;
 }
-.container {
+.container-fluid {
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
-  width: 1440px;
+  /* width: 1440px; */
 }
 .row {
   margin-right: -15px;
@@ -23,7 +23,7 @@
   color: red;
 }
 .top-pic {
-  margin-bottom: 155px;
+  margin-bottom: 8vw;
 }
 img {
   width: 100%;
@@ -33,15 +33,15 @@ img {
 }
 .img-title {
   position: absolute;
-  height: 180px;
+  height: 18vw;
   text-align: start;
-  left: 165px;
-  top: 192px;
+  left: 6vw;
+  top: 17vw;
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 300;
-  font-size: 64px;
-  line-height: 90px;
+  font-size: 6vw;
+  line-height: 7vw;
   text-transform: uppercase;
   color: #636e72;
 }
@@ -50,37 +50,61 @@ img {
 }
 
 button {
-  position: absolute;
   background: #3bb3c3;
   opacity: 0.8;
   border-radius: 10px;
-  width: 254px;
-  height: 44px;
+  width: 25vw;
+  height: 4vw;
   font-family: Roboto;
   font-style: normal;
   font-weight: 300;
-  font-size: 20px;
-  line-height: 35px;
+  font-size: 2vw;
+  line-height: 3vw;
   text-align: center;
   color: #ffffff;
   border: none;
   box-shadow: 0 4px 5px grey;
+  outline: 0;
+}
+
+button:active,
+button:hover {
+  background: #349caa;
+  outline: 0;
+}
+button:active {
+  box-shadow: 0 1px 2px grey;
+  transform: translateY(4px);
 }
 
 .bef-aft {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 300;
-  font-size: 48px;
-  line-height: 72px;
+  font-size: 4vw;
+  line-height: 7vw;
   color: #3bb3c3;
 }
 .text {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 300;
-  font-size: 22px;
-  line-height: 33px;
+  font-size: 2vw;
+  line-height: 3vw;
   text-align: center;
+  color: #636e72;
+}
+.img-fluid {
+  width: 540px;
+  height: 302px;
+}
+.text-under-pic {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 2vw;
+  line-height: 3vw;
+  text-align: center;
+  letter-spacing: 0.05em;
   color: #636e72;
 }
