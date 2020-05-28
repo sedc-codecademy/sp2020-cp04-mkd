@@ -24,15 +24,19 @@
   }
   .row 
   {
-    margin-right: 15px;
-    margin-left: 15px;
+    margin-right: -15px;
+    margin-left: -15px;
   }
  
   .top-pic 
   {
-    margin-bottom: 100px;
+    margin-bottom: 8vw;
+    
+  }
+
+  img
+  {
     width: 100%;
-   
   }
 
   .box 
@@ -43,15 +47,15 @@
   .img-title 
   {
     position: absolute;
-    height: 180px;
+    height: 18vw;
     text-align: start;
-    left: 100px;
-    top: 350px;
+    left: 6vw;
+    top: 17vw;
     font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 300;
-    font-size: 55px;
-    line-height: 70px;
+    font-size: 6vw;
+    line-height: 7vw;
     text-transform: uppercase;
     color: #636e72;
   }
@@ -62,7 +66,6 @@
   
   button 
   {
-    position: absolute;
     background: #3bb3c3;
     opacity: 0.8;
     border-radius: 10px;
@@ -78,7 +81,7 @@
     border: none;
     box-shadow: 0 4px 5px grey;
     outline: 0;
-  }  
+  }
 
   button:active, button:hover 
   {
@@ -96,8 +99,8 @@
     font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 300;
-    font-size: 48px;
-    line-height: 72px;
+    font-size: 4vw;
+    line-height: 7vw;
     color: #3bb3c3;
   }
   .text 
@@ -105,10 +108,10 @@
     font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 300;
-    font-size: 22px;
-    line-height: 33px;
+    font-size: 2vw;
+    line-height: 3vw;
     text-align: justify;
-    color: #636E72;
+    color: #636e72;
   }
 
   .textPadding
