@@ -87,7 +87,7 @@
     outline: 0;
   }
 
-  #appointmentBtn:active
+  #appointmentBtn:active, #appointmentBtn:hover
   {
     background: #349caa;
     outline: 0;
@@ -154,7 +154,7 @@
     color: #3bb3c3;
     width: 15vw;
     height: 3vw;
-    margin-top: 0vw;
+    margin-top: -1vw;
     font-family: Roboto;
     font-style: normal;
     font-weight: 300;
