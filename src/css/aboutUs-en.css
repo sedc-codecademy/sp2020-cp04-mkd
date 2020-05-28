@@ -2,25 +2,24 @@
   {
     padding-right: 15px;
     padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
+    /* margin-right: auto;
+    margin-left: auto; */
     width: 100%;
     /* border: 1px solid black; */
   }
 
   .my-container
   {
-    /* width: 100%; */
-    /* border: 1px solid black; */
-
+    width: 100%;
+    /* border: 1px solid black;  */
   }
 
   .container-fluid
   {
     padding-right: 15px;
     padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
+    /* margin-right: auto;
+    margin-left: auto; */
   }
   .row
   {
@@ -30,12 +29,10 @@
   .header
   {
     height: 108px;
-
   }
   .top-pic
   {
     margin-bottom: 8vw;
-
   }
 
   img
@@ -127,24 +124,41 @@
 
   h4
   {
+    font-family: "Roboto", sans-serif;
     text-align: center;
-    font-size: 2.5vw ;
-    margin-bottom: 3vw;
+    font-size: 1.5vw ;
+    margin-bottom: 1.5vw;
     margin-top: 1vw;
     color: #3bb3c3;
   }
 
+  h3
+  {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    font-size: 1.5vw ;
+    
+  }
+
   .teamPics
   {
-    width: 355px;
-    height: 355px;
+    width: 20vw;
+    height: 20vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
   }
 
   .picBtn
   {
+    width: 22vw;
+    height: 22vw;
     border: none;
     background: none;
-  }
+   padding: 1vw;
+   }
+
   .picBtn:hover
   {
     opacity: 0.7;
@@ -156,13 +170,13 @@
     border: none;
     border-radius: 10cm;
     color: #3bb3c3;
-    width: 20vw;
+    width: 17vw;
     height: 3vw;
     margin-top: -1vw;
-    font-family: Roboto;
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 300;
-    font-size: 1.5vw;
+    font-size: 1vw;
     line-height: 3vw;
     text-align: center;
     outline: 0;
@@ -196,15 +210,19 @@
 
   /* Modal Content */
   .modal-content {
+    font-style: medium;
+    font-weight: 300;
+    font-size: 1.2vw;
+    line-height: 1.2vw;
+    text-align: justify;
+    color: #636e72;
     position: relative;
     background-color: #fefefe;
     margin: auto;
     padding: 0;
     font-family: "Roboto", sans-serif;
-    font-size: medium;
-    line-height: 1vw;
     border: 1px solid #888;
-    width: 50%;
+    width: 40vw;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
     -webkit-animation-name: animatetop;
     -webkit-animation-duration: 0.4s;
@@ -240,10 +258,9 @@
     }
 
   .modal-header {
-    /* padding: 2px 16px; */
+    padding: 2px 16px;
     background-color: #3bb3c3;
     color: white;
   }
 
-
-
+  
