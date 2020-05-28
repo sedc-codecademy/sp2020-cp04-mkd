@@ -1,4 +1,4 @@
-  .container 
+  .container
   {
     padding-right: 15px;
     padding-left: 15px;
@@ -8,34 +8,34 @@
     /* border: 1px solid black; */
   }
 
-  .my-container 
+  .my-container
   {
     /* width: 100%; */
     /* border: 1px solid black; */
 
   }
 
-  .container-fluid 
+  .container-fluid
   {
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
   }
-  .row 
+  .row
   {
     margin-right: -15px;
     margin-left: -15px;
   }
-  .header 
+  .header
   {
     height: 108px;
-    
+
   }
-  .top-pic 
+  .top-pic
   {
     margin-bottom: 8vw;
-    
+
   }
 
   img
@@ -43,12 +43,12 @@
     width: 100%;
   }
 
-  .box 
+  .box
   {
     position: relative;
   }
 
-  .img-title 
+  .img-title
   {
     position: absolute;
     height: 18vw;
@@ -63,12 +63,12 @@
     text-transform: uppercase;
     color: #636e72;
   }
-  .colorised 
+  .colorised
   {
     color: #3bb3c3;
   }
-  
-  button 
+
+  #appointmentBtn
   {
     background: #3bb3c3;
     opacity: 0.8;
@@ -87,18 +87,19 @@
     outline: 0;
   }
 
-  button:active, button:hover 
+  #appointmentBtn:active
   {
     background: #349caa;
     outline: 0;
   }
-  button:active
+  #appointmentBtn:active
   {
     box-shadow: 0 1px 2px grey;
     transform: translateY(4px);
   }
-  
-  .bef-aft 
+
+
+  .bef-aft
   {
     font-family: "Roboto", sans-serif;
     font-style: normal;
@@ -107,7 +108,7 @@
     line-height: 7vw;
     color: #3bb3c3;
   }
-  .text 
+  .text
   {
     font-family: "Roboto", sans-serif;
     font-style: normal;
@@ -123,20 +124,122 @@
     padding-left: 20%;
     padding-right: 20%;
   }
+
+  h4
+  {
+    text-align: center;
   }
 
   .teamPics
   {
     width: 355px;
     height: 355px;
-    padding-left: 50px;
-    padding-right: 50px;
   }
 
-  .my-row
+  .picBtn
   {
-   
-    
+    border: none;
+    background: none;
   }
+  .picBtn:hover
+  {
+    opacity: 0.7;
+  }
+
+  #josifBtn, #dobreBtn, #slavicaBtn
+  {
+    background: none;
+    border: none;
+    border-radius: 10cm;
+    color: #3bb3c3;
+    width: 15vw;
+    height: 3vw;
+    margin-top: 0vw;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.5vw;
+    line-height: 3vw;
+    text-align: center;
+    outline: 0;
+    box-shadow: 0 1px 2px #3bb3c3;
+  }
+
+  #josifBtn:hover, #dobreBtn:hover, #slavicaBtn:hover,
+  #josifBtn:focus, #dobreBtn:focus, #slavicaBtn:focus
+  {
+    opacity: 0.7;
+    cursor: pointer;
+    box-shadow: 0 3px 4px #3bb3c3;
+    font-weight: initial;
+  }
+
+
+  
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+
+  /* Modal Content */
+  .modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: medium;
+    line-height: 1vw;
+    border: 1px solid #888;
+    width: 30%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+  }
+
+  /* Add Animation */
+  @-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+  }
+
+  @keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+  }
+
+  /* The Close Button */
+  .closeJosif, .closeDobre, .closeSlavica {
+    color: white;
+    float: right;
+    font-size: 2vw;
+    font-weight: bold;
+  }
+
+  .closeJosif:hover, .closeDobre:hover, .closeSlavica:hover,
+  .closeJosif:focus, .closeDobre:focus, .closeSlavica:focus
+  {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    }
+
+  .modal-header {
+    /* padding: 2px 16px; */
+    background-color: #3bb3c3;
+    color: white;
+  }
+
 
 
