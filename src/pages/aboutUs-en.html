@@ -24,7 +24,7 @@
 
       <div class="row my-row no-gutters">
         <div class="col my-col header d-flex justify-content-center align-items-center">
-         HEADER!
+         HEADER AND NAVBAR!
         </div>
       </div>
 
@@ -38,7 +38,7 @@
             <div> HERE YOUR <br/>
               <span class="colorised">TEETH</span> ARE SAFE 
             </div>
-            <button>Make an appoitment</button>
+            <button id="appointmentBtn">Make an appoitment</button>
           </div>
         </div>
       </div>
@@ -72,7 +72,7 @@
             </div>
             <div class="col my-col row text align-items-center justify-content-center text textPadding">
               Meet the people who bring our vission to life.
-              <br><br><br>
+              <br><br>
             </div>
 
             <!-- Pictures of the team -->
@@ -80,38 +80,101 @@
             <div class="row">
 
                 <div class="col row my-col align-items-center  justify-content-center text  ">
-                  <img class="" src="../images/josif.png" alt="Dr Josif">
-                  <p>Dr. Josif Ristevski</p>
+                 <button id="josifPicBtn" class="picBtn"><img class="" src="../images/josif.png" alt="Dr Josif"></button> 
+                  <h3>Dr. Josif Ristevski</h3>
                 </div>
                 
 
-                <div class="col row my-col  align-items-center justify-content-center text  ">
-                  <img class="" src="../images/dobre.png" alt="Dobre"><br>
-                  <p>Dobre Ristevski</p>
+                <div class="col row my-col align-items-center justify-content-center text  ">
+                  <button id="dobrePicBtn" class="picBtn"><img class="" src="../images/dobre.png" alt="Dobre"><br></button> 
+                  <h3>Dobre Ristevski</h3>
                 </div>
 
                 <div class="col row my-col  align-items-center justify-content-center text  ">
-                  <img class="" src="../images/slavica.png" alt="Slavica">
-                  <p>Slavica Davidovska</p>
+                  <button id="slavicaPicBtn" class="picBtn"><img class="" src="../images/slavica.png" alt="Slavica"></button> 
+                  <h3>Slavica Davidovska</h3>
                 </div>
               </div>
           
               <div class="row">
 
-                <div class="col row my-col   justify-content-center text  ">
-                  <a class="colorised" href="">Dentist and Founder</a> 
+                <div class="col row my-col   justify-content-center">
+                  <button id="josifBtn">Dentist and Founder</button>
+                  <div id="josifModal" class="modal">
+                    <!-- Modal content -->
+                    <div class="modal-content ">
+                      <div class="modal-header">
+                        <h2></h2>
+                        <span class="closeJosif">&times;</span>
+                      </div>
+                      <div class="modal-body  ">
+                        <img class="teamPics" src="../images/josif.png" alt="Dr Josif">
+                        
+                        <h4>Dr.Josif Ristevski (founder and chief dentist)</h4>
+                        <p>
+                          Born in Bitola on August 25, 1988. He completed his primary education in his hometown of DemirHisar and medical high school at the Department of Dental Technicians, in Bitola in the year 2006/2007.
+                          He successfully completed his studies atThe Faculty of Dentistry at The Ss.Cyril and Methodius University in Skopje in 2012.
+                        </p>
+                        <p>
+                          In 2010, as a student, he won first prize at the International Scientific Congress of Dentistry Students in Ohrid on the topic of oral presentation (Total prosthesis, diagnosis problems and treatment plan under the mentorship of Ass.Dr.BlagojaDashtevski (associates Ass.Dr.VanchoSpirov and Ass.Dr Edward Janev).
+                        </p>
+                         <p> 
+                          In 2011, as a graduate of the Faculty of Dentistry, he participated in the International Dental Congress in Hvar, Croatia with his own paperwork (Classical and metal-ceramic fixed constructions - advantages and disadvantages - Mentor Ass. Dr. MarjanPetkov).
+                          After graduating, heleaves for Zagreb, Croatia to pursue private practice as well as to complete part of his mandatory internship in private clinics and  
+                        </p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
 
-                <div class="col row my-col   justify-content-center text  ">
-                  <a class="colorised" href="">Dental technician</a> 
+                <div class="col row my-col   justify-content-center ">
+                  <button id="dobreBtn">Dental technician</button>
+                  <div id="dobreModal" class="modal">
+                    <!-- Modal content -->
+                    <div class="modal-content ">
+                      <div class="modal-header">
+                        <h2></h2>
+                        <span class="closeDobre">&times;</span>
+                      </div>
+                      <div class="modal-body ">
+                        <img class="teamPics" src="../images/dobre.png" alt="Dobre">
+                        <h4>Dobre Ristevski, Dental technician</h4>
+                        <p>
+                          Over 40 years of work experience. His first employment was in 1978, in the Health Center in Demir Hisar, immediately after graduating from the medical high school Dr.Pance Karagjozov in Skopje, where he worked in the Department of Dental Prosthetics until 2006. From 2006 he continues working as a private dental technician, using the same laboratory as a concessionaire. Since 2017, he has been engaged in our dental practice as a professional associate and dental technician until this day. He has visited and participated in a number of professional seminars.
+                        </p>
+                        <p>
+                          When it comes to dental technicians, our dental office also cooperates with other dental laboratories from Bitola and Zagreb, Croatia, achieving excellent results.                        </p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
 
-                <div class="col row my-col  justify-content-center text  ">
-                  <a class="colorised" href="">Dental nurse</a> 
+                <div class="col row my-col justify-content-center ">
+                  <button id="slavicaBtn">Dental nurse</button>
+                  <div id="slavicaModal" class="modal">
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h2></h2>
+                        <span class="closeSlavica">&times;</span>
+                      </div>
+                      <div class="modal-body">
+                        <img class="teamPics" src="../images/slavica.png" alt="Slavica">
+                        
+                        <h4>Slavica Davidovska, Dental nurse</h4>
+                        
+                        <p>
+                          Graduated medical high school in Bitola. She has previous work experience as a nurse, as well as a dental nurse in several dental practices in Bitola and has been a member of our team since 2019.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
 
               </div>
         </div>
+
+
 <br><br><br><br><br><br><br><br>
             <!-- Footer -->
             <div class="row my-row no-gutters">
@@ -120,5 +183,6 @@
               </div>
             </div>
     </div>
+    <script src="../js/aboutUs-en.js"></script>
   </body>
 </html>
