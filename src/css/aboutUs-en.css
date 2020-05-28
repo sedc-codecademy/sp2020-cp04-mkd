@@ -27,7 +27,11 @@
     margin-right: -15px;
     margin-left: -15px;
   }
- 
+  .header 
+  {
+    height: 108px;
+    
+  }
   .top-pic 
   {
     margin-bottom: 8vw;
