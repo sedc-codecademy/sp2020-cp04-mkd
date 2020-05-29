@@ -1,12 +1,3 @@
-/* .my-row {
-  border: 3px dotted blue;
-}
-.my-col {
-  border: 3px solid green;
-} */
-.my-container {
-  border: 1px solid black;
-}
 .container-fluid {
   padding-right: 15px;
   padding-left: 15px;
@@ -18,10 +9,7 @@
   margin-right: -15px;
   margin-left: -15px;
 }
-.header {
-  height: 108px;
-  color: red;
-}
+
 .top-pic {
   margin-bottom: 8vw;
 }
@@ -127,4 +115,19 @@ button:active {
 .carousel-control-next-icon {
   top: 19%;
   left: 22%;
+}
+.text-btwn {
+  height: 70px;
+}
+.office-controls {
+  top: 100%;
+  width: 78vw;
+}
+.bef-aft-controls {
+  top: 104%;
+  width: 78vw;
+}
+.dent-tourisam-controls {
+  top: 104%;
+  width: 78vw;
 }
