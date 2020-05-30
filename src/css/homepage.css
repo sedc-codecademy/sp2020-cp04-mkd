@@ -1,0 +1,198 @@
+.container
+  {
+    padding-right: 0px;
+    padding-left: 0px;
+    width: 100%;
+  }
+
+  .my-container
+  {
+		width: 100%;
+		position: relative;
+  }
+
+  .container-fluid
+  {
+    padding-right: 0px;
+    padding-left: 0px;
+    /* margin-right: auto;
+    margin-left: auto; */
+  }
+ 
+  .header
+  {
+    height: 108px;
+    background-color: #3bb3c3;
+  }
+  .top-pic
+  {
+    margin-bottom: 8vw;
+  }
+
+  img
+  {
+    width: 100%;
+  }
+
+  .box
+  {
+    position: relative;
+  }
+
+  .img-title
+  {
+    position: absolute;
+    height: 18vw;
+    text-align: start;
+    left: 6vw;
+    top: 17vw;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 4vw;
+    line-height: 5vw;
+    text-transform: uppercase;
+    color: #636e72;
+  }
+  .colorised
+  {
+    color: #3bb3c3;
+  }
+
+
+	 .btn 
+	{
+		background: #3bb3c3;
+    opacity: 0.8;
+    border-radius: 10px;
+    width: 255px;
+		height: 46px;
+    font-family: Roboto;
+    font-style: normal;
+		font-weight: 300;
+		font-size: 20px;
+		line-height: 35px;
+		align-items: center;
+		text-align: center;
+    color: #ffffff;
+    border: none;
+    box-shadow: 0 4px 5px grey;
+    outline: 0;
+	}
+
+	.btn:active, .btn:hover
+  {
+    background: #349caa;
+		
+		color: #ffffff;
+  }
+  .btn:active
+  {
+    box-shadow: 0 1px 2px grey;
+		
+		color: #ffffff;
+	}
+	
+	#learnMoreAboutUsBtn
+	{
+		position: absolute;
+		width: 255px;
+		height: 46px;
+		left: 615px;
+		top: 1241px;
+		text-align: center;
+
+	}
+	
+
+	
+	#seeMoreServicesBtn{
+		position: absolute;
+		width: 255px;
+		height: 46px;
+		left: 615px;
+		top: 1973px;
+	}
+	
+	#meetUsTeamBtn 
+	{
+		position: absolute;
+		width: 255px;
+		height: 46px;
+		left: 615px;
+		top: 2817px;
+	} 
+
+
+
+
+  .bef-aft
+  {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 4vw;
+    line-height: 7vw;
+    color: #3bb3c3;
+  }
+  .text
+  {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2vw;
+    line-height: 3vw;
+    text-align: center;
+    color: #636e72;
+  }
+
+  .textPadding
+  {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+
+  h4
+  {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    font-size: 1.5vw ;
+    margin-bottom: 1.5vw;
+    margin-top: 1vw;
+    color: #3bb3c3;
+  }
+
+  h5
+  {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+		font-size: 18px ;
+		font-family: Roboto;
+		font-weight: 300;
+		line-height: 45px;
+		color: #363636;
+		width: 255px;
+		height: 45px;
+		left: 164px;
+		top: 1763px;
+	 
+    
+  }
+
+  
+
+  .picBtn
+  {
+    width: 22vw;
+    height: 22vw;
+    border: none;
+    background: none;
+    padding: 1vw;
+   }
+
+  .picBtn:hover
+  {
+    opacity: 0.7;
+  }
+
+  
