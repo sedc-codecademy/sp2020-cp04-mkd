@@ -3,23 +3,21 @@
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
-  /* width: 1440px; */
 }
 .row {
   margin-right: -15px;
   margin-left: -15px;
 }
-
-.top-pic {
+.hero {
   margin-bottom: 8vw;
 }
 img {
   width: 100%;
 }
-.box {
+.hero__box {
   position: relative;
 }
-.img-title {
+.hero__box__img--title {
   position: absolute;
   height: 18vw;
   text-align: start;
@@ -33,10 +31,9 @@ img {
   text-transform: uppercase;
   color: #636e72;
 }
-.satisfied {
+.hero__box__img--title--satisfied {
   color: #3bb3c3;
 }
-
 button {
   background: #3bb3c3;
   opacity: 0.8;
@@ -54,7 +51,6 @@ button {
   box-shadow: 0 4px 5px grey;
   outline: 0;
 }
-
 button:active,
 button:hover {
   background: #349caa;
@@ -64,39 +60,42 @@ button:active {
   box-shadow: 0 1px 2px grey;
   transform: translateY(4px);
 }
-
-.bef-aft {
+.galeries-title {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 4vw;
   line-height: 7vw;
   color: #3bb3c3;
+  justify-content: center;
+  text-align: center;
 }
-.text {
+.galeries-text {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 2vw;
   line-height: 3vw;
-  text-align: center;
   color: #636e72;
+  justify-content: center;
+  text-align: center;
+}
+.galeries-text__under-pic {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 2vw;
+  line-height: 3vw;
+  color: #636e72;
+  text-align: center;
+  justify-content: center;
+  letter-spacing: 0.05em;
 }
 .img-fluid {
   width: 540px;
   height: 302px;
 }
-.text-under-pic {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 2vw;
-  line-height: 3vw;
-  text-align: center;
-  letter-spacing: 0.05em;
-  color: #636e72;
-}
-.fontIcon {
+.carousel-control-icon {
   position: relative;
   width: 45px;
   height: 45px;
@@ -108,26 +107,23 @@ button:active {
 .carousel-control-next-icon {
   position: absolute;
   top: 19%;
-  left: 15%;
+  left: 22%;
   height: 30px;
   width: 30px;
 }
-.carousel-control-next-icon {
-  top: 19%;
-  left: 22%;
+.carousel-control__before-after-gallery {
+  top: 104%;
+  width: 78vw;
 }
-.text-btwn {
-  height: 70px;
-}
-.office-controls {
+.carousel-control__dental-office-gallery {
   top: 100%;
   width: 78vw;
 }
-.bef-aft-controls {
-  top: 104%;
+.carousel-control__dental-tourism-gallery {
+  top: 101%;
   width: 78vw;
 }
-.dent-tourisam-controls {
-  top: 104%;
-  width: 78vw;
+.col-md-6 {
+  justify-content: center;
+  text-align: center;
 }
