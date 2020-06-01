@@ -46,7 +46,7 @@
     position: relative;
   }
 
-  .img-title
+  .hero__box__img--title
   {
     position: absolute;
     height: 18vw;
@@ -61,12 +61,13 @@
     text-transform: uppercase;
     color: #636e72;
   }
-  .colorised
+  .hero__box__img--title--colorised 
+
   {
     color: #3bb3c3;
   }
 
-  #appointmentBtn
+  #appointment-btn
   {
     background: #3bb3c3;
     opacity: 0.8;
@@ -85,12 +86,12 @@
     outline: 0;
   }
 
-  #appointmentBtn:active, #appointmentBtn:hover
+  #appointment-btn:active, #appointment-btn:hover
   {
     background: #349caa;
     outline: 0;
   }
-  #appointmentBtn:active
+  #appointment-btn:active
   {
     box-shadow: 0 1px 2px grey;
     transform: translateY(4px);
@@ -106,7 +107,7 @@
     line-height: 7vw;
     color: #3bb3c3;
   }
-  .text
+  .text-style
   {
     font-family: "Roboto", sans-serif;
     font-style: normal;
@@ -117,7 +118,7 @@
     color: #636e72;
   }
 
-  .textPadding
+  .text-padding
   {
     padding-left: 20%;
     padding-right: 20%;
@@ -141,7 +142,7 @@
     
   }
 
-  .teamPics
+  .team-img
   {
     width: 20vw;
     height: 20vw;
@@ -151,7 +152,7 @@
    
   }
 
-  .picBtn
+  .team-img__btn--bio
   {
     width: 22vw;
     height: 22vw;
@@ -160,12 +161,12 @@
     padding: 1vw;
    }
 
-  .picBtn:hover
+  .team-img__btn--bio:hover
   {
     opacity: 0.7;
   }
 
-  #josifBtn, #dobreBtn, #slavicaBtn
+  #josif-btn--bio, #dobre-btn--bio, #slavica-btn--bio
   {
     background: none;
     border: none;
@@ -184,8 +185,8 @@
     box-shadow: 0 1px 2px #3bb3c3;
   }
 
-  #josifBtn:hover, #dobreBtn:hover, #slavicaBtn:hover,
-  #josifBtn:focus, #dobreBtn:focus, #slavicaBtn:focus
+  #josif-btn--bio:hover, #dobre-btn--bio:hover, #slavica-btn--bio:hover,
+  #josif-btn--bio:focus, #dobre-btn--bio:focus, #slavica-btn--bio:focus
   {
     opacity: 0.7;
     cursor: pointer;
@@ -243,15 +244,15 @@
   }
 
   /* The Close Button */
-  .closeJosif, .closeDobre, .closeSlavica {
+  .josif-modal--close, .dobre-modal--close, .slavica-modal--close {
     color: white;
     float: right;
     font-size: 2vw;
     font-weight: bold;
   }
 
-  .closeJosif:hover, .closeDobre:hover, .closeSlavica:hover,
-  .closeJosif:focus, .closeDobre:focus, .closeSlavica:focus
+  .josif-modal--close:hover, .dobre-modal--close:hover, .slavica-modal--close:hover,
+  .josif-modal--close:focus, .dobre-modal--close:focus, .slavica-modal--close:focus
   {
     color: #000;
     text-decoration: none;

@@ -1,21 +1,21 @@
 // Get the modal
-var josifModal = document.getElementById("josifModal");
-var dobreModal = document.getElementById("dobreModal");
-var slavicaModal = document.getElementById("slavicaModal");
+var josifModal = document.getElementById("josif-modal");
+var dobreModal = document.getElementById("dobre-modal");
+var slavicaModal = document.getElementById("slavica-modal");
 
 // Get the button that opens the modal
-var josifBtn = document.getElementById("josifBtn");
-var dobreBtn = document.getElementById("dobreBtn");
-var slavicaBtn = document.getElementById("slavicaBtn");
+var josifBtn = document.getElementById("josif-btn--bio");
+var dobreBtn = document.getElementById("dobre-btn--bio");
+var slavicaBtn = document.getElementById("slavica-btn--bio");
 
-var josifPicBtn = document.getElementById("josifPicBtn");
-var dobrePicBtn = document.getElementById("dobrePicBtn");
-var slavicaPicBtn = document.getElementById("slavicaPicBtn");
+var josifPicBtn = document.getElementById("josifPic__btn--bio");
+var dobrePicBtn = document.getElementById("dobrePic__btn--bio");
+var slavicaPicBtn = document.getElementById("slavicaPic__btn--bio");
 
 // Get the <span> element that closes the modal
-var closeJosif = document.getElementsByClassName("closeJosif")[0];
-var closeDobre = document.getElementsByClassName("closeDobre")[0];
-var closeSlavica = document.getElementsByClassName("closeSlavica")[0];
+var closeJosif = document.getElementsByClassName("josif-modal--close")[0];
+var closeDobre = document.getElementsByClassName("dobre-modal--close")[0];
+var closeSlavica = document.getElementsByClassName("slavica-modal--close")[0];
 
 // When the user clicks the button, open the modal 
 josifBtn.onclick = function() {
