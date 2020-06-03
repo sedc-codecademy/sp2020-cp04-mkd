@@ -1,26 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Стоматолошка ординација Мак Дентал" />
-    <meta name="author" content="Team G-Stack from Seavus Academy" />
+<head>
+ 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Стоматолошка ординација Мак Дентал" />
+  <meta name="author" content="Team G-Stack from Seavus Academy" />
+  
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <title>Blog</title>
-
-    <link
+  <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap"
       rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-      crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="src/css/index.css" />
-    <link rel="stylesheet" href="src/css/theme.css" />
-  </head>
+  
+  <link href="../css/blogStyle.css"  type="text/css" rel="stylesheet" />
 
-  <body>
-    <div id="root"></div>
+  <title>BlogPage</title>
 
-    <script src="src/js/index.js"></script>
-  </body>
+</head>
+<body>
+  <div id="root" class="container-fluid maindDiv">
+    <div class="row">
+      <div class="col myCol">
+        navigation
+      </div>
+    </div>
+
+    <div class = "row mainHeroImage" > 
+      <div class="col mainHeroImage">
+          <img src="../images/contentBlogImages/girl_brush_2.png"class="heroImage">
+          <div class="img-title">
+            <div><span class="satisfied">learn</span> more about<br>
+              your oral health
+            </div>
+            <button>Make an appoitment</button>
+          </div>
+          
+      </div>
+    </div>
+
+    <div class="row ourBlogTextRow">
+      <div class="col blogText">
+        <h2 class="titleSettings">Our Blog</h2>
+        <p class="smallText">Learn more about your oral health with our weekly blog posts. Our team will share with you the answers of the most asked questions that our patients have, as well as advices on how to correctly care about your teeth. Keep yourself updated!
+        </p>
+      </div>
+     
+    </div>
+    
+    <div class="row blogContentRow d-flex justify-content-center justify-content-between">
+     <div class="col imagePadding">
+         <a href="#"><img src="../images/contentBlogImages/womanImg.jpg" alt="brushImage" class="blogImageSettings">
+           <p class="textUnderImage">
+            How to get rid of bad breath
+          </p></a>
+    </div>
+     <div class="col imagePadding">
+      <a href="#"><img src="../images/contentBlogImages/image_One.jpg" alt="brushImage" class="blogImageSettings" >
+       <p class="textUnderImage">
+        Healty ways for healty teeth 
+      </p></a>
+    </div>
+     <div class="col imagePadding">
+      <a href="#"><img src="../images/contentBlogImages/dental.jpg" alt="brushImage" class="blogImageSettings ">
+       <p class="textUnderImage">
+        Sensitive teeth?
+      </p></a>
+    </div>
+     <div class="col imagePadding">
+      <a href="#"><img src="../images/contentBlogImages/teeth.jpg" alt="brushImage" class="blogImageSettings">
+       <p class="textUnderImage">
+        How to get rid of bad breath
+      </p></a>
+    </div>
+     <div class="col imagePadding">
+      <a href="#"></a> <img src="../images/contentBlogImages/teeth.jpg" alt="brushImage" class="blogImageSettings">
+      <p class="textUnderImage">
+        Healty ways for healty teeths 
+      </p></a>
+    </div>
+    <a href="#"><div class="col imagePadding"><img src="../images/contentBlogImages/teeth.jpg" alt="brushImage" class="blogImageSettings">
+      <p class="textUnderImage">
+        How to get rid of bad breath
+      </p></a>
+    </div>
+    
+    
+    <div class="row mainArrowRow justify-content-center">
+        <div class="col-6">
+      <a
+          class="carousel-control-prev bef-aft-controls"
+          href="#myCarousel"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="fontIcon">
+            <span class="carousel-control-prev-icon"></span>
+          </span>
+        </a>
+        </div>
+        <div class="col-6">
+        <a
+          class="carousel-control-next bef-aft-controls"
+          href="#myCarousel"
+          role="button"
+          data-slide="next"
+        >
+          <span class="fontIcon"
+            ><span class="carousel-control-next-icon"></span
+          ></span>
+        </a>
+        </div>
+        </div>
+    
+  </div>
+      
+    
+</body>
 </html>
