@@ -1,0 +1,268 @@
+  .container
+  {
+    padding-right: 0px;
+    padding-left: 0px;
+    /* margin-right: auto;
+    margin-left: auto; */
+    width: 100%;
+    /* border: 1px solid black; */
+  }
+
+  .my-container
+  {
+    width: 100%;
+    /* border: 1px solid black;  */
+  }
+
+  .container-fluid
+  {
+    padding-right: 0px;
+    padding-left: 0px;
+    /* margin-right: auto;
+    margin-left: auto; */
+  }
+  .row
+  {
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+  .header
+  {
+    height: 108px;
+    background-color: #3bb3c3;
+  }
+  .top-pic
+  {
+    margin-bottom: 8vw;
+  }
+
+  img
+  {
+    width: 100%;
+  }
+
+  .box
+  {
+    position: relative;
+  }
+
+  .hero__box__img--title
+  {
+    position: absolute;
+    height: 18vw;
+    text-align: start;
+    left: 6vw;
+    top: 17vw;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 4vw;
+    line-height: 5vw;
+    text-transform: uppercase;
+    color: #636e72;
+  }
+  .hero__box__img--title--colorised 
+
+  {
+    color: #3bb3c3;
+  }
+
+  #appointment-btn
+  {
+    background: #3bb3c3;
+    opacity: 0.8;
+    border-radius: 10px;
+    width: 25vw;
+    height: 4vw;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2vw;
+    line-height: 3vw;
+    text-align: center;
+    color: #ffffff;
+    border: none;
+    box-shadow: 0 4px 5px grey;
+    outline: 0;
+  }
+
+  #appointment-btn:active, #appointment-btn:hover
+  {
+    background: #349caa;
+    outline: 0;
+  }
+  #appointment-btn:active
+  {
+    box-shadow: 0 1px 2px grey;
+    transform: translateY(4px);
+  }
+
+
+  .bef-aft
+  {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 4vw;
+    line-height: 7vw;
+    color: #3bb3c3;
+  }
+  .text-style
+  {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2vw;
+    line-height: 3vw;
+    text-align: justify;
+    color: #636e72;
+  }
+
+  .text-padding
+  {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+
+  h4
+  {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    font-size: 1.5vw ;
+    margin-bottom: 1.5vw;
+    margin-top: 1vw;
+    color: #3bb3c3;
+  }
+
+  h3
+  {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    font-size: 1.5vw ;
+    
+  }
+
+  .team-img
+  {
+    width: 20vw;
+    height: 20vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+  }
+
+  .team-img__btn--bio
+  {
+    width: 22vw;
+    height: 22vw;
+    border: none;
+    background: none;
+    padding: 1vw;
+   }
+
+  .team-img__btn--bio:hover
+  {
+    opacity: 0.7;
+  }
+
+  #josif-btn--bio, #dobre-btn--bio, #slavica-btn--bio
+  {
+    background: none;
+    border: none;
+    border-radius: 10cm;
+    color: #3bb3c3;
+    width: 17vw;
+    height: 3vw;
+    margin-top: -1vw;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1vw;
+    line-height: 3vw;
+    text-align: center;
+    outline: 0;
+    box-shadow: 0 1px 2px #3bb3c3;
+  }
+
+  #josif-btn--bio:hover, #dobre-btn--bio:hover, #slavica-btn--bio:hover,
+  #josif-btn--bio:focus, #dobre-btn--bio:focus, #slavica-btn--bio:focus
+  {
+    opacity: 0.7;
+    cursor: pointer;
+    box-shadow: 0 3px 4px #3bb3c3;
+    font-weight: initial;
+  }
+
+
+  
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+
+  /* Modal Content */
+  .modal-content {
+    font-style: medium;
+    font-weight: 300;
+    font-size: 1.2vw;
+    line-height: 1.2vw;
+    text-align: justify;
+    color: #636e72;
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    border: 1px solid #888;
+    width: 40vw;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+  }
+
+  /* Add Animation */
+  @-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+  }
+
+  @keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+  }
+
+  /* The Close Button */
+  .josif-modal--close, .dobre-modal--close, .slavica-modal--close {
+    color: white;
+    float: right;
+    font-size: 2vw;
+    font-weight: bold;
+  }
+
+  .josif-modal--close:hover, .dobre-modal--close:hover, .slavica-modal--close:hover,
+  .josif-modal--close:focus, .dobre-modal--close:focus, .slavica-modal--close:focus
+  {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    }
+
+  .modal-header {
+    padding: 2px 16px;
+    background-color: #3bb3c3;
+    color: white;
+  }
+
+  
