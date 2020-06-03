@@ -1,0 +1,422 @@
+<!-- Dushko works on this -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/gallery.css" />
+  </head>
+
+  <body>
+    <div class="container-fluid my-container">
+      <!-- HEADER -->
+      <div class="row no-gutters">
+        <div class="col-md">
+          <!-- THIS IS PLACE FOR THE HEADER! -->
+        </div>
+      </div>
+      <!-- HERO -->
+      <div class="row no-gutters hero">
+        <div class="col-md-12 hero__box">
+          <img src="../images/top_pic.png" class="img-responsive" />
+          <div class="hero__box__img--title">
+            <div>
+              <span class="hero__box__img--title--satisfied">satisfied</span>
+              patients <br />
+              are our reward
+            </div>
+            <button>Make an appoitment</button>
+          </div>
+        </div>
+      </div>
+      <!-- Before and After Gallery -->
+      <div class="row mt-5 no-gutter">
+        <div class="col-md galeries-title">
+          Before and After Gallery
+        </div>
+      </div>
+      <div class="row no-gutter">
+        <div class="col-md galeries-text">
+          In Mak-Dental, we believe in the creation of exceptional smiles.
+          <br />
+          You can see our work here and the new smiles of our satisfied
+          patients.
+        </div>
+      </div>
+      <!-- CAROUSEL -->
+      <div
+        id="myCarousel"
+        class="carousel slide carousel-multi-item"
+        data-ride="carousel"
+        data-interval="3000"
+      >
+        <div class="carousel-inner" role="listbox">
+          <!-- First slide -->
+          <div class="carousel-item active">
+            <!-- FIRST ROW -->
+            <div class="row mt-5 mx-5 mb-1">
+              <div class="col-md-6">
+                <img
+                  class="img-fluid"
+                  src="../images/diastema mediana пред корекција 1.jpg"
+                />
+              </div>
+              <div class="col-md-6">
+                <img
+                  class="img-fluid"
+                  src="../images/diastema mediana корегирана 2.jpg"
+                />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12 galeries-text__under-pic">
+                Diastema mediana correction
+              </div>
+            </div>
+            <!-- SECOND ROW -->
+            <div class="row mt-5 mx-5 mb-1">
+              <div class="col-md-6">
+                <img
+                  class="img-fluid"
+                  src="../images/после естетска корекција лева страна 4 3 (2).png"
+                />
+              </div>
+              <div class="col-md-6 d-flex">
+                <img
+                  class="img-fluid"
+                  src="../images/после естетска корекција 2 2.png"
+                />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12 galeries-text__under-pic">
+                Complete dentures construction
+              </div>
+            </div>
+          </div>
+          <!-- Second slide -->
+
+          <div class="carousel-item">
+            <!-- FIRST ROW -->
+            <div class="row mt-5 mx-5 mb-1">
+              <div class="col-md-6">
+                <img
+                  class="img-fluid"
+                  src="../images/17203215_1064485793656773_8673037679068485510_n.jpg"
+                />
+              </div>
+              <div class="col-md-6">
+                <img
+                  class="img-fluid"
+                  src="../images/17190999_1064486163656736_2075352040919448059_n.jpg"
+                />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12 galeries-text__under-pic">
+                Partial dentures construction
+              </div>
+            </div>
+            <!-- SECOND ROW -->
+            <div class="row mt-5 mx-5 mb-1">
+              <div class="col-md-6">
+                <img
+                  class="img-fluid"
+                  src="../images/62831239_1966281073477236_154007391111741440_n.jpg"
+                />
+              </div>
+              <div class="col-md-6">
+                <img
+                  class="img-fluid"
+                  src="../images/62408215_1966281050143905_5898937809242161152_n.jpg"
+                />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12 galeries-text__under-pic">
+                Removal of tartar, pigments and stains <br />
+                with the use of ultrasound, specialized pastes and brushes.
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- CONTROLS -->
+        <a
+          class="carousel-control-prev carousel-control__before-after-gallery"
+          href="#myCarousel"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-icon">
+            <span class="carousel-control-prev-icon"></span>
+          </span>
+        </a>
+        <a
+          class="carousel-control-next carousel-control__before-after-gallery"
+          href="#myCarousel"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-icon"
+            ><span class="carousel-control-next-icon"></span
+          ></span>
+        </a>
+      </div>
+      <!-- ######################################## -->
+      <!-- Dental Office Galery -->
+      <div class="row mt-5 no-gutter">
+        <div class="col-md mt-5 galeries-title">
+          Dental Office Gallery
+        </div>
+      </div>
+      <div class="row no-gutter">
+        <div class="col-md galeries-text">
+          Our dental office is designed by the highest standards, the office
+          space is completely adapted
+          <br />
+          and meets all the requerments from the Ministry of Health of the
+          Republic of North Macedonia.
+        </div>
+      </div>
+      <!-- CAROUSEL -->
+      <div
+        id="myCarousel1"
+        class="carousel slide carousel-multi-item"
+        data-ride="carousel"
+        data-interval="3000"
+      >
+        <div class="carousel-inner" role="listbox">
+          <!-- First slide -->
+          <div class="carousel-item active">
+            <!-- FIRST ROW -->
+            <div class="row mt-5 mx-5 mb-5">
+              <div class="col-md-6">
+                <img
+                  class="img-fluid"
+                  src="../images/office/металкерамички мост 4 2.png"
+                />
+              </div>
+              <div class="col-md-6">
+                <img
+                  class="img-fluid"
+                  src="../images/office/металкерамички мост 5 2 (2).png"
+                />
+              </div>
+            </div>
+            <!-- SECOND ROW -->
+            <div class="row mt-5 mx-5 mb-5">
+              <div class="col-md-6">
+                <img
+                  class="img-fluid"
+                  src="../images/office/после естетска корекција лева страна 4 3 (3).png"
+                />
+              </div>
+              <div class="col-md-6">
+                <img
+                  class="img-fluid"
+                  src="../images/office/после естетска корекција 2 2 (1).png"
+                />
+              </div>
+            </div>
+          </div>
+          <!-- Second slide -->
+
+          <div class="carousel-item">
+            <!-- FIRST ROW -->
+            <div class="row mt-5 mx-5 mb-5">
+              <div class="col-md-6">
+                <img
+                  class="img-fluid"
+                  src="../images/office/18055872_1102800389825313_3982366765974064829_o.jpg"
+                />
+              </div>
+              <div class="col-md-6">
+                <img
+                  class="img-fluid"
+                  src="../images/office/15027795_956752037763483_8360500430088985533_n.jpg"
+                />
+              </div>
+            </div>
+            <!-- SECOND ROW -->
+            <div class="row mt-5 mx-5 mb-5">
+              <div class="col-md-6">
+                <img
+                  class="img-fluid"
+                  src="../images/office/15032114_957771004328253_5761296296370487522_n.jpg"
+                />
+              </div>
+              <div class="col-md-6">
+                <img
+                  class="img-fluid"
+                  src="../images/office/14991375_951337174971636_5094096417008184029_o.jpg"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- CONTROLS -->
+        <a
+          class="carousel-control-prev carousel-control__dental-office-gallery"
+          href="#myCarousel1"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-icon">
+            <span class="carousel-control-prev-icon"></span>
+          </span>
+        </a>
+        <a
+          class="carousel-control-next carousel-control__dental-office-gallery"
+          href="#myCarousel1"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-icon"
+            ><span class="carousel-control-next-icon"></span
+          ></span>
+        </a>
+      </div>
+      <!-- #############################################-->
+      <!-- Dental Tourism Gallery -->
+      <div class="row mt-5 no-gutter">
+        <div class="col-md galeries-title">
+          Dental Tourism Gallery
+        </div>
+      </div>
+      <div class="row no-gutter">
+        <div class="col-md galeries-text">
+          Our clinic is actively working with patients from abroad. To make
+          their stay in our country more
+          <br />
+          pleasent, we offer help in the organisation of your trip, from
+          accommodation booking to <br />recommendations and offers for tours in
+          Bitola and the region.
+        </div>
+      </div>
+      <!-- CAROUSEL -->
+      <div
+        id="myCarousel2"
+        class="carousel slide carousel-multi-item"
+        data-ride="carousel"
+        data-interval="3000"
+      >
+        <div class="carousel-inner" role="listbox">
+          <!-- First slide -->
+          <div class="carousel-item active">
+            <!-- FIRST ROW -->
+            <div class="row mt-5 mx-5 mb-1">
+              <div class="col-md-6">
+                <img class="img-fluid" src="../images/Bitola/image 19.png" />
+                <p class="galeries-text__under-pic">Wide-alley, Bitola</p>
+              </div>
+              <div class="col-md-6">
+                <img class="img-fluid" src="../images/Bitola/DSC_1650-3.jpg" />
+                <p class="galeries-text__under-pic">Wide-alley, Bitola</p>
+              </div>
+            </div>
+            <!-- SECOND ROW -->
+            <div class="row mt-5 mx-5 mb-1">
+              <div class="col-md-6">
+                <img class="img-fluid" src="../images/Bitola/unnamed.jpg" />
+                <p class="galeries-text__under-pic">Bitola square</p>
+              </div>
+              <div class="col-md-6">
+                <img
+                  class="img-fluid"
+                  src="../images/Bitola/Bitola-Macedonia-CS.jpg"
+                />
+                <p class="galeries-text__under-pic">Bitola square</p>
+              </div>
+            </div>
+          </div>
+          <!-- Second slide -->
+
+          <div class="carousel-item">
+            <!-- FIRST ROW -->
+            <div class="row mt-5 mx-5 mb-1">
+              <div class="col-md-6">
+                <img
+                  class="img-fluid"
+                  src="../images/Bitola/c03b45082d247f5af6816188b5de4b41-pelister-national-park.jpg"
+                />
+                <p class="galeries-text__under-pic">
+                  Big Lake, Pelister, Mount Baba
+                </p>
+              </div>
+              <div class="col-md-6">
+                <img class="img-fluid" src="../images/Bitola/Pelister.jpg" />
+                <p class="galeries-text__under-pic">Pelister-winter time</p>
+              </div>
+            </div>
+            <!-- SECOND ROW -->
+            <div class="row mt-5 mx-5 mb-1">
+              <div class="col-md-6">
+                <img class="img-fluid" src="../images/Bitola/images (1).jfif" />
+                <p class="galeries-text__under-pic">Pelister-spring time</p>
+              </div>
+              <div class="col-md-6">
+                <img class="img-fluid" src="../images/Bitola/trailmap.jpg" />
+                <p class="galeries-text__under-pic">
+                  Ski Centar Kopanki, Pelister
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- CONTROLS -->
+        <a
+          class="carousel-control-prev carousel-control__dental-tourism-gallery"
+          href="#myCarousel2"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-icon">
+            <span class="carousel-control-prev-icon"></span>
+          </span>
+        </a>
+        <a
+          class="carousel-control-next carousel-control__dental-tourism-gallery"
+          href="#myCarousel2"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-icon"
+            ><span class="carousel-control-next-icon"></span
+          ></span>
+        </a>
+      </div>
+      <!-- ####################################### -->
+      <div class="row no-gutters">
+        <div class="col-md">
+          <!-- THIS IS PLACE FOR THE FOOTER! -->
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
