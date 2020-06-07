@@ -1,28 +1,17 @@
 * {
-  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
 
 
 
-.container
-  {
-    padding-right: 0px;
-    padding-left: 0px;
-    width: 100%;
-  }
 
-  .my-container
-  {
-		width: 100%;
-		position: relative;
-  }
+
+
 
   .container-fluid
   {
     padding-right: 0px;
     padding-left: 0px;
-    /* margin-right: auto;
-    margin-left: auto; */
   }
  
   .header
@@ -52,7 +41,7 @@
     text-align: start;
     left: 6vw;
     top: 17vw;
-    font-family: "Roboto", sans-serif;
+    
     font-style: normal;
     font-weight: 300;
     font-size: 4vw;
@@ -99,42 +88,19 @@
 		color: #ffffff;
 	}
 	
-	#learnMoreAboutUsBtn
-	{
-		position: absolute;
+	.btn {
 		width: 255px;
 		height: 46px;
-		left: 615px;
-		top: 1241px;
 		text-align: center;
-
 	}
-	
 
-	
-	#seeMoreServicesBtn{
-		position: absolute;
-		width: 255px;
-		height: 46px;
-		left: 615px;
-		top: 1973px;
-	}
-	
-	#meetUsTeamBtn 
-	{
-		position: absolute;
-		width: 255px;
-		height: 46px;
-		left: 615px;
-		top: 2817px;
-	} 
 
 
 
 
   .bef-aft
   {
-    font-family: "Roboto", sans-serif;
+
     font-style: normal;
     font-weight: 300;
     font-size: 4vw;
@@ -143,7 +109,7 @@
   }
   .text
   {
-    font-family: "Roboto", sans-serif;
+ 
     font-style: normal;
     font-weight: 300;
     font-size: 2vw;
@@ -160,7 +126,7 @@
 
   h4
   {
-    font-family: "Roboto", sans-serif;
+   
     text-align: center;
     font-size: 1.5vw ;
     margin-bottom: 1.5vw;
@@ -170,17 +136,14 @@
 
   h5
   {
-    font-family: "Roboto", sans-serif;
+    
     text-align: center;
 		font-size: 18px ;
-		font-family: Roboto;
 		font-weight: 300;
-		line-height: 45px;
 		color: #363636;
 		width: 255px;
 		height: 45px;
-		left: 164px;
-		top: 1763px;
+
 	 
     
   }
