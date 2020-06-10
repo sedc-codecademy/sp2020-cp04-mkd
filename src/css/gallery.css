@@ -19,7 +19,21 @@
 .hero__box__image {
   width: 100%;
 }
-.hero__box__img--title {
+.hero__box__image--title {
+  position: absolute;
+  text-align: start;
+  left: 9%;
+  top: 34%;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 64px;
+  line-height: 90px;
+  text-transform: uppercase;
+  color: #636e72;
+}
+
+/* with vw */
+/* .hero__box__image--title {
   position: absolute;
   height: 18vw;
   text-align: start;
@@ -31,11 +45,13 @@
   line-height: 7vw;
   text-transform: uppercase;
   color: #636e72;
-}
+} */
+
 .hero__box__img--title--satisfied {
   color: #3bb3c3;
 }
 .btn {
+  padding: 0;
   background: #3bb3c3;
   opacity: 0.8;
   border-radius: 10px;
@@ -133,8 +149,121 @@
   justify-content: center;
   text-align: center;
 }
+.row-alignment {
+  justify-content: center;
+  text-align: center;
+}
 .row-footer {
   height: 331px;
   margin-top: 140px;
   background: #333333;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .row-header {
+    height: 60px;
+  }
+  .col-md-6__position {
+    width: 50%;
+  }
+  .img-fluid__size {
+    width: 216px;
+    height: 121px;
+  }
+  .hero__box__image--title {
+    left: 13%;
+    top: 35%;
+    font-weight: 38;
+    font-size: 23px;
+    line-height: 29px;
+  }
+  .carousel-control__before-after-gallery {
+    top: 112%;
+  }
+  .carousel-control__dental-tourism-gallery {
+    top: 111%;
+  }
+  .carousel-control_icon-box {
+    width: 35px;
+    height: 35px;
+  }
+  .carousel-control-prev-icon__position {
+    top: 6%;
+    left: 5%;
+  }
+  .carousel-control-next-icon__position {
+    top: 6%;
+    left: 10%;
+  }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .img-fluid__size {
+    width: 324px;
+    height: 182px;
+  }
+  .row-header {
+    height: 75px;
+  }
+  .hero__box__image--title {
+    left: 13%;
+    top: 32%;
+    font-weight: 75;
+    font-size: 32px;
+    line-height: 45px;
+  }
+  .col-md-6__position {
+    width: 50%;
+  }
+  .carousel-control__before-after-gallery {
+    top: 107%;
+  }
+  .carousel-control__dental-tourism-gallery {
+    top: 104%;
+  }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .img-fluid__size {
+    width: 357px;
+    height: 200px;
+  }
+  .hero__box__image--title {
+    left: 11%;
+    top: 34%;
+    font-weight: 150;
+    font-size: 32px;
+    line-height: 45px;
+  }
+  .carousel-control__before-after-gallery {
+    top: 107%;
+  }
+  .carousel-control__dental-tourism-gallery {
+    top: 104%;
+  }
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .hero__box__image--title {
+    left: 11%;
+    top: 34%;
+    font-weight: 225;
+    font-size: 48px;
+    line-height: 67px;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .hero__box__image--title {
+    left: 14%;
+    top: 34%;
+    font-weight: 300;
+    font-size: 79px;
+    line-height: 120px;
+  }
 }
