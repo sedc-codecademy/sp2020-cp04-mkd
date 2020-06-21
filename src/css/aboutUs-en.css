@@ -1,7 +1,7 @@
   .container
   {
-    padding-right: 0px;
-    padding-left: 0px;
+    /* padding-right: 0px;
+    padding-left: 0px; */
     /* margin-right: auto;
     margin-left: auto; */
     width: 100%;
@@ -14,18 +14,18 @@
     /* border: 1px solid black;  */
   }
 
-  .container-fluid
+  /* .container-fluid
   {
     padding-right: 0px;
     padding-left: 0px;
-    /* margin-right: auto;
-    margin-left: auto; */
-  }
-  .row
+    margin-right: auto;
+    margin-left: auto;
+  } */
+  /* .row
   {
     margin-right: -15px;
     margin-left: -15px;
-  }
+  } */
   .header
   {
     height: 108px;
@@ -59,7 +59,7 @@
     font-size: 4vw;
     line-height: 5vw;
     text-transform: uppercase;
-    color: #636e72;
+    color: #363636;
   }
   .hero__box__img--title--colorised 
 
