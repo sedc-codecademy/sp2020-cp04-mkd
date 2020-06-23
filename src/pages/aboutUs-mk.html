@@ -11,10 +11,11 @@
       integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
       crossorigin="anonymous"
     />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap"
-      rel="stylesheet"
-    />
+    
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+    </style>
+
     <link rel="stylesheet" href="../css/aboutUs-en.css" />
   </head>
 
@@ -32,7 +33,7 @@
       
       <!-- TOP PICTURE -->
       <div class="">
-        <div class="box">
+        <div class="hero__box">
           <img class="top-pic " src="../images/aboutUs.png" class="img-responsive" />
           <div class="hero__box__img--title">
             <div>ОВДЕ ВАШИТЕ<br/>
@@ -48,7 +49,7 @@
          Нашата мисија
         </div>
         <div class="col my-col row text-style align-items-center justify-content-center text-padding ">
-            Подигнување на нивото на забоздравствена култура и работење со поинаков пристап во пружањето на стоматолошки услуги на нашите пациенти, овозможувајќи им при доаѓањето во нашата стоматолошка ординација да доживеат едно убаво и пријано искуство, да се задоволни од своето сопствено орално здравје кое го усовршуваме до врвна функција и естетика, а сето тоа сработено од професионалци во прекрасни услови со најмодерна технологија.                 <br><br>
+            Подигнување на нивото на забоздравствена култура и работење со поинаков пристап во пружањето на стоматолошки услуги на нашите пациенти, овозможувајќи им при доаѓањето во нашата стоматолошка ординација да доживеат едно убаво и пријатно искуство, да се задоволни од своето сопствено орално здравје кое го усовршуваме до врвна функција и естетика, а сето тоа сработено од професионалци во прекрасни услови со најмодерна технологија.                 <br><br>
                
             Пристојни цени, професионална услуга, љубезност и пријатна атмосфера во нашата стоматолошка ординација се нашите најдобри зборови кои би нé опишале нас и нашата здравствена установа. Кај нас важи непишаното правило “Еднаш пациент, засекогаш пациент”. Бидете и Вие дел од големото семејство на задоволни пациенти и пријатели на стоматолошка ординација Мак Дентал-Битола.        </div>
 
@@ -78,18 +79,18 @@
             <div class="row">
 
                 <div class="col row my-col align-items-center  justify-content-center text-style  ">
-                 <button id="josifPic__btn--bio" class="team-img__btn--bio"><img class="" src="../images/josif.png" alt="Dr Josif"></button> 
+                 <button id="mainDentistPicBtn__btn--bio" class="team-img__btn--bio"><img class="" src="../images/josif.png" alt="Dr Josif"></button> 
                   <h3>Др. Јосиф Ристевски</h3>
                 </div>
                 
 
                 <div class="col row my-col align-items-center justify-content-center text-style  ">
-                  <button id="dobrePic__btn--bio" class="team-img__btn--bio"><img class="" src="../images/dobre.png" alt="Dobre"><br></button> 
+                  <button id="dentalTechnicianPic__btn--bio" class="team-img__btn--bio"><img class="" src="../images/dobre.png" alt="Dobre"><br></button> 
                   <h3>Добре Ристевски</h3>
                 </div>
 
                 <div class="col row my-col  align-items-center justify-content-center text-style  ">
-                  <button id="slavicaPic__btn--bio" class="team-img__btn--bio"><img class="" src="../images/slavica.png" alt="Slavica"></button> 
+                  <button id="nursePic__btn--bio" class="team-img__btn--bio"><img class="" src="../images/slavica.png" alt="Slavica"></button> 
                   <h3>Славица Давидковска</h3>
                 </div>
               </div>
@@ -97,13 +98,13 @@
               <div class="row">
 
                 <div class="col row my-col   justify-content-center">
-                  <button id="josif-btn--bio">Стоматолог и основач</button>
-                  <div id="josif-modal" class="modal">
+                  <button id="mainDentist-btn--bio">Стоматолог и основач</button>
+                  <div id="mainDentist-modal" class="modal">
                     <!-- Modal content -->
                     <div class="modal-content ">
                       <div class="modal-header">
                         <h2></h2>
-                        <span class="josif-modal--close">&times;</span>
+                        <span id="closeMainDentist" class="modal--close">&times;</span>
                       </div>
                       <div class="modal-body  ">
                         <img class="team-img" src="../images/josif.png" alt="Dr Josif">
@@ -139,13 +140,13 @@
                 </div>
 
                 <div class="col row my-col   justify-content-center ">
-                  <button id="dobre-btn--bio">Забен техничар</button>
-                  <div id="dobre-modal" class="modal">
+                  <button id="dentalTechnician-btn--bio">Забен техничар</button>
+                  <div id="dentalTechnician-modal" class="modal">
                     <!-- Modal content -->
                     <div class="modal-content ">
                       <div class="modal-header">
                         <h2></h2>
-                        <span class="dobre-modal--close">&times;</span>
+                        <span id="closeDentalTechnician" class="modal--close">&times;</span>
                       </div>
                       <div class="modal-body ">
                         <img class="team-img" src="../images/dobre.png" alt="Dobre">
@@ -162,13 +163,13 @@
                 </div>
 
                 <div class="col row my-col justify-content-center ">
-                  <button id="slavica-btn--bio">Стоматолошка сестра</button>
-                  <div id="slavica-modal" class="modal">
+                  <button id="nurse-btn--bio">Стоматолошка сестра</button>
+                  <div id="nurse-modal" class="modal">
                     <!-- Modal content -->
                     <div class="modal-content">
                       <div class="modal-header">
                         <h2></h2>
-                        <span class="slavica-modal--close">&times;</span>
+                        <span id="closeNurse" class="modal--close">&times;</span>
                       </div>
                       <div class="modal-body">
                         <img class="team-img" src="../images/slavica.png" alt="Slavica">

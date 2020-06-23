@@ -1,31 +1,13 @@
-  .container
-  {
-    padding-right: 0px;
-    padding-left: 0px;
-    /* margin-right: auto;
-    margin-left: auto; */
-    width: 100%;
-    /* border: 1px solid black; */
+* {
+  font-family: 'Roboto', sans-serif;
   }
 
-  .my-container
-  {
-    width: 100%;
-    /* border: 1px solid black;  */
-  }
-
-  .container-fluid
-  {
-    padding-right: 0px;
-    padding-left: 0px;
-    /* margin-right: auto;
-    margin-left: auto; */
-  }
-  .row
+  body
   {
     margin-right: -15px;
     margin-left: -15px;
   }
+
   .header
   {
     height: 108px;
@@ -41,7 +23,7 @@
     width: 100%;
   }
 
-  .box
+  .hero__box
   {
     position: relative;
   }
@@ -53,13 +35,12 @@
     text-align: start;
     left: 6vw;
     top: 17vw;
-    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 4vw;
     line-height: 5vw;
     text-transform: uppercase;
-    color: #636e72;
+    color: #363636;
   }
   .hero__box__img--title--colorised 
 
@@ -74,7 +55,6 @@
     border-radius: 10px;
     width: 25vw;
     height: 4vw;
-    font-family: Roboto;
     font-style: normal;
     font-weight: 300;
     font-size: 2vw;
@@ -100,7 +80,6 @@
 
   .bef-aft
   {
-    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 4vw;
@@ -109,7 +88,6 @@
   }
   .text-style
   {
-    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 2vw;
@@ -126,7 +104,6 @@
 
   h4
   {
-    font-family: "Roboto", sans-serif;
     text-align: center;
     font-size: 1.5vw ;
     margin-bottom: 1.5vw;
@@ -136,10 +113,8 @@
 
   h3
   {
-    font-family: "Roboto", sans-serif;
     text-align: center;
     font-size: 1.5vw ;
-    
   }
 
   .team-img
@@ -166,7 +141,7 @@
     opacity: 0.7;
   }
 
-  #josif-btn--bio, #dobre-btn--bio, #slavica-btn--bio
+  #mainDentist-btn--bio, #dentalTechnician-btn--bio, #nurse-btn--bio
   {
     background: none;
     border: none;
@@ -175,7 +150,6 @@
     width: 17vw;
     height: 3vw;
     margin-top: -1vw;
-    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 1vw;
@@ -185,8 +159,8 @@
     box-shadow: 0 1px 2px #3bb3c3;
   }
 
-  #josif-btn--bio:hover, #dobre-btn--bio:hover, #slavica-btn--bio:hover,
-  #josif-btn--bio:focus, #dobre-btn--bio:focus, #slavica-btn--bio:focus
+  #mainDentist-btn--bio:hover, #dentalTechnician-btn--bio:hover, #nurse-btn--bio:hover,
+  #mainDentist-btn--bio:focus, #dentalTechnician-btn--bio:focus, #nurse-btn--bio:focus
   {
     opacity: 0.7;
     cursor: pointer;
@@ -204,27 +178,26 @@
     left: 0;
     top: 0;
     width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
   }
 
   /* Modal Content */
   .modal-content {
     font-style: medium;
     font-weight: 300;
-    font-size: 1.2vw;
-    line-height: 1.2vw;
+    font-size: 1.0vw;
+    line-height: 1.7vw;
     text-align: justify;
     color: #636e72;
     position: relative;
     background-color: #fefefe;
     margin: auto;
     padding: 0;
-    font-family: "Roboto", sans-serif;
     border: 1px solid #888;
-    width: 40vw;
+    width: 70vw;
+    height: 85%;
+    overflow-y: auto;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
     -webkit-animation-name: animatetop;
     -webkit-animation-duration: 0.4s;
@@ -244,15 +217,15 @@
   }
 
   /* The Close Button */
-  .josif-modal--close, .dobre-modal--close, .slavica-modal--close {
+  .modal--close{
     color: white;
     float: right;
     font-size: 2vw;
     font-weight: bold;
   }
 
-  .josif-modal--close:hover, .dobre-modal--close:hover, .slavica-modal--close:hover,
-  .josif-modal--close:focus, .dobre-modal--close:focus, .slavica-modal--close:focus
+  .modal--close:hover, 
+  .modal--close:focus 
   {
     color: #000;
     text-decoration: none;
@@ -261,7 +234,7 @@
 
   .modal-header {
     padding: 2px 16px;
-    background-color: #3bb3c3;
+    background-color: #3bb3c3; 
     color: white;
   }
 
