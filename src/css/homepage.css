@@ -2,22 +2,17 @@
   font-family: "Roboto", sans-serif;
 }
 
+/* 
 
-
-
-
-
-
-  .container-fluid
-  {
-    padding-right: 0px;
-    padding-left: 0px;
-  }
- 
   .header
   {
     height: 108px;
     background-color: #3bb3c3;
+  } */
+
+
+  container-fluid{
+    padding: 0;
   }
   .top-pic
   {
@@ -49,11 +44,11 @@
     text-transform: uppercase;
     color: #636e72;
   }
+
   .colorised
   {
     color: #3bb3c3;
   }
-
 
 	 .btn 
 	{
@@ -94,22 +89,15 @@
 		text-align: center;
 	}
 
-
-
-
-
-  .bef-aft
-  {
-
+  .bef-aft {
     font-style: normal;
     font-weight: 300;
     font-size: 4vw;
     line-height: 7vw;
     color: #3bb3c3;
   }
-  .text
-  {
- 
+
+  .text{
     font-style: normal;
     font-weight: 300;
     font-size: 2vw;
@@ -124,9 +112,7 @@
     padding-right: 20%;
   }
 
-  h4
-  {
-   
+  h4 {
     text-align: center;
     font-size: 1.5vw ;
     margin-bottom: 1.5vw;
@@ -134,24 +120,16 @@
     color: #3bb3c3;
   }
 
-  h5
-  {
-    
+  h5 {
     text-align: center;
 		font-size: 18px ;
 		font-weight: 300;
 		color: #363636;
 		width: 255px;
-		height: 45px;
-
-	 
-    
+		height: 45px; 
   }
 
-  
-
-  .picBtn
-  {
+  .picBtn {
     width: 22vw;
     height: 22vw;
     border: none;
@@ -164,4 +142,34 @@
     opacity: 0.7;
   }
 
+
+  .img-fluid {
+    width: 350px;
+    height: 340px;
+  }
+
+  .carousel {
+    position: relative;
+  }
+
+  .carousel-control-icon {
+    position: relative;
+    width: 45px;
+    height: 45px;
+    background-color: #237d89;
+    box-shadow: 0px 2px 10px rgba(54, 54, 54, 0.15);
+    border-radius: 5px;
+  }
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    position: relative;
+    top: 19%;
+    left: 22%;
+    height: 30px;
+    width: 30px;
+  }
+  .carousel-control__homepage-gallery {
+    top: 100%;
   
+  }
+
