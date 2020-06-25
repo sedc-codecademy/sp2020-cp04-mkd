@@ -1,0 +1,47 @@
+{
+  "translation": [
+    {
+      "en": {
+        "aboutUs_para1": "Raising the level..."
+      },
+      "mk": {
+        "aboutUs_para1": "Подигнување на нивото..."
+      }
+    }
+  ],
+  "language": [
+    {
+      "mk": "mk",
+      "en": "en"
+    }
+  ],
+  "pages": ["Home", "AboutUs", "Services", "Gallery", "Blog", "Contact"],
+  "staff": [
+    {
+      "title": "Dr.",
+      "firstName": "Josif",
+      "lastName": "Ristevski",
+      "subHeading": "Dentist and Founder",
+      "imageUrl": "./src/images/josif.png",
+      "en": {
+        "title": "Др.",
+        "firstName": "Јосиф",
+        "lastName": "Ристевски",
+        "subHeading": "Стоматолог и Основател"
+      }
+    },
+    {
+      "title": "",
+      "firstName": "Dobre",
+      "lastName": "Ristevski",
+      "subHeading": "Dental Technician",
+      "imageUrl": "./src/images/dobre.png",
+      "en": {
+        "title": "Др.",
+        "firstName": "Добре",
+        "lastName": "Ристевски",
+        "subHeading": "Стоматолошки Техничар"
+      }
+    }
+  ]
+}

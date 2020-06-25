@@ -1,69 +1,69 @@
 // Get the modal
-var josifModal = document.getElementById("josif-modal");
-var dobreModal = document.getElementById("dobre-modal");
-var slavicaModal = document.getElementById("slavica-modal");
+let mainDentistModal = document.getElementById("mainDentist-modal");
+let dentalTechnicianModal = document.getElementById("dentalTechnician-modal");
+let nurseModal = document.getElementById("nurse-modal");
 
 // Get the button that opens the modal
-var josifBtn = document.getElementById("josif-btn--bio");
-var dobreBtn = document.getElementById("dobre-btn--bio");
-var slavicaBtn = document.getElementById("slavica-btn--bio");
+let mainDentist = document.getElementById("mainDentist-btn--bio");
+let dentalTechnician = document.getElementById("dentalTechnician-btn--bio");
+let nurse = document.getElementById("nurse-btn--bio");
 
-var josifPicBtn = document.getElementById("josifPic__btn--bio");
-var dobrePicBtn = document.getElementById("dobrePic__btn--bio");
-var slavicaPicBtn = document.getElementById("slavicaPic__btn--bio");
+let mainDentistPicBtn = document.getElementById("mainDentistPicBtn__btn--bio");
+let dentalTechnicianPic = document.getElementById("dentalTechnicianPic__btn--bio");
+let nursePicBtn = document.getElementById("nursePic__btn--bio");
 
 // Get the <span> element that closes the modal
-var closeJosif = document.getElementsByClassName("josif-modal--close")[0];
-var closeDobre = document.getElementsByClassName("dobre-modal--close")[0];
-var closeSlavica = document.getElementsByClassName("slavica-modal--close")[0];
+let closeMainDentist = document.getElementById("closeMainDentist");
+let closeDentalTechnician = document.getElementById("closeDentalTechnician");
+let closeNurse = document.getElementById("closeNurse");
 
 // When the user clicks the button, open the modal 
-josifBtn.onclick = function() {
-    josifModal.style.display = "block";
+mainDentist.onclick = function() {
+    mainDentistModal.style.display = "block";
 }
 
-dobreBtn.onclick = function() {
-    dobreModal.style.display = "block";
+dentalTechnician.onclick = function() {
+    dentalTechnicianModal.style.display = "block";
   }
 
-  slavicaBtn.onclick = function() {
-    slavicaModal.style.display = "block";
+  nurse.onclick = function() {
+    nurseModal.style.display = "block";
   }
 
-  josifPicBtn.onclick = function() {
-    josifModal.style.display = "block";
+  mainDentistPicBtn.onclick = function() {
+    mainDentistModal.style.display = "block";
 }
 
-dobrePicBtn.onclick = function() {
-    dobreModal.style.display = "block";
+dentalTechnicianPic.onclick = function() {
+    dentalTechnicianModal.style.display = "block";
   }
 
-  slavicaPicBtn.onclick = function() {
-    slavicaModal.style.display = "block";
+  nursePicBtn.onclick = function() {
+    nurseModal.style.display = "block";
   }
   
 // When the user clicks on <span> (x), close the modal
-closeJosif.onclick = function() {
-    josifModal.style.display = "none";
+closeMainDentist.onclick = function() {
+    mainDentistModal.style.display = "none";
 }
 
-closeDobre.onclick = function() {
-    dobreModal.style.display = "none";
+closeDentalTechnician.onclick = function() {
+    dentalTechnicianModal.style.display = "none";
 }
 
-closeSlavica.onclick = function() {
-    slavicaModal.style.display = "none";
+closeNurse.onclick = function() {
+    nurseModal.style.display = "none";
 }
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
-  if (event.target == josifModal) {
-    josifModal.style.display = "none";
+  if (event.target == mainDentistModal) {
+    mainDentistModal.style.display = "none";
     } else 
-        if(event.target == dobreModal){
-        dobreModal.style.display="none";
+        if(event.target == dentalTechnicianModal){
+        dentalTechnicianModal.style.display="none";
     } else 
-        if(event.target == slavicaModal){
-            slavicaModal.style.display="none";
+        if(event.target == nurseModal){
+            nurseModal.style.display="none";
         }
 }
