@@ -13,20 +13,64 @@
     />
 
     <style>
-      @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+      @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
     </style>
 
     <link rel="stylesheet" href="../css/gallery.css" />
   </head>
 
   <body>
-    <div class="container-fluid my-container">
-      <!-- HEADER -->
-      <div class="row no-gutters row-header">
-        <div class="col-md">
-          <!-- THIS IS PLACE FOR THE HEADER! -->
-        </div>
+    <nav class="navbar navbar-expand-lg">
+      <a class="navbar-brand" href="#">
+        <img
+          src="../images/logo/md-logo.jpg"
+          alt="logo"
+          width="205"
+          height="55"
+        />
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#">MK</a></li>
+          <li class="nav-item nav-link disabled">|</li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">EN</a>
+          </li>
+        </ul>
       </div>
+    </nav>
+
+    <div class="container-fluid my-container">
       <!-- HERO -->
       <div class="row no-gutters hero">
         <div class="col-md-12 hero__box">
@@ -40,7 +84,7 @@
               patients <br />
               are our reward
             </div>
-            <button class="btn">Make an appoitment</button>
+            <button class="btn">Make an appointment</button>
           </div>
         </div>
       </div>
