@@ -1,0 +1,46 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    color: #7A7B7B;
+    list-style: none;
+    list-style-type: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.page-footer {
+    background-color: #333333;
+    color: white;
+}
+
+.logo-img img {
+    width: 160px;
+    height: 57px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.menu-items {
+    margin-top: 20px;
+    line-height: 19px;
+
+}
+
+.menu-items ul li,
+.contacts ul li {
+    margin-bottom: 12px;
+}
+
+.menu-items ul li a,
+.contacts ul li a,
+.pri-policy p a {
+    color: #7A7B7B;
+}
+
+.contacts ul {
+    margin-top: 20px;
+}
+
+.line {
+    background-color: #3BB3C3;
+}
