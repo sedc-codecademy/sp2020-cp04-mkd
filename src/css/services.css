@@ -2,6 +2,11 @@
     font-family: "Roboto", sans-serif;
 }
 
+
+.width {
+    min-width: 100vw;
+}
+
 .hero {
     margin-bottom: 6vw;
 }
@@ -20,7 +25,6 @@ img {
     position: absolute;
     height: 18vw;
     text-align: start;
-
     left: 6vw;
     top: 17vw;
     font-style: normal;
@@ -41,7 +45,7 @@ button {
     border-radius: 10px;
     width: 25vw;
     height: 4vw;
-    font-family: Roboto;
+
     font-style: normal;
     font-weight: 300;
     font-size: 2vw;
@@ -110,12 +114,21 @@ button:active {
 .dental_jewellery--text--paragraph,
 .general_dentistry--text--paragraph,
 .children_dentistry--text--paragraph {
-    font-family: Roboto;
+
     font-style: normal;
     font-weight: 300;
     font-size: 22px;
     line-height: 33px;
     text-align: justify;
 }
+
+.dentalImg img,
+.cosmetic-img img,
+.general_Dentristry-img img,
+.children_Dentristry-img img {
+    width: 150px;
+    height: 150px;
+}
+
 
 /* end of dentalProshodonticsSectin*/
