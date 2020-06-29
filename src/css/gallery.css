@@ -1,5 +1,5 @@
 * {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .navbar {
@@ -110,7 +110,7 @@ nav {
 }
 
 .galeries-title {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 4vw;
@@ -121,7 +121,7 @@ nav {
 }
 
 .galeries-text {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 2vw;
@@ -132,7 +132,7 @@ nav {
 }
 
 .galeries-text__under-pic {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 2vw;
@@ -141,6 +141,9 @@ nav {
   text-align: center;
   justify-content: center;
   letter-spacing: 0.05em;
+}
+.galeries-text__under-pic-second_row {
+  margin-bottom: 92px;
 }
 
 .img-fluid__size {
@@ -184,7 +187,7 @@ nav {
 }
 
 .carousel-control__dental-tourism-gallery {
-  top: 101%;
+  top: 88%;
   width: 78vw;
 }
 
@@ -197,11 +200,69 @@ nav {
   justify-content: center;
   text-align: center;
 }
+/* FOOTER CSS */
+.page-footer {
+  background-color: #333333;
+}
 
-.row-footer {
-  height: 331px;
-  margin-top: 140px;
-  background: #333333;
+.logo-img img {
+  width: 160px;
+  height: 57px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.work-days {
+  color: #7a7b7b;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.menu-items {
+  margin-top: 20px;
+  line-height: 19px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.menu-items ul li,
+.contacts ul li {
+  margin-bottom: 12px;
+}
+
+.menu-items ul li a,
+.contacts ul li a,
+.pri-policy p a {
+  color: #7a7b7b;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.contacts ul {
+  margin-top: 20px;
+}
+
+.telNumber {
+  color: #7a7b7b;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.line {
+  background-color: #3bb3c3;
+}
+
+.copyright {
+  line-height: 19px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #7a7b7b;
 }
 
 /* Extra small devices (portrait phones, less than 576px) */
@@ -227,7 +288,7 @@ nav {
     top: 112%;
   }
   .carousel-control__dental-tourism-gallery {
-    top: 111%;
+    top: 80%;
   }
   .carousel-control_icon-box {
     width: 35px;
@@ -266,7 +327,7 @@ nav {
     top: 107%;
   }
   .carousel-control__dental-tourism-gallery {
-    top: 104%;
+    top: 83%;
   }
 }
 
@@ -287,7 +348,7 @@ nav {
     top: 107%;
   }
   .carousel-control__dental-tourism-gallery {
-    top: 104%;
+    top: 83%;
   }
 }
 
