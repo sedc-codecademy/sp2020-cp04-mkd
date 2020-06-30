@@ -17,6 +17,7 @@
     </style>
 
     <link rel="stylesheet" href="../css/aboutUs-en.css" />
+    <link rel="stylesheet" href="../css/footer.css" />
   </head>
 
   <body>
@@ -164,7 +165,7 @@
             <button id="mainDentistPicBtn__btn--bio" class="team-img__btn--bio">
               <img class="" src="../images/josif.png" alt="Dr Josif" />
             </button>
-            <h3>Dr. Josif Ristevski</h3>
+            <h3 class="h3ModalStyle">Dr Josif Ristevski</h3>
           </div>
 
           <div
@@ -176,7 +177,7 @@
             >
               <img class="" src="../images/dobre.png" alt="Dobre" /><br />
             </button>
-            <h3>Dobre Ristevski</h3>
+            <h3 class="h3ModalStyle">Dobre Ristevski &nbsp;  </h3>
           </div>
 
           <div
@@ -185,23 +186,23 @@
             <button id="nursePic__btn--bio" class="team-img__btn--bio">
               <img class="" src="../images/slavica.png" alt="Slavica" />
             </button>
-            <h3>Slavica Davidovska</h3>
+            <h3 class="h3ModalStyle">Slavica Davidkovska</h3>
           </div>
         </div>
 
-        <div class="row">
-          <div class="col row my-col justify-content-center">
+        <div  class="row ">
+          <div class="col row my-col justify-content-center scrollbar">
             <button id="mainDentist-btn--bio">Dentist and Founder</button>
             <div id="mainDentist-modal" class="modal">
               <!-- Modal content -->
-              <div class="modal-content">
+              <div  class="modal-content ">
                 <div class="modal-header">
                   <h2></h2>
                   <span id="closeMainDentist" class="modal--close"
                     >&times;</span
                   >
                 </div>
-                <div class="modal-body">
+                <div class="modal-body scrollbar--style">
                   <img
                     class="team-img"
                     src="../images/josif.png"
@@ -273,7 +274,7 @@
                     >&times;</span
                   >
                 </div>
-                <div class="modal-body">
+                <div class="modal-body scrollbar--style">
                   <img class="team-img" src="../images/dobre.png" alt="Dobre" />
                   <h4>Dobre Ristevski, Dental technician</h4>
                   <p>
@@ -307,7 +308,7 @@
                   <h2></h2>
                   <span id="closeNurse" class="modal--close">&times;</span>
                 </div>
-                <div class="modal-body">
+                <div class="modal-body scrollbar--style">
                   <img
                     class="team-img"
                     src="../images/slavica.png"
@@ -331,13 +332,66 @@
 
       <br /><br /><br /><br /><br /><br /><br /><br />
       <!-- Footer -->
-      <div class="row my-row no-gutters">
-        <div
-          class="col my-col header d-flex justify-content-center align-items-center"
-        >
-          FOOTER!
+      <footer id="footer" class="page-footer">
+        <div class="containter-fluid text-center text-md-left">
+          <div class="row">
+            <!-- logo Start -->
+            <div class="col-md-2 mx-auto mb-4 p-0">
+              <div class="logo-img mb-2">
+                <img
+                  src="../images/logo/md-logo.jpg"
+                  class="img-fluid"
+                  alt="Responsive image"
+                />
+              </div>
+              <ul class="work-days list-unstyled">
+                <li class="schedule mb-1">Mon. Wed. Fri.. 09.00 - 16.00</li>
+                <li class="schedule mb-1">Tue.Thur. 13.00 - 20.00</li>
+                <li class="schedule mb-1">Sat. 09.00 - 14.00</li>
+              </ul>
+            </div>
+            <!-- logo end -->
+  
+            <!-- links start -->
+            <div class="col-md-4 mx-auto mb-4 p-0 mx-md-n5 menu-items">
+              <ul class="list-unstyled">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </div>
+            <!-- links End -->
+  
+            <!-- contacts Start -->
+            <div class="col-md-3 mx-auto text-center text-md-right pr-5 contacts">
+              <ul class="list-unstyled">
+                <li class="telNumber">+389 78 936 122</li>
+                <li><a href="#">mak.dental@yahoo.com</a></li>
+                <li><a href="#">Google Map</a></li>
+                <li><a href="#">Facebook</a></li>
+                <!-- <li class="text-end">Privacy policy</li> -->
+              </ul>
+            </div>
+            <!-- contacts end -->
+          </div>
+          <row class="pri-policy">
+            <div class="col-md-10 text-md-right pb-2 pr-3 pl-0 mx-auto">
+              <p><a href="#" class="link-unstyled">Privacy policy</a></p>
+            </div>
+          </row>
+          <!-- start line  -->
+          <hr class="col mx-auto line" style="width: 100%; height: 2px;" />
+          <!-- end line  -->
+          <row class="copyright">
+            <div class="col-md-11 text-md-right pt-0 pb-3 pr-3">
+              <p>Copyright © 2020, Dental Clinic Mak Dental - Bitola</p>
+            </div>
+          </row>
         </div>
-      </div>
+      </footer>
     </div>
     <script src="../js/aboutUs-en.js"></script>
   </body>
