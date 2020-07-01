@@ -1,5 +1,5 @@
 * {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .navbar {
@@ -105,7 +105,7 @@ nav {
 }
 
 .galeries-title {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 4vw;
@@ -116,7 +116,7 @@ nav {
 }
 
 .galeries-text {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 2vw;
@@ -127,7 +127,7 @@ nav {
 }
 
 .galeries-text__under-pic {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 2vw;

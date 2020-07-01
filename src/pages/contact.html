@@ -1,196 +1,154 @@
+<!-- Peter works on this -->
 <!DOCTYPE html>
-<html>
-<head>
-<title>Contact</title>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
 
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-<link rel="stylesheet" type="text/css" href="index.css"/>
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap"
+      rel="stylesheet"
+    />
 
-</head>
+    <link rel="stylesheet" href="../css/contact.module.css" />
+    <link rel="stylesheet" href="../css/header.module.css" />
+  </head>
 
+  <body>
+    <nav class="navbar navbar-light navbar-expand-lg">
+      <a class="navbar-brand" href="#">
+        <img src="../images/logo/md-logo.jpg" alt="logo" />
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarDropdownMain"
+        aria-controls="navbarDropdownMain"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
+      <div class="collapse navbar-collapse" id="navbarDropdownMain">
+        <ul class="navbar-nav ml-auto text-center">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+          <li class="nav-item"><a class="nav-link lang" href="#">MK</a></li>
+          <li class="nav-item nav-link disabled">|</li>
+          <li class="nav-item">
+            <a class="nav-link lang" href="#">EN</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
-<body>
-
-
-<div class="main">
-    <nav class="navbar navbar-expand-lg">
-        <a class="navbar-brand" href="#">
+    <div class="container-fluid my-container">
+      <div class="row no-gutters hero">
+        <div class="col-md-12 hero__box">
           <img
-            src="./img/md-logo.jpg"
-            alt="logo"
-            width="205"
-            height="55"
+            src="../images/contact/contact-hero.png"
+            class="img-responsive hero__box__image"
           />
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-  
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Gallery</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Blog</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
-            <li class="nav-item"><a class="nav-link" href="#">MK</a></li>
-            <li class="nav-item nav-link disabled">|</li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">EN</a>
-            </li>
-          </ul>
+          <div class="hero__box__image--title">
+            <div>
+              our team is always <br />
+              <span class="hero__box__img--title--satisfied">available</span>
+              for you
+            </div>
+            <button class="btn">Make an appointment</button>
+          </div>
         </div>
-      </nav>
+      </div>
+    </div>
 
-
-
-    <div class="hero">
-        <img class="image" src="./img/4431.jpg">
-        
-        <h1>OUR TEAM IS ALWAYS <span>AVAIBLE</span> FOR YOU</h1>
-      
-        <div class="btn-group">
-          <a href="#" class="btn" id="makeBtn">Make an appointment</a>
+    <section class="section_contact">
+      <div class="container">
+        <div class="row mt-5 no-gutter">
+          <div class="col-md contact-title">
+            Schedule your visit today
+          </div>
+        </div>
+        <div class="row no-gutter">
+          <div class="col-md contact-text">
+            Easily get in touch with us via phone or through our online
+              contact form if you have any questions or would like to schedule
+              an appointment. Our team will reply as soon as possible.
+          </div>
         </div>
 
-    </div>
-
-
-
-    <div class="schedule">
-        <h2>Schedule your visit today</h2>
-        <p>Easily get in touch with us via phone or through our online contact form if you have any questions or would like to schedule an appointment. Our team will reply as soon as possible.</p>
-    </div>
-
-
-
-    <div class="form-group">
-        <form>
-           <input type="text" placeholder="Name*"  required class="form-control">
-           <input type="text" placeholder="Phone*" required class="form-control">
-           <input type="text" placeholder="Email"  required class="form-control">     
-           <input type="text" placeholder="Subject" required class="form-control">         
-        </form>
-
-        <div class="block">
-            <label>Message</label>
-            <textarea rows="10" cols="50"></textarea>
+        <div class="row justify-content-center mt-5">
+          <div class="col-8">
+            <form>
+              <div class="form-group">
+                <label for="contact-name">Name</label>
+                <input type="email" class="form-control" id="contact-name">
+              </div>
+              <div class="form-group">
+                <label for="contact-phone">Phone</label>
+                <input type="email" class="form-control" id="contact-phone">
+              </div>
+              <div class="form-group">
+                <label for="contact-email">Email</label>
+                <input type="email" class="form-control" id="contact-email">
+              </div>
+              <div class="form-group">
+                <label for="contact-subject">Subject</label>
+                <input type="email" class="form-control" id="contact-subject">
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlTextarea1">Write a message</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+              <button type="submit" class="btn">Submit</button>
+            </form>
+          </div>
         </div>
-
-        <div class="btn-group">
-          <a href="#" class="btn" id="sendBtn">Send</a>
-        </div>
-
+       
+      </div>
     </div>
+    </section>
 
-
-
-    <div class="call-group">
-        <h2>Call us</h2>
-        <p>Schedule your appointment via phone or call us if you have any questions. Our team is avialable for you on our regurlar phone during working hours. </p>
-        
-        <div class="num-group">
-            <p>+389 78 936 122</p>
-        </div>
-        
-        <div class="btn-group">
-          <a href="#" class="btn" id="callBtn">Call</a>
-        </div>
-
-    </div>
-
-    
-
-    <div class="working-group">
-        <h2>Working hours</h2>
-        <p>Monday, Wednesday, Friday   09.00 - 16.00
-        Thuesday, Thursday  13.00 - 20.00
-        Saturday  09.00 - 14.00</p>
-    </div>
-
-
-
-    <div class="visit-group">
-        <h2>Visit us</h2>
-        <p> St. Stoevska no. 18 (settlement, Brusnichka) Bitola
-        Republic of Macedonia</p>
-    </div>
-
-
-    <div class="map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12038.653318481918!2d21.309223627907933!3d41.032621055141036!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x99dbf30b0c2d91e2!2sMakDental%20Bitola!5e0!3m2!1sen!2smk!4v1589671620115!5m2!1sen!2smk" width="1440" height="459" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-    </div>
-
-
-
-    <div class="footer">
-        <div class="footer-left">
-            <img class="logo" src="./img/md-logo.jpg">
-                <ul>
-                    <li>Mon. Wed. Fri. 09.00 - 16.00</li>
-                    <li>Tue.Thur. 13.00 - 20.00</li>
-                    <li>Sat. 09.00 - 14.00</li>    
-                </ul>
-        </div>    
-
-
-        <div class="footer-center">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Gallery</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </div>
-
-
-        <div class="footer-right">
-            <ul>
-                <li>+389 78 936 122</li>
-                <li>mak.dental@yahoo.com</li>
-                <li><a href="https://www.google.com/maps/place/MakDental+Bitola/@41.0331928,21.2975385,17z/data=!3m1!4b1!4m5!3m4!1s0x1357256fd41518eb:0x99dbf30b0c2d91e2!8m2!3d41.0331888!4d21.2997272">Google Map</a></li>
-                <li><a href="https://www.facebook.com/%D0%A1%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%BE%D0%BB%D0%BE%D1%88%D0%BA%D0%B0-%D0%BE%D1%80%D0%B4%D0%B8%D0%BD%D0%B0%D1%86%D0%B8%D1%98%D0%B0-%D0%9C%D0%B0%D0%BA-%D0%94%D0%B5%D0%BD%D1%82%D0%B0%D0%BB-%D0%91%D0%B8%D1%82%D0%BE%D0%BB%D0%B0-Dental-Office-Mak-Dental-945326002239420">Facebook</a></li>
-                <li>Privacy policy</li>
-            </ul>
-        </div>
-    </div>
-
-        
-    <div class="line"></div>
-    <div class="bottom">
-        <p>Copyright © 2020, Dental Clinic Mak Dental - Bitola</p>
-    </div>
-
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-    <script src="index.js"></script>
-
-</div>
-</body>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

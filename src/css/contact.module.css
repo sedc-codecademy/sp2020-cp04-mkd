@@ -1,0 +1,26 @@
+.contact-title {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  text-transform: capitalize;
+  font-size: 4vw;
+  line-height: 7vw;
+  color: #3bb3c3;
+  justify-content: center;
+  text-align: center;
+}
+
+.contact-text {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 2vw;
+  line-height: 3vw;
+  color: #636e72;
+  justify-content: center;
+  text-align: center;
+}
+
+/* .btn {
+  margin: 0 auto !important;
+} */
