@@ -218,13 +218,13 @@ body {
   }
 
   icon_services-position {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 
   .services{
     margin-right: 45px;
-    margin-left: 45px;
+    margin-left: 100px;
   }
 
   .img-fluid {
