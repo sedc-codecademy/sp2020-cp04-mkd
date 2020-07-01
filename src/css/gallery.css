@@ -76,6 +76,7 @@ nav {
 .hero__box__img--title--satisfied {
   color: #3bb3c3;
 }
+
 .btn {
   padding: 0;
   background: #3bb3c3;
@@ -93,6 +94,7 @@ nav {
   box-shadow: 0 4px 5px grey;
   outline: 0;
 }
+
 .btn:active,
 .btn:hover {
   background: #349caa;
@@ -102,6 +104,11 @@ nav {
 .btn:active {
   box-shadow: 0 1px 2px grey;
   transform: translateY(4px);
+}
+
+.call-btn {
+  text-align: center;
+  vertical-align: baseline;
 }
 
 .galeries-title {
