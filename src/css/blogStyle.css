@@ -95,35 +95,18 @@ nav {
     color: #3bb3c3;
   }
 
-/* button {
-    background: #3bb3c3;
-    opacity: 0.8;
-    border-radius: 10px;
-    width: 255px;
-    height: 46px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 20px;
-    line-height: 35px;
-    text-align: center;
-    color: #ffffff;
-    border: none;
-    box-shadow: 0 4px 5px grey;
-    outline: 0;
-  } */
 
   .btn {
   padding: 0;
   background: #3bb3c3;
   opacity: 0.8;
   border-radius: 10px;
-  width: 25vw;
-  height: 4vw;
+  width: 384px;
+  height: 61px;
   font-style: normal;
   font-weight: 300;
-  font-size: 2vw;
-  line-height: 3vw;
+  font-size: 30px;
+  line-height: 46px;
   text-align: center;
   color: #ffffff;
   border: none;
@@ -151,7 +134,7 @@ nav {
 }
 
 .titleSettings{
-/* font-family: Roboto; */
+
 font-style: normal;
 font-weight: 300;
 font-size: 48px;
@@ -164,7 +147,7 @@ position: relative;
 height: 100%;
 width: 100%;
 overflow: visible;
-/* font-family: Roboto; */
+
 font-style: normal;
 font-weight: 300;
 font-size: 24px;
@@ -204,7 +187,7 @@ color: #636E72;
 
 
 .textUnderImage{
-    /* font-family: Roboto; */
+    
     font-style: normal;
     font-weight: 300;
     font-size: 22px;
@@ -273,11 +256,9 @@ color: #636E72;
   
   
   .img-title{
-    height: auto; 
-    background-color: rgba(255, 255, 255, 0.8);
     line-height: 70px;
     width: 100%;
-    font-size: 70px;
+    font-size: 50px;
     left:0px;
     padding-right: 5%;
     padding-left: 5%;
@@ -289,21 +270,6 @@ color: #636E72;
     
   }
 
-  .heroImage{
-
-    filter: blur(3px);
-
-  }
-
-  /* img{
-
-      
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      width: 50%;
-    
-  } */
 
   .mainTitleOnImg{
     width: 100%;
@@ -312,10 +278,9 @@ color: #636E72;
   .btn{
     position: relative;
     font-size: 20px;
-    height: 4vw;
-    width: 100%;
-    max-width: 100%;
-    height: auto;
+    height: 50px;
+    width: 250px;
+    
   }
 
   .blogText{
@@ -347,20 +312,18 @@ color: #636E72;
 
 @media(max-width: 535px){
   .img-title{
-    top: 80px;
-    height: auto; 
-    background-color: rgba(255, 255, 255, 0.8);
-    line-height: 70px;
-    width: 100%;
-    font-weight: 500;
-    font-size: 55px;
+    top: 24%;
+    height: auto;  
+    line-height: 70px; 
+    font-weight: 300;
+    font-size: 45px;
     left:0px;
     padding-right: 5%;
     padding-left: 5%;
   }
 
   .heroImage{
-    object-position: right;
+    object-position: center;
   }
 
   .blogContentRow{
@@ -387,7 +350,7 @@ color: #636E72;
   }
 }
 
-/* Single blog page CSS */
+
 
 .visibleClass{
   display: visible;
