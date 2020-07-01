@@ -1,7 +1,7 @@
 * {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
-
+/* NAVBAR STYLEING */
 .navbar {
   background-color: #ffffff;
 }
@@ -26,11 +26,6 @@
 
 nav {
   border-bottom: 3px solid #7edadd;
-}
-
-.my-container {
-  padding-right: 0;
-  padding-left: 0;
 }
 
 .hero {
@@ -112,7 +107,7 @@ nav {
 }
 
 .galeries-title {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 4vw;
@@ -123,7 +118,7 @@ nav {
 }
 
 .galeries-text {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 2vw;
@@ -134,7 +129,7 @@ nav {
 }
 
 .galeries-text__under-pic {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 2vw;
@@ -399,8 +394,8 @@ nav {
   }
   .hero__box__image--title {
     left: 14%;
-    top: 34%;
-    font-weight: 300;
+    top: 22%;
+    font-weight: 225;
     font-size: 79px;
     line-height: 120px;
   }
