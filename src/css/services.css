@@ -83,7 +83,7 @@ img {
 .cosmetic_Title--title,
 .general_Dentistry--title,
 .children_Dentistry--title {
-    color: #363636;
+    color: #636e72;
     /* border: 1px solid black; */
     font-style: normal;
     font-weight: 300;
@@ -114,7 +114,7 @@ img {
 .dental_jewellery--text--paragraph,
 .general_dentistry--text--paragraph,
 .children_dentistry--text--paragraph {
-
+    color: #636e72;
     font-style: normal;
     font-weight: 300;
     font-size: 22px;
@@ -126,8 +126,8 @@ img {
 .cosmetic-img img,
 .general_Dentristry-img img,
 .children_Dentristry-img img {
-    width: 150px;
-    height: 150px;
+    width: 130px;
+    height: 130px;
 }
 
 
