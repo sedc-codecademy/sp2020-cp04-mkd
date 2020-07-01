@@ -1,70 +1,72 @@
 * {
-    font-family: 'Roboto', sans-serif;
-
+  font-family: 'Roboto', sans-serif;
 }
 
 .page-footer {
-    background-color: #333333;
-
+  background-color: #333333;
 }
 
 .logo-img img {
-    width: 160px;
-    height: 57px;
-    margin-top: 20px;
-    margin-bottom: 30px;
+  width: 160px;
+  height: 57px;
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
 
 .work-days {
-    color: #7A7B7B;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 19px;
+  color: #7a7b7b;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
 }
 
 .menu-items {
-    margin-top: 20px;
-    line-height: 19px;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
+  margin-top: 20px;
+  line-height: 19px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
 }
 
 .menu-items ul li,
 .contacts ul li {
-    margin-bottom: 12px;
+  margin-bottom: 12px;
 }
 
 .menu-items ul li a,
 .contacts ul li a,
 .pri-policy p a {
-    color: #7A7B7B;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
+  color: #7a7b7b;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
 }
 
 .contacts ul {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .telNumber {
-
-    color: #7A7B7B;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
+  color: #7a7b7b;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
 }
 
 .line {
-    background-color: #3BB3C3;
+  background-color: #3bb3c3;
 }
 
 .copyright {
-    line-height: 19px;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    color: #7A7B7B;
+  line-height: 19px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #7a7b7b;
+}
+
+.link-unstyled {
+  text-decoration: none;
+  color: #7a7b7b;
 }
