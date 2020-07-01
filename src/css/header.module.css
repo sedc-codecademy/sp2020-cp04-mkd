@@ -76,7 +76,7 @@ nav {
   left: 9%;
   top: 34%;
   font-style: normal;
-  font-weight: 300 !important;
+  font-weight: 300;
   font-size: 64px;
   line-height: 90px;
   text-transform: uppercase;
@@ -195,7 +195,7 @@ nav {
   .hero__box__image--title {
     left: 14%;
     top: 34%;
-    font-weight: 600 !important;
+    font-weight: 300;
     font-size: 79px;
     line-height: 120px;
   }
