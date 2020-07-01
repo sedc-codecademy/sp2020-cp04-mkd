@@ -20,6 +20,8 @@
     <link rel="stylesheet" href="../css/contact.module.css" />
     <link rel="stylesheet" href="../css/header.module.css" />
     <link rel="stylesheet" href="../css/footer.css" />
+
+    <script src="../js/contact.js"></script>
   </head>
 
   <body>
@@ -183,10 +185,26 @@
 
       <div class="row no-gutter mb-3">
         <div class="col-md contact-text">
-          St. Stoevska no. 18 (Brusnichka estate) Bitola,<br />
+          St. Skoevska 18 (Brusnichka estate) Bitola,<br />
           Republic of North Macedonia
         </div>
       </div>
+
+      <div id="map" class="map"></div>
+      <script>
+        // Initialize and add the map
+        function initMap() {
+          // The location of Uluru
+          var uluru = { lat: 41.033359, lng: 21.299727 };
+          // The map, centered at Uluru
+          var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 16,
+            center: uluru
+          });
+          // The marker, positioned at Uluru
+          var marker = new google.maps.Marker({ position: uluru, map: map });
+        }
+      </script>
     </section>
 
     <!-- Start -->
@@ -251,6 +269,10 @@
       </div>
     </footer>
 
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD2mNrLh4-VZXTpBKN1O0D_gk6n84e744o&callback=initMap&libraries=&v=weekly"
+      defer
+    ></script>
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
