@@ -3,11 +3,14 @@ body{
     margin: 0px;
 }
 
-
 #root {
     
-    max-width: 1200px;
+    max-width: 100%;
     background-color: white;
+}
+
+* {
+  font-family: 'Roboto', sans-serif;
 }
 
 .navbar {
@@ -52,12 +55,11 @@ nav {
     right: auto;
     top: auto;
     object-position: center;
-    /* border:1px solid green; */
     height:574px;
     width: 100%;
 }
 
-.img-title {
+/* .img-title {
     position: absolute;
     width: 730px;
     height: 180px;
@@ -73,62 +75,71 @@ nav {
     text-transform: uppercase;
     color: #636e72;
     padding-top: 0px;
+  } */
+
+  .img-title {
+    position: absolute;
+    text-align: start;
+    left: 14%;
+    top: 34%;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 90px;
+    text-transform: uppercase;
+    color: #636e72;
   }
+
+
   .satisfied {
     color: #3bb3c3;
   }
 
-button {
-    background: #3bb3c3;
-    opacity: 0.8;
-    border-radius: 10px;
-    width: 255px;
-    height: 46px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 20px;
-    line-height: 35px;
-    text-align: center;
-    color: #ffffff;
-    border: none;
-    box-shadow: 0 4px 5px grey;
-    outline: 0;
+
+  .btn {
+  padding: 0;
+  background: #3bb3c3;
+  opacity: 0.8;
+  border-radius: 10px;
+  width: 384px;
+  height: 61px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 46px;
+  text-align: center;
+  color: #ffffff;
+  border: none;
+  box-shadow: 0 4px 5px grey;
+  outline: 0;
   }
   
-  button:active,
-  button:hover {
+  .btn:active,
+  .btn:hover {
     background: #349caa;
     outline: 0;
   }
-  button:active {
+  .btn:active {
     box-shadow: 0 1px 2px grey;
     transform: translateY(4px);
   }
 
-/* .ourBlogTextRow{
-width: 1440px;
-} */
+
 
 .blogText{
 
     height: 443px;
-    /* border: 1px solid yellow; */
     padding: 15%;
-    /* padding: 106px 260px 158px 260px; */
-    /* justify-content: ; */
+   
 }
 
 .titleSettings{
-font-family: Roboto;
+
 font-style: normal;
 font-weight: 300;
 font-size: 48px;
 line-height: 72px;
-
-
 text-align: center;
-
 color: #3BB3C3;
 }
 .smallText{
@@ -136,7 +147,7 @@ position: relative;
 height: 100%;
 width: 100%;
 overflow: visible;
-font-family: Roboto;
+
 font-style: normal;
 font-weight: 300;
 font-size: 24px;
@@ -146,8 +157,10 @@ color: #636E72;
 }
 
 .blogContentRow{
+    margin: auto;
     height: 850px;
-    padding: 50px 130px 100px 130px;
+    max-width: 1200px;
+    padding: 50px 80px 80px 100px;
 }
 
 .my-col2{
@@ -174,7 +187,7 @@ color: #636E72;
 
 
 .textUnderImage{
-    font-family: Roboto;
+    
     font-style: normal;
     font-weight: 300;
     font-size: 22px;
@@ -219,8 +232,10 @@ color: #636E72;
 }
 
 @media (max-width: 1103px){
+  
   .blogContentRow {
     overflow: scroll;
+    padding: 50px 50px 80px 50px;
   }
   .heroImage{
     object-position: right;
@@ -241,11 +256,9 @@ color: #636E72;
   
   
   .img-title{
-    height: auto; 
-    background-color: rgba(255, 255, 255, 0.8);
     line-height: 70px;
     width: 100%;
-    font-size: 70px;
+    font-size: 50px;
     left:0px;
     padding-right: 5%;
     padding-left: 5%;
@@ -257,32 +270,17 @@ color: #636E72;
     
   }
 
-  .heroImage{
-
-    filter: blur(3px);
-
-  }
-
-  img{
-
-      
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      width: 50%;
-    
-  }
 
   .mainTitleOnImg{
     width: 100%;
   }
 
-  button{
+  .btn{
     position: relative;
     font-size: 20px;
-    width: 100%;
-    max-width: 100%;
-    height: auto;
+    height: 50px;
+    width: 250px;
+    
   }
 
   .blogText{
@@ -314,20 +312,18 @@ color: #636E72;
 
 @media(max-width: 535px){
   .img-title{
-    top: 80px;
-    height: auto; 
-    background-color: rgba(255, 255, 255, 0.8);
-    line-height: 70px;
-    width: 100%;
-    font-weight: 500;
-    font-size: 55px;
+    top: 24%;
+    height: auto;  
+    line-height: 70px; 
+    font-weight: 300;
+    font-size: 45px;
     left:0px;
     padding-right: 5%;
     padding-left: 5%;
   }
 
   .heroImage{
-    object-position: right;
+    object-position: center;
   }
 
   .blogContentRow{
@@ -354,7 +350,7 @@ color: #636E72;
   }
 }
 
-/* Single blog page CSS */
+
 
 .visibleClass{
   display: visible;

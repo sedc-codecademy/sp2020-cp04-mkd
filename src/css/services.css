@@ -1,94 +1,114 @@
 * {
-    font-family: "Roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+.navbar {
+  background-color: #ffffff;
 }
 
+.nav-link {
+  color: #5f5b5b;
+  font-size: 1rem;
+  line-height: 65px;
+}
+
+.nav-item:not(:last-child) {
+  padding-left: 20px;
+}
+
+.nav-item:active {
+  text-shadow: 0px 4px 4px rgba(59, 179, 195, 0.75);
+}
+
+.nav-item:hover {
+  text-shadow: 0px 4px 4px rgba(59, 179, 195, 0.75);
+}
+
+nav {
+  border-bottom: 3px solid #7edadd;
+}
 
 .width {
-    min-width: 100vw;
+  min-width: 100vw;
 }
 
 .hero {
-    margin-bottom: 6vw;
+  margin-bottom: 6vw;
 }
 
 img {
-    width: 100%;
-
+  width: 100%;
 }
 
 .box {
-    position: relative;
-
+  position: relative;
 }
 
 .hero_services_img_title {
-    position: absolute;
-    height: 18vw;
-    text-align: start;
-    left: 6vw;
-    top: 17vw;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 6vw;
-    line-height: 7vw;
-    text-transform: uppercase;
-    color: #636e72;
+  position: absolute;
+  height: 18vw;
+  text-align: start;
+  left: 6vw;
+  top: 17vw;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 6vw;
+  line-height: 7vw;
+  text-transform: uppercase;
+  color: #636e72;
 }
 
 .hero_services_img_title--exclusive {
-    color: #3bb3c3;
+  color: #3bb3c3;
 }
 
 .btn {
-    background: #3bb3c3;
-    opacity: 0.8;
-    border-radius: 10px;
-    width: 25vw;
-    height: 4vw;
-    padding: 0;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 2vw;
-    line-height: 3vw;
-    text-align: center;
-    color: #ffffff;
-    border: none;
-    box-shadow: 0 4px 5px grey;
-    outline: 0;
+  background: #3bb3c3;
+  opacity: 0.8;
+  border-radius: 10px;
+  width: 25vw;
+  height: 4vw;
+  padding: 0;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 2vw;
+  line-height: 3vw;
+  text-align: center;
+  color: #ffffff;
+  border: none;
+  box-shadow: 0 4px 5px grey;
+  outline: 0;
 }
 
 .btn:active,
 .btn:hover {
-    background: #349caa;
-    outline: 0;
-
+  background: #349caa;
+  outline: 0;
 }
 
 .btn:active {
-    box-shadow: 0 1px 2px grey;
+  box-shadow: 0 1px 2px grey;
 
-    color: #ffffff;
+  color: #ffffff;
 }
 
 /* end of hero section */
 
-
 /* start of dentalProshodonticsSection */
 
 .height100 {
-    min-height: 100vh;
+  min-height: 100vh;
 }
 
 .dental_Title--title,
 .cosmetic_Title--title,
 .general_Dentistry--title,
 .children_Dentistry--title {
-    color: #363636;
-    /* border: 1px solid black; */
-    font-style: normal;
-    font-weight: 300;
-    font-size: 48px;
-    line-height: 72px;
+  color: #636e72;
+  /* border: 1px solid black; */
+  font-style: normal;
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 72px;
 }
 
 .fixed_subTitle,
@@ -98,11 +118,11 @@ img {
 .dental_scaling-subTitle,
 .cosmetic_fillings-subTitle,
 .dental_jewellery-subTitle {
-    font-style: normal;
-    font-weight: 300;
-    font-size: 24px;
-    line-height: 36px;
-    color: #3BB3C3;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 36px;
+  color: #3bb3c3;
 }
 
 .fixed_Prostodontics--text--paragraph,
@@ -114,21 +134,84 @@ img {
 .dental_jewellery--text--paragraph,
 .general_dentistry--text--paragraph,
 .children_dentistry--text--paragraph {
-
-    font-style: normal;
-    font-weight: 300;
-    font-size: 22px;
-    line-height: 33px;
-    text-align: justify;
+  color: #636e72;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 33px;
+  text-align: justify;
 }
 
 .dentalImg img,
 .cosmetic-img img,
 .general_Dentristry-img img,
 .children_Dentristry-img img {
-    width: 150px;
-    height: 150px;
+  width: 130px;
+  height: 130px;
 }
 
-
 /* end of dentalProshodonticsSectin*/
+/* FOOTER CSS */
+.page-footer {
+  background-color: #333333;
+}
+
+.logo-img img {
+  width: 160px;
+  height: 57px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.work-days {
+  color: #7a7b7b;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.menu-items {
+  margin-top: 20px;
+  line-height: 19px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.menu-items ul li,
+.contacts ul li {
+  margin-bottom: 12px;
+}
+
+.menu-items ul li a,
+.contacts ul li a,
+.pri-policy p a {
+  color: #7a7b7b;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.contacts ul {
+  margin-top: 20px;
+}
+
+.telNumber {
+  color: #7a7b7b;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.line {
+  background-color: #3bb3c3;
+}
+
+.copyright {
+  line-height: 19px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #7a7b7b;
+}

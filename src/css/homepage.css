@@ -80,8 +80,11 @@ body {
   margin: 0 auto;
     width:80% /* value of your choice which suits your alignment */
 }
-
-
+/* 
+.services {
+  padding-left: 75px;
+  padding-right: 75px;
+} */
 
   .img
   {
@@ -197,11 +200,32 @@ body {
     padding: 1vw;
    }
 
+   .picBtnServices {
+    width: 255px;
+    height: 255px;
+    border: none;
+    background: none;
+   }
+
+   .picBtnServices:hover {
+      opacity: 0.7;
+   }
+
+
   .picBtn:hover
   {
     opacity: 0.7;
   }
 
+  icon_services-position {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .services{
+    margin-right: 45px;
+    margin-left: 100px;
+  }
 
   .img-fluid {
     width: 350px;
