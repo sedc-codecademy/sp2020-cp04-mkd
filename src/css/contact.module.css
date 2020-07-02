@@ -165,6 +165,25 @@ nav {
   transform: translateY(4px);
 }
 
+/* Form */
+.form-control {
+  border: 0;
+  border-bottom: 1px solid #ccd4da;
+  border-radius: 0;
+  outline: none;
+  transition: none;
+  box-shadow: none;
+}
+
+.form-control:focus {
+  border: 0;
+  border-bottom: 1px solid #ccd4da;
+  /* border-radius: 0; */
+  /* outline: none; */
+  /* transition: none; */
+  box-shadow: none;
+}
+
 /* Footer */
 .page-footer {
   background-color: #333333;
