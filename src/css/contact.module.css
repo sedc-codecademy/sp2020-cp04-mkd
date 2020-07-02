@@ -1,9 +1,9 @@
 * {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .contact-title {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 300;
   text-transform: capitalize;
@@ -15,7 +15,7 @@
 }
 
 .contact-text {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 2vw;
@@ -87,7 +87,7 @@ nav {
 .nav-item:nth-child(8) {
   border-bottom: none !important;
 }
-
+/* changed mk to en */
 .nav-link {
   color: #5f5b5b;
   font-size: 1.1rem;
@@ -95,7 +95,7 @@ nav {
   line-height: 65px;
 }
 
-.lang-mk img {
+.lang-en img {
   padding: 5px 5px;
   /* background-color: #e0e0e0; */
   border: 1.2px solid #e0e0e0;

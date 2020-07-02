@@ -1,5 +1,5 @@
 * {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 body {
@@ -76,8 +76,8 @@ nav {
   font-weight: 300;
   line-height: 65px;
 }
-
-.lang-mk img {
+/* changed mk to en*/
+.lang-en img {
   padding: 5px 5px;
   /* background-color: #e0e0e0; */
   border: 1.2px solid #e0e0e0;
@@ -136,8 +136,6 @@ body {
 .box {
   position: relative;
 }
-
-
 
 .btn {
   background: #3bb3c3;
