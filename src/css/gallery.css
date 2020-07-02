@@ -66,8 +66,8 @@ nav {
   font-weight: 500;
   line-height: 65px;
 }
-
-.lang-mk img {
+/* changed mk to en*/
+.lang-en img {
   padding: 5px 5px;
   /* background-color: #e0e0e0; */
   border: 1.2px solid #e0e0e0;
@@ -149,7 +149,6 @@ nav {
 
 .btn:active {
   box-shadow: 0 1px 2px grey;
-
 }
 
 .galeries-title {
@@ -161,6 +160,7 @@ nav {
   color: #3bb3c3;
   justify-content: center;
   text-align: center;
+  padding-top: 100px;
 }
 
 .galeries-text {
@@ -249,7 +249,7 @@ nav {
 
 /* FOOTER CSS */
 .footer-position {
-  margin-top: 65px;
+  margin-top: 200px;
 }
 .page-footer {
   background-color: #333333;
@@ -325,24 +325,32 @@ nav {
     left: 13%;
     top: 35%;
     font-weight: 38;
-    font-size: 18px;
-    line-height: 24px;
+    font-size: 17px;
+    line-height: 22px;
   }
   .btn {
-    width: 77px;
+    width: 73px;
     height: 14px;
     font-size: 6px;
     border-radius: 3px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
   }
 }
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (min-width: 401px) and (max-width: 575.98px) {
   .btn {
-    width: 97px;
-    height: 22px;
+    width: 94px;
+    height: 19px;
     font-size: 8px;
-    border-radius: 5px;
+    border-radius: 3px;
+    padding: 0px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
   }
   .row-header {
     height: 60px;
@@ -359,13 +367,13 @@ nav {
     top: 35%;
     font-weight: 38;
     font-size: 23px;
-    line-height: 34px;
+    line-height: 33px;
   }
   .carousel-control__before-after-gallery {
     top: 112%;
   }
   .carousel-control__dental-tourism-gallery {
-    top: 80%;
+    top: 103%;
   }
   .carousel-control_icon-box {
     width: 35px;
@@ -384,10 +392,14 @@ nav {
 /* Small devices (landscape phones, less than 768px) */
 @media (min-width: 576px) and (max-width: 767.98px) {
   .btn {
-    width: 131px;
-    height: 23px;
-    font-size: 10px;
+    width: 134px;
+    height: 32px;
+    font-size: 12px;
     border-radius: 5px;
+    padding: 0px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
   }
   .img-fluid__size {
     width: 324px;
@@ -410,17 +422,21 @@ nav {
     top: 107%;
   }
   .carousel-control__dental-tourism-gallery {
-    top: 83%;
+    top: 103%;
   }
 }
 
 /* Medium devices (tablets, less than 992px) */
 @media (min-width: 768px) and (max-width: 991.98px) {
   .btn {
-    width: 131px;
-    height: 25px;
-    font-size: 10px;
-    border-radius: 5px;
+    width: 171px;
+    height: 33px;
+    font-size: 14px;
+    border-radius: 6px;
+    padding: 0px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
   }
   .img-fluid__size {
     width: 357px;
@@ -430,35 +446,41 @@ nav {
     left: 11%;
     top: 34%;
     font-weight: 150;
-    font-size: 32px;
-    line-height: 45px;
+    font-size: 42px;
+    line-height: 62px;
   }
   .carousel-control__before-after-gallery {
     top: 107%;
   }
   .carousel-control__dental-tourism-gallery {
-    top: 83%;
+    top: 103%;
   }
 }
 
 /* Large devices (desktops, less than 1200px) */
-/* @media (min-width: 992px) and (max-width: 1199.98px) {
-  .btn {
-    width: 195px;
-    height: 34px;
-    font-size: 15px;
-    border-radius: 5px;
-  }
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
   .hero__box__image--title {
-    left: 11%;
+    left: 9%;
     top: 34%;
-    font-weight: 225;
-    font-size: 48px;
-    line-height: 67px;
+    font-weight: 200;
+    font-size: 51px;
+    line-height: 76px;
   }
-} */
+  .btn {
+    border-radius: 10px;
+    width: 217px;
+    height: 43px;
+    font-size: 17px;
+    margin: 0px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
 
 /* Extra large devices (large desktops, 1200px and up) */
+
 /* @media (min-width: 1200px) {
   .btn {
     width: 320px;
