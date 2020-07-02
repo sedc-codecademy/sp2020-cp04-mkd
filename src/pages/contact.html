@@ -1,5 +1,5 @@
-<!-- Peter works on this -->
 <!DOCTYPE html>
+<!-- Peter works on this -->
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -12,14 +12,12 @@
       integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
       crossorigin="anonymous"
     />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap"
-      rel="stylesheet"
-    />
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap");
+    </style>
 
     <link rel="stylesheet" href="../css/contact.module.css" />
-    <link rel="stylesheet" href="../css/header.module.css" />
-    <link rel="stylesheet" href="../css/footer.css" />
   </head>
 
   <body>
@@ -42,29 +40,34 @@
       <div class="collapse navbar-collapse" id="navbarDropdownMain">
         <ul class="navbar-nav ml-auto text-center">
           <li class="nav-item active">
-            <a class="nav-link" href="#"
+            <a class="nav-link" href="homepage.html"
               >Home <span class="sr-only">(current)</span></a
             >
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About us</a>
+            <a class="nav-link" href="aboutUs-en.html">About us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Services</a>
+            <a class="nav-link" href="services.html">Services</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Gallery</a>
+            <a class="nav-link" href="gallery.html">Gallery</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Blog</a>
+            <a class="nav-link" href="blog.html">Blog</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link">Contact</a>
           </li>
-          <li class="nav-item"><a class="nav-link lang" href="#">MK</a></li>
-          <li class="nav-item nav-link disabled">|</li>
           <li class="nav-item">
-            <a class="nav-link lang" href="#">EN</a>
+            <a class="nav-link lang-mk hidden-md-down" href="#">
+              <img src="../images/flags/MK.png" alt="Macedonian flag" />
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link lang-en" href="#">
+              <img src="../images/flags/GB.png" alt="English flag" />
+            </a>
           </li>
         </ul>
       </div>
@@ -74,7 +77,7 @@
       <div class="row no-gutters hero">
         <div class="col-md-12 hero__box">
           <img
-            src="../images/contact/contact-hero.png"
+            src="../images/contact/hero.jpg"
             class="img-responsive hero__box__image"
           />
           <div class="hero__box__image--title">
@@ -91,12 +94,12 @@
 
     <section class="section_contact">
       <div class="container">
-        <div class="row mt-5 no-gutter">
+        <div class="row mt-5">
           <div class="col-md contact-title">
             Schedule your visit today
           </div>
         </div>
-        <div class="row no-gutter">
+        <div class="row">
           <div class="col-md contact-text">
             Easily get in touch with us via phone or through our online contact
             form if you have any questions or would like to schedule an
@@ -108,25 +111,46 @@
           <div class="col-8 justify-content-center center-align">
             <form>
               <div class="form-group">
-                <label for="contact-name">Name</label>
-                <input type="email" class="form-control" id="contact-name" />
+                <!-- <label for="contact-name">Name</label> -->
+                <input
+                  type="email"
+                  class="form-control"
+                  id="contact-name"
+                  placeholder="Name"
+                />
               </div>
               <div class="form-group">
-                <label for="contact-phone">Phone</label>
-                <input type="email" class="form-control" id="contact-phone" />
+                <!-- <label for="contact-phone">Phone</label> -->
+                <input
+                  type="email"
+                  class="form-control"
+                  id="contact-phone"
+                  placeholder="Phone"
+                />
               </div>
               <div class="form-group">
-                <label for="contact-email">Email</label>
-                <input type="email" class="form-control" id="contact-email" />
+                <!-- <label for="contact-email">Email</label> -->
+                <input
+                  type="email"
+                  class="form-control"
+                  id="contact-email"
+                  placeholder="Email"
+                />
               </div>
               <div class="form-group">
-                <label for="contact-subject">Subject</label>
-                <input type="email" class="form-control" id="contact-subject" />
+                <!-- <label for="contact-subject">Subject</label> -->
+                <input
+                  type="email"
+                  class="form-control"
+                  id="contact-subject"
+                  placeholder="Subject"
+                />
               </div>
               <div class="form-group">
-                <label for="exampleFormControlTextarea1">Write a message</label>
+                <!-- <label for="exampleFormControlTextarea1">Write a message</label> -->
                 <textarea
                   class="form-control"
+                  placeholder="Write a message"
                   id="exampleFormControlTextarea1"
                   rows="3"
                 ></textarea>
@@ -139,52 +163,54 @@
           </div>
         </div>
 
-        <div class="row no-gutter" style="margin-top: 60px;">
+        <div class="container">
+          <div class="row" style="margin-top: 60px;">
+            <div class="col-md contact-title">
+              Call us
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md contact-text">
+              Schedule your appointment via phone or call us if you have any
+              questions. Our team is avialable for you on our regurlar phone
+              during working hours.
+            </div>
+          </div>
+          <div class="row mt-3">
+            <div class="col-md contact-text">
+              +389 78 936 122
+            </div>
+          </div>
+          <div class="row justify-content-center mt-3 mb-3">
+            <button type="submit" class="btn">Call</button>
+          </div>
+        </div>
+
+        <div class="row" style="margin-top: 60px;">
           <div class="col-md contact-title">
-            Call us
+            Working Hours
           </div>
         </div>
-        <div class="row no-gutter">
+
+        <div class="row">
           <div class="col-md contact-text">
-            Schedule your appointment via phone or call us if you have any
-            questions. Our team is avialable for you on our regurlar phone
-            during working hours.
+            Monday, Wednesday, Friday 09.00 - 16.00<br />
+            Tuesday, Thursday 13.00 - 20.00 <br />
+            Saturday 09.00 - 14.00
           </div>
         </div>
-        <div class="row no-gutter mt-3">
+
+        <div class="row" style="margin-top: 60px;">
+          <div class="col-md contact-title">
+            Visit Us
+          </div>
+        </div>
+
+        <div class="row mb-3">
           <div class="col-md contact-text">
-            +389 78 936 122
+            St. Skoevska 18 (Brusnichka estate) Bitola,<br />
+            Republic of North Macedonia
           </div>
-        </div>
-        <div class="row justify-content-center mt-3 mb-3">
-          <button type="submit" class="btn">Call</button>
-        </div>
-      </div>
-
-      <div class="row no-gutter" style="margin-top: 60px;">
-        <div class="col-md contact-title">
-          Working Hours
-        </div>
-      </div>
-
-      <div class="row no-gutter">
-        <div class="col-md contact-text">
-          Monday, Wednesday, Friday 09.00 - 16.00<br />
-          Tuesday, Thursday 13.00 - 20.00 <br />
-          Saturday 09.00 - 14.00
-        </div>
-      </div>
-
-      <div class="row no-gutter" style="margin-top: 60px;">
-        <div class="col-md contact-title">
-          Visit Us
-        </div>
-      </div>
-
-      <div class="row no-gutter mb-3">
-        <div class="col-md contact-text">
-          St. Skoevska 18 (Brusnichka estate) Bitola,<br />
-          Republic of North Macedonia
         </div>
       </div>
 
@@ -195,9 +221,9 @@
           // The location of Uluru
           var uluru = { lat: 41.033359, lng: 21.299727 };
           // The map, centered at Uluru
-          var map = new google.maps.Map(document.getElementById('map'), {
+          var map = new google.maps.Map(document.getElementById("map"), {
             zoom: 16,
-            center: uluru
+            center: uluru,
           });
           // The marker, positioned at Uluru
           var marker = new google.maps.Marker({ position: uluru, map: map });
@@ -205,11 +231,9 @@
       </script>
     </section>
 
-    <!-- Start -->
     <footer id="footer" class="page-footer">
-      <div class="containter-fluid text-center text-md-left">
+      <div class="container-fluid text-center text-md-left">
         <div class="row">
-          <!-- logo Start -->
           <div class="col-md-2 mx-auto mb-4 p-0">
             <div class="logo-img mb-2">
               <img
@@ -224,9 +248,7 @@
               <li class="schedule mb-1">Sat. 09.00 - 14.00</li>
             </ul>
           </div>
-          <!-- logo end -->
 
-          <!-- links start -->
           <div class="col-md-4 mx-auto mb-4 p-0 mx-md-n5 menu-items">
             <ul class="list-unstyled">
               <li><a href="#">Home</a></li>
@@ -237,33 +259,27 @@
               <li><a href="#">Contact</a></li>
             </ul>
           </div>
-          <!-- links End -->
 
-          <!-- contacts Start -->
           <div class="col-md-3 mx-auto text-center text-md-right pr-5 contacts">
             <ul class="list-unstyled">
               <li class="telNumber">+389 78 936 122</li>
               <li><a href="#">mak.dental@yahoo.com</a></li>
               <li><a href="#">Google Map</a></li>
               <li><a href="#">Facebook</a></li>
-              <!-- <li class="text-end">Privacy policy</li> -->
             </ul>
           </div>
-          <!-- contacts end -->
         </div>
-        <row class="pri-policy">
+        <div class="row pri-policy">
           <div class="col-md-10 text-md-right pb-2 pr-3 pl-0 mx-auto">
-            <p><a href="#" class="link-unstyled">Privacy policy</a></p>
+            <a href="#" class="link-unstyled">Privacy policy</a>
           </div>
-        </row>
-        <!-- start line  -->
-        <hr class="col mx-auto line" style="width: 100%; height: 2px;" />
-        <!-- end line  -->
-        <row class="copyright">
+        </div>
+        <hr class="mx-auto line" style="width: 100%; height: 2px;" />
+        <div class="row copyright">
           <div class="col-md-11 text-md-right pt-0 pb-3 pr-3">
             <p>Copyright © 2020, Dental Clinic Mak Dental - Bitola</p>
           </div>
-        </row>
+        </div>
       </div>
     </footer>
 

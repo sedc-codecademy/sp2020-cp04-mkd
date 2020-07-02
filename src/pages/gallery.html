@@ -1,4 +1,3 @@
-<!-- Dushko works on this -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -20,51 +19,53 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-light navbar-expand-lg">
       <a class="navbar-brand" href="#">
-        <img
-          src="../images/logo/md-logo.jpg"
-          alt="logo"
-          width="205"
-          height="55"
-        />
+        <img src="../images/logo/md-logo.jpg" alt="logo" />
       </a>
       <button
         class="navbar-toggler"
         type="button"
         data-toggle="collapse"
-        data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
+        data-target="#navbarDropdownMain"
+        aria-controls="navbarDropdownMain"
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
+      <div class="collapse navbar-collapse" id="navbarDropdownMain">
+        <ul class="navbar-nav ml-auto text-center">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home</a>
+            <a class="nav-link" href="homepage.html"
+              >Home <span class="sr-only">(current)</span></a
+            >
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About us</a>
+            <a class="nav-link" href="aboutUs-en.html">About us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Services</a>
+            <a class="nav-link" href="services.html">Services</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Gallery</a>
+            <a class="nav-link">Gallery</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Blog</a>
+            <a class="nav-link" href="blog.html">Blog</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="contact.html">Contact</a>
           </li>
-          <li class="nav-item"><a class="nav-link" href="#">MK</a></li>
-          <li class="nav-item nav-link disabled">|</li>
           <li class="nav-item">
-            <a class="nav-link" href="#">EN</a>
+            <a class="nav-link lang-mk hidden-md-down" href="#">
+              <img src="../images/flags/MK.png" alt="Macedonian flag" />
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link lang-en" href="#">
+              <img src="../images/flags/GB.png" alt="English flag" />
+            </a>
           </li>
         </ul>
       </div>
@@ -88,6 +89,9 @@
           </div>
         </div>
       </div>
+    </div>
+
+    <div class="container-fluid">
       <!-- Before and After Gallery -->
       <div class="row mt-5 no-gutter">
         <div class="col-md galeries-title">
@@ -481,77 +485,68 @@
           role="button"
           data-slide="next"
         >
-          <span class="carousel-control_icon-box"
-            ><span
+          <span class="carousel-control_icon-box">
+            <span
               class="carousel-control-next-icon carousel-control-next-icon__position"
-            ></span
-          ></span>
+            ></span>
+          </span>
         </a>
       </div>
-      <!-- ####################################### -->
-      <footer id="footer" class="page-footer">
-        <div class="containter-fluid text-center text-md-left">
-          <div class="row">
-            <!-- logo Start -->
-            <div class="col-md-2 mx-auto mb-4 p-0">
-              <div class="logo-img mb-2">
-                <img
-                  src="../images/logo/md-logo.jpg"
-                  class="img-fluid"
-                  alt="Responsive image"
-                />
-              </div>
-              <ul class="work-days list-unstyled">
-                <li class="schedule mb-1">Mon. Wed. Fri.. 09.00 - 16.00</li>
-                <li class="schedule mb-1">Tue.Thur. 13.00 - 20.00</li>
-                <li class="schedule mb-1">Sat. 09.00 - 14.00</li>
-              </ul>
-            </div>
-            <!-- logo end -->
-
-            <!-- links start -->
-            <div class="col-md-4 mx-auto mb-4 p-0 mx-md-n5 menu-items">
-              <ul class="list-unstyled">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Gallery</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Contact</a></li>
-              </ul>
-            </div>
-            <!-- links End -->
-
-            <!-- contacts Start -->
-            <div
-              class="col-md-3 mx-auto text-center text-md-right pr-5 contacts"
-            >
-              <ul class="list-unstyled">
-                <li class="telNumber">+389 78 936 122</li>
-                <li><a href="#">mak.dental@yahoo.com</a></li>
-                <li><a href="#">Google Map</a></li>
-                <li><a href="#">Facebook</a></li>
-                <!-- <li class="text-end">Privacy policy</li> -->
-              </ul>
-            </div>
-            <!-- contacts end -->
-          </div>
-          <row class="pri-policy">
-            <div class="col-md-10 text-md-right pb-2 pr-3 pl-0 mx-auto">
-              <p><a href="#" class="link-unstyled">Privacy policy</a></p>
-            </div>
-          </row>
-          <!-- start line  -->
-          <hr class="col mx-auto line" style="width: 100%; height: 2px;" />
-          <!-- end line  -->
-          <row class="copyright">
-            <div class="col-md-11 text-md-right pt-0 pb-3 pr-3">
-              <p>Copyright © 2020, Dental Clinic Mak Dental - Bitola</p>
-            </div>
-          </row>
-        </div>
-      </footer>
     </div>
+
+    <!-- FOOTER -->
+    <footer id="footer" class="page-footer footer-position">
+      <div class="container-fluid text-center text-md-left">
+        <div class="row">
+          <div class="col-md-2 mx-auto mb-4 p-0">
+            <div class="logo-img mb-2">
+              <img
+                src="../images/logo/md-logo.jpg"
+                class="img-fluid"
+                alt="Responsive image"
+              />
+            </div>
+            <ul class="work-days list-unstyled">
+              <li class="schedule mb-1">Mon. Wed. Fri.. 09.00 - 16.00</li>
+              <li class="schedule mb-1">Tue.Thur. 13.00 - 20.00</li>
+              <li class="schedule mb-1">Sat. 09.00 - 14.00</li>
+            </ul>
+          </div>
+
+          <div class="col-md-4 mx-auto mb-4 p-0 mx-md-n5 menu-items">
+            <ul class="list-unstyled">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Gallery</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="col-md-3 mx-auto text-center text-md-right pr-5 contacts">
+            <ul class="list-unstyled">
+              <li class="telNumber">+389 78 936 122</li>
+              <li><a href="#">mak.dental@yahoo.com</a></li>
+              <li><a href="#">Google Map</a></li>
+              <li><a href="#">Facebook</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="row pri-policy">
+          <div class="col-md-10 text-md-right pb-2 pr-3 pl-0 mx-auto">
+            <a href="#" class="link-unstyled">Privacy policy</a>
+          </div>
+        </div>
+        <hr class="mx-auto line" style="width: 100%; height: 2px;" />
+        <div class="row copyright">
+          <div class="col-md-11 text-md-right pt-0 pb-3 pr-3">
+            <p>Copyright © 2020, Dental Clinic Mak Dental - Bitola</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"

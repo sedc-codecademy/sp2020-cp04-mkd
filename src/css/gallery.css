@@ -1,32 +1,79 @@
 * {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+/* NAVBAR STYLEING */
+nav {
+  background-color: #fff;
+  border-bottom: 3px solid #7edadd;
 }
 
-.navbar {
-  background-color: #ffffff;
+.navbar-brand img {
+  width: 100%;
+  max-width: 205px;
+  max-height: 55px;
+}
+
+.navbar-nav {
+  align-items: center;
+}
+
+.navbar-nav li:nth-child(7) {
+  margin-left: 10px !important;
+}
+
+.navbar-nav li:nth-child(8) {
+  margin-left: -10px !important;
+}
+
+.nav-item {
+  text-align: center;
+  margin: 0 10px;
+}
+
+.nav-item a.nav-link {
+  padding: 1px 0;
+}
+
+.nav-item.active {
+  border-bottom: 1px solid #3bb3c3;
+}
+
+.nav-item:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: white;
+  cursor: pointer;
+}
+
+.nav-item:active {
+  border-bottom: 1px solid #3bb3c3;
+}
+
+.nav-item:hover {
+  border-bottom: 1px solid #3bb3c3;
+}
+
+.nav-item:nth-child(7) {
+  border-bottom: none !important;
+}
+
+.nav-item:nth-child(8) {
+  border-bottom: none !important;
 }
 
 .nav-link {
   color: #5f5b5b;
-  font-size: 1rem;
+  font-size: 1.1rem;
+  font-weight: 500;
   line-height: 65px;
 }
 
-.nav-item:not(:last-child) {
-  padding-left: 20px;
+.lang-mk img {
+  padding: 5px 5px;
+  /* background-color: #e0e0e0; */
+  border: 1.2px solid #e0e0e0;
+  border-bottom: 1.2px solid #3bb3c3;
 }
-
-.nav-item:active {
-  text-shadow: 0px 4px 4px rgba(59, 179, 195, 0.75);
-}
-
-.nav-item:hover {
-  text-shadow: 0px 4px 4px rgba(59, 179, 195, 0.75);
-}
-
-nav {
-  border-bottom: 3px solid #7edadd;
-}
+/* END NAVBAR CSS */
 
 .my-container {
   padding-right: 0;
@@ -55,7 +102,7 @@ nav {
   font-size: 64px;
   line-height: 90px;
   text-transform: uppercase;
-  color: black;
+  color: #636e72;
 }
 
 /* with vw */
@@ -76,7 +123,6 @@ nav {
 .hero__box__img--title--satisfied {
   color: #3bb3c3;
 }
-
 .btn {
   padding: 0;
   background: #3bb3c3;
@@ -85,7 +131,7 @@ nav {
   width: 25vw;
   height: 4vw;
   font-style: normal;
-  font-weight: 100;
+  font-weight: 300;
   font-size: 2vw;
   line-height: 3vw;
   text-align: center;
@@ -94,7 +140,6 @@ nav {
   box-shadow: 0 4px 5px grey;
   outline: 0;
 }
-
 .btn:active,
 .btn:hover {
   background: #349caa;
@@ -106,13 +151,8 @@ nav {
   transform: translateY(4px);
 }
 
-.call-btn {
-  text-align: center;
-  vertical-align: baseline;
-}
-
 .galeries-title {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 4vw;
@@ -123,7 +163,7 @@ nav {
 }
 
 .galeries-text {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 2vw;
@@ -134,7 +174,7 @@ nav {
 }
 
 .galeries-text__under-pic {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 2vw;
@@ -143,9 +183,6 @@ nav {
   text-align: center;
   justify-content: center;
   letter-spacing: 0.05em;
-}
-.galeries-text__under-pic-second_row {
-  margin-bottom: 92px;
 }
 
 .img-fluid__size {
@@ -189,7 +226,7 @@ nav {
 }
 
 .carousel-control__dental-tourism-gallery {
-  top: 88%;
+  top: 102%;
   width: 78vw;
 }
 
@@ -202,7 +239,17 @@ nav {
   justify-content: center;
   text-align: center;
 }
+
+.row-footer {
+  height: 331px;
+  margin-top: 140px;
+  background: #333333;
+}
+
 /* FOOTER CSS */
+.footer-position {
+  margin-top: 65px;
+}
 .page-footer {
   background-color: #333333;
 }
@@ -267,8 +314,29 @@ nav {
   color: #7a7b7b;
 }
 
+.link-unstyled {
+  text-decoration: none;
+  color: #7a7b7b;
+}
+/* Extra extra small devices (portrait phones, less than 400px) */
+@media (max-width: 400px) {
+  .hero__box__image--title {
+    left: 13%;
+    top: 35%;
+    font-weight: 38;
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .btn {
+    width: 77px;
+    height: 14px;
+    font-size: 6px;
+    border-radius: 3px;
+  }
+}
+
 /* Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) {
+@media (min-width: 401px) and (max-width: 575.98px) {
   .btn {
     width: 97px;
     height: 22px;
@@ -399,8 +467,8 @@ nav {
   }
   .hero__box__image--title {
     left: 14%;
-    top: 34%;
-    font-weight: 300;
+    top: 22%;
+    font-weight: 225;
     font-size: 79px;
     line-height: 120px;
   }

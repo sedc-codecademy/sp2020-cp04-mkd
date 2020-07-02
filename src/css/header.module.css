@@ -22,6 +22,15 @@ nav {
 .navbar-nav {
   align-items: center;
 }
+
+.navbar-nav li:nth-child(7) {
+  margin-left: 10px !important;
+}
+
+.navbar-nav li:nth-child(8) {
+  margin-left: -10px !important;
+}
+
 .nav-item {
   text-align: center;
   margin: 0 10px;
@@ -32,18 +41,29 @@ nav {
 }
 
 .nav-item.active {
-  border-bottom: 1px solid var(--primary);
+  border-bottom: 1px solid #3bb3c3;
 }
 
 .nav-item:hover {
-  background-color: rgba(255, 255, 255, 0.4);
-  border-radius: 0.1875rem;
-  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0.8);
   color: white;
+  cursor: pointer;
 }
 
 .nav-item:active {
-  border-bottom: 1px solid var(--primary);
+  border-bottom: 1px solid #3bb3c3;
+}
+
+.nav-item:hover {
+  border-bottom: 1px solid #3bb3c3;
+}
+
+.nav-item:nth-child(7) {
+  border-bottom: none !important;
+}
+
+.nav-item:nth-child(8) {
+  border-bottom: none !important;
 }
 
 .nav-link {
@@ -51,6 +71,13 @@ nav {
   font-size: 1.1rem;
   font-weight: 500;
   line-height: 65px;
+}
+
+.lang-mk img {
+  padding: 5px 5px;
+  /* background-color: #e0e0e0; */
+  border: 1.2px solid #e0e0e0;
+  border-bottom: 1.2px solid #3bb3c3;
 }
 
 .my-container {
@@ -114,6 +141,75 @@ nav {
 .btn:active {
   box-shadow: 0 1px 2px grey;
   transform: translateY(4px);
+}
+
+.page-footer {
+  background-color: #333333;
+}
+
+.logo-img img {
+  width: 160px;
+  height: 57px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.work-days {
+  color: #7a7b7b;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.menu-items {
+  margin-top: 20px;
+  line-height: 19px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.menu-items ul li,
+.contacts ul li {
+  margin-bottom: 12px;
+}
+
+.menu-items ul li a,
+.contacts ul li a,
+.pri-policy p a {
+  color: #7a7b7b;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.contacts ul {
+  margin-top: 20px;
+}
+
+.telNumber {
+  color: #7a7b7b;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.line {
+  background-color: #3bb3c3;
+}
+
+.copyright {
+  line-height: 19px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #7a7b7b;
+}
+
+.link-unstyled {
+  text-decoration: none;
+  color: #7a7b7b;
 }
 
 /* Extra small devices (portrait phones, less than 576px) */
