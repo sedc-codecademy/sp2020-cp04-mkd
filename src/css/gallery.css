@@ -1,5 +1,5 @@
 * {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 /* NAVBAR STYLEING */
 nav {
@@ -73,6 +73,7 @@ nav {
   border: 1.2px solid #e0e0e0;
   border-bottom: 1.2px solid #3bb3c3;
 }
+/* END NAVBAR CSS */
 
 .my-container {
   padding-right: 0;
@@ -87,7 +88,7 @@ nav {
   position: relative;
 }
 
-.hero .hero__box__image {
+.hero__box__image {
   width: 100%;
 }
 
@@ -101,7 +102,7 @@ nav {
   font-size: 64px;
   line-height: 90px;
   text-transform: uppercase;
-  color: black;
+  color: #636e72;
 }
 
 /* with vw */
@@ -122,7 +123,6 @@ nav {
 .hero__box__img--title--satisfied {
   color: #3bb3c3;
 }
-
 .btn {
   padding: 0;
   background: #3bb3c3;
@@ -131,7 +131,7 @@ nav {
   width: 25vw;
   height: 4vw;
   font-style: normal;
-  font-weight: 100;
+  font-weight: 300;
   font-size: 2vw;
   line-height: 3vw;
   text-align: center;
@@ -140,7 +140,6 @@ nav {
   box-shadow: 0 4px 5px grey;
   outline: 0;
 }
-
 .btn:active,
 .btn:hover {
   background: #349caa;
@@ -152,13 +151,8 @@ nav {
   transform: translateY(4px);
 }
 
-.call-btn {
-  text-align: center;
-  vertical-align: baseline;
-}
-
 .galeries-title {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 4vw;
@@ -169,7 +163,7 @@ nav {
 }
 
 .galeries-text {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 2vw;
@@ -180,7 +174,7 @@ nav {
 }
 
 .galeries-text__under-pic {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 2vw;
@@ -189,9 +183,6 @@ nav {
   text-align: center;
   justify-content: center;
   letter-spacing: 0.05em;
-}
-.galeries-text__under-pic-second_row {
-  margin-bottom: 92px;
 }
 
 .img-fluid__size {
@@ -235,7 +226,7 @@ nav {
 }
 
 .carousel-control__dental-tourism-gallery {
-  top: 88%;
+  top: 102%;
   width: 78vw;
 }
 
@@ -248,7 +239,17 @@ nav {
   justify-content: center;
   text-align: center;
 }
+
+.row-footer {
+  height: 331px;
+  margin-top: 140px;
+  background: #333333;
+}
+
 /* FOOTER CSS */
+.footer-position {
+  margin-top: 65px;
+}
 .page-footer {
   background-color: #333333;
 }
@@ -317,9 +318,25 @@ nav {
   text-decoration: none;
   color: #7a7b7b;
 }
+/* Extra extra small devices (portrait phones, less than 400px) */
+@media (max-width: 400px) {
+  .hero__box__image--title {
+    left: 13%;
+    top: 35%;
+    font-weight: 38;
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .btn {
+    width: 77px;
+    height: 14px;
+    font-size: 6px;
+    border-radius: 3px;
+  }
+}
 
 /* Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) {
+@media (min-width: 401px) and (max-width: 575.98px) {
   .btn {
     width: 97px;
     height: 22px;

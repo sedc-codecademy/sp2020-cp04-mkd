@@ -14,7 +14,7 @@
     />
 
     <style>
-      @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+      @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap");
     </style>
 
     <link rel="stylesheet" href="../css/contact.module.css" />
@@ -40,22 +40,24 @@
       <div class="collapse navbar-collapse" id="navbarDropdownMain">
         <ul class="navbar-nav ml-auto text-center">
           <li class="nav-item active">
-            <a class="nav-link">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="homepage.html"
+              >Home <span class="sr-only">(current)</span></a
+            >
           </li>
           <li class="nav-item">
-            <a class="nav-link">About us</a>
+            <a class="nav-link" href="aboutUs-en.html">About us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link">Services</a>
+            <a class="nav-link" href="services.html">Services</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link">Gallery</a>
+            <a class="nav-link" href="gallery.html">Gallery</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link">Blog</a>
+            <a class="nav-link" href="blog.html">Blog</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link">Contact</a>
           </li>
           <li class="nav-item">
             <a class="nav-link lang-mk hidden-md-down" href="#">
@@ -219,9 +221,9 @@
           // The location of Uluru
           var uluru = { lat: 41.033359, lng: 21.299727 };
           // The map, centered at Uluru
-          var map = new google.maps.Map(document.getElementById('map'), {
+          var map = new google.maps.Map(document.getElementById("map"), {
             zoom: 16,
-            center: uluru
+            center: uluru,
           });
           // The marker, positioned at Uluru
           var marker = new google.maps.Marker({ position: uluru, map: map });
