@@ -87,7 +87,7 @@ nav {
   position: relative;
 }
 
-.hero.hero__box__image {
+.hero .hero__box__image {
   width: 100%;
 }
 
