@@ -98,11 +98,11 @@ nav {
   left: 9%;
   top: 34%;
   font-style: normal;
-  font-weight: 300;
+  font-weight: 200;
   font-size: 64px;
   line-height: 90px;
   text-transform: uppercase;
-  color: #636e72;
+  color: black;
 }
 
 /* with vw */
@@ -124,17 +124,18 @@ nav {
   color: #3bb3c3;
 }
 .btn {
-  padding: 0;
   background: #3bb3c3;
   opacity: 0.8;
   border-radius: 10px;
-  width: 25vw;
-  height: 4vw;
+  width: 255px;
+  height: 46px;
+  font-family: Roboto;
   font-style: normal;
   font-weight: 300;
-  font-size: 2vw;
-  line-height: 3vw;
+  font-size: 20px;
+  line-height: 35px;
   text-align: center;
+  align-items: center;
   color: #ffffff;
   border: none;
   box-shadow: 0 4px 5px grey;
@@ -143,12 +144,12 @@ nav {
 .btn:active,
 .btn:hover {
   background: #349caa;
-  outline: 0;
+  color: white;
 }
 
 .btn:active {
   box-shadow: 0 1px 2px grey;
-  transform: translateY(4px);
+
 }
 
 .galeries-title {
@@ -441,7 +442,7 @@ nav {
 }
 
 /* Large devices (desktops, less than 1200px) */
-@media (min-width: 992px) and (max-width: 1199.98px) {
+/* @media (min-width: 992px) and (max-width: 1199.98px) {
   .btn {
     width: 195px;
     height: 34px;
@@ -455,10 +456,10 @@ nav {
     font-size: 48px;
     line-height: 67px;
   }
-}
+} */
 
 /* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
+/* @media (min-width: 1200px) {
   .btn {
     width: 320px;
     height: 52px;
@@ -472,4 +473,4 @@ nav {
     font-size: 79px;
     line-height: 120px;
   }
-}
+} */

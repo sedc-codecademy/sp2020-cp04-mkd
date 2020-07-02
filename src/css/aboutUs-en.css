@@ -2,6 +2,11 @@
   font-family: 'Roboto', sans-serif;
 }
 
+.my-container {
+  padding-right: 0;
+  padding-left: 0;
+}
+
 nav {
   background-color: #fff;
   border-bottom: 3px solid #7edadd;
@@ -77,35 +82,33 @@ nav {
 .header {
   height: 108px;
   background-color: #3bb3c3;
+
+
 }
-.top-pic {
+.hero {
   margin-bottom: 8vw;
 }
-
-/* img {
-  width: 100%;
-} */
 
 .hero__box {
   position: relative;
 }
 
-.hero__box img {
+
+.hero__box__image {
   width: 100%;
 }
 
 .hero__box__img--title {
   position: absolute;
-  height: 18vw;
   text-align: start;
-  left: 6vw;
-  top: 17vw;
+  left: 9%;
+  top: 34%;
   font-style: normal;
-  font-weight: 300;
-  font-size: 4vw;
-  line-height: 5vw;
+  font-weight: 200;
+  font-size: 64px;
+  line-height: 90px;
   text-transform: uppercase;
-  color: #363636;
+  color: black;
 }
 .hero__box__img--title--colorised {
   color: #3bb3c3;
@@ -115,13 +118,15 @@ nav {
   background: #3bb3c3;
   opacity: 0.8;
   border-radius: 10px;
-  width: 25vw;
-  height: 4vw;
+  width: 255px;
+  height: 46px;
+  font-family: Roboto;
   font-style: normal;
   font-weight: 300;
-  font-size: 2vw;
-  line-height: 3vw;
+  font-size: 20px;
+  line-height: 35px;
   text-align: center;
+  align-items: center;
   color: #ffffff;
   border: none;
   box-shadow: 0 4px 5px grey;
@@ -131,12 +136,14 @@ nav {
 #appointment-btn:active,
 #appointment-btn:hover {
   background: #349caa;
-  outline: 0;
+  color: #ffffff;
 }
 #appointment-btn:active {
   box-shadow: 0 1px 2px grey;
   transform: translateY(4px);
+  color: #ffffff;
 }
+
 
 .bef-aft {
   font-style: normal;
