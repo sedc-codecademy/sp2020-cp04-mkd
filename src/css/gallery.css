@@ -27,6 +27,17 @@
 nav {
   border-bottom: 3px solid #7edadd;
 }
+/* END NAVBAR CSS */
+
+.my-container {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.row-header {
+  height: 108px;
+  border-bottom: 1px solid red;
+}
 
 .hero {
   margin-bottom: 8vw;
@@ -50,7 +61,7 @@ nav {
   font-size: 64px;
   line-height: 90px;
   text-transform: uppercase;
-  color: black;
+  color: #636e72;
 }
 
 /* with vw */
@@ -71,7 +82,6 @@ nav {
 .hero__box__img--title--satisfied {
   color: #3bb3c3;
 }
-
 .btn {
   padding: 0;
   background: #3bb3c3;
@@ -80,7 +90,7 @@ nav {
   width: 25vw;
   height: 4vw;
   font-style: normal;
-  font-weight: 100;
+  font-weight: 300;
   font-size: 2vw;
   line-height: 3vw;
   text-align: center;
@@ -89,7 +99,6 @@ nav {
   box-shadow: 0 4px 5px grey;
   outline: 0;
 }
-
 .btn:active,
 .btn:hover {
   background: #349caa;
@@ -99,11 +108,6 @@ nav {
 .btn:active {
   box-shadow: 0 1px 2px grey;
   transform: translateY(4px);
-}
-
-.call-btn {
-  text-align: center;
-  vertical-align: baseline;
 }
 
 .galeries-title {
@@ -139,6 +143,7 @@ nav {
   justify-content: center;
   letter-spacing: 0.05em;
 }
+
 .galeries-text__under-pic-second_row {
   margin-bottom: 92px;
 }
@@ -184,7 +189,7 @@ nav {
 }
 
 .carousel-control__dental-tourism-gallery {
-  top: 88%;
+  top: 101%;
   width: 78vw;
 }
 
@@ -197,6 +202,7 @@ nav {
   justify-content: center;
   text-align: center;
 }
+
 /* FOOTER CSS */
 .page-footer {
   background-color: #333333;
