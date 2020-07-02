@@ -35,12 +35,15 @@
 }
 
 .menu-items ul li a,
-.contacts ul li a,
-.pri-policy p a {
+.contacts ul li a {
   color: #7a7b7b;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
+}
+
+.pri-policy a {
+  color: #7a7b7b;
 }
 
 .contacts ul {
@@ -56,6 +59,7 @@
 
 .line {
   background-color: #3bb3c3;
+
 }
 
 .copyright {

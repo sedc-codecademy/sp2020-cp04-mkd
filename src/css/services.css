@@ -85,7 +85,7 @@ nav {
 /* Ne menuvaj properties na tagot [img]. Stavi si posebna klasa
 na slikite i menuvaj ja taa klasa. img tagot se koristi na site sliki
 ne samo na tie ti sto sakas da gi smenis. */
-img {
+.instr_img img {
   width: 100%;
 }
 
@@ -201,67 +201,3 @@ img {
 }
 
 /* end of dentalProshodonticsSectin*/
-/* FOOTER CSS */
-.page-footer {
-  background-color: #333333;
-}
-
-.logo-img img {
-  width: 160px;
-  height: 57px;
-  margin-top: 20px;
-  margin-bottom: 30px;
-}
-
-.work-days {
-  color: #7a7b7b;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 19px;
-}
-
-.menu-items {
-  margin-top: 20px;
-  line-height: 19px;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-}
-
-.menu-items ul li,
-.contacts ul li {
-  margin-bottom: 12px;
-}
-
-.menu-items ul li a,
-.contacts ul li a,
-.pri-policy p a {
-  color: #7a7b7b;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-}
-
-.contacts ul {
-  margin-top: 20px;
-}
-
-.telNumber {
-  color: #7a7b7b;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-}
-
-.line {
-  background-color: #3bb3c3;
-}
-
-.copyright {
-  line-height: 19px;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  color: #7a7b7b;
-}
