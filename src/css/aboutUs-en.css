@@ -16,6 +16,15 @@ nav {
 .navbar-nav {
   align-items: center;
 }
+
+.navbar-nav li:nth-child(7) {
+  margin-left: 10px !important;
+}
+
+.navbar-nav li:nth-child(8) {
+  margin-left: -10px !important;
+}
+
 .nav-item {
   text-align: center;
   margin: 0 10px;
@@ -26,18 +35,29 @@ nav {
 }
 
 .nav-item.active {
-  border-bottom: 1px solid var(--primary);
+  border-bottom: 1px solid #3bb3c3;
 }
 
 .nav-item:hover {
-  background-color: rgba(255, 255, 255, 0.4);
-  border-radius: 0.1875rem;
-  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0.8);
   color: white;
+  cursor: pointer;
 }
 
 .nav-item:active {
-  border-bottom: 1px solid var(--primary);
+  border-bottom: 1px solid #3bb3c3;
+}
+
+.nav-item:hover {
+  border-bottom: 1px solid #3bb3c3;
+}
+
+.nav-item:nth-child(7) {
+  border-bottom: none !important;
+}
+
+.nav-item:nth-child(8) {
+  border-bottom: none !important;
 }
 
 .nav-link {
@@ -45,6 +65,13 @@ nav {
   font-size: 1.1rem;
   font-weight: 500;
   line-height: 65px;
+}
+
+.lang-mk img {
+  padding: 5px 5px;
+  /* background-color: #e0e0e0; */
+  border: 1.2px solid #e0e0e0;
+  border-bottom: 1.2px solid #3bb3c3;
 }
 
 .header {

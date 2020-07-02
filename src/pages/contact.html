@@ -12,14 +12,12 @@
       integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
       crossorigin="anonymous"
     />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap"
-      rel="stylesheet"
-    />
+
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+    </style>
 
     <link rel="stylesheet" href="../css/contact.module.css" />
-    <link rel="stylesheet" href="../css/header.module.css" />
-    <link rel="stylesheet" href="../css/footer.css" />
   </head>
 
   <body>
@@ -42,29 +40,32 @@
       <div class="collapse navbar-collapse" id="navbarDropdownMain">
         <ul class="navbar-nav ml-auto text-center">
           <li class="nav-item active">
-            <a class="nav-link" href="homepage.html"
-              >Home <span class="sr-only">(current)</span></a
-            >
+            <a class="nav-link">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="aboutUs-en.html">About us</a>
+            <a class="nav-link">About us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="services.html">Services</a>
+            <a class="nav-link">Services</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="gallery.html">Gallery</a>
+            <a class="nav-link">Gallery</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="blog.html">Blog</a>
+            <a class="nav-link">Blog</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Contact</a>
           </li>
-          <li class="nav-item"><a class="nav-link lang" href="#">MK</a></li>
-          <li class="nav-item nav-link disabled">|</li>
           <li class="nav-item">
-            <a class="nav-link lang" href="#">EN</a>
+            <a class="nav-link lang-mk hidden-md-down" href="#">
+              <img src="../images/flags/MK.png" alt="Macedonian flag" />
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link lang-en" href="#">
+              <img src="../images/flags/GB.png" alt="English flag" />
+            </a>
           </li>
         </ul>
       </div>
@@ -197,9 +198,9 @@
           // The location of Uluru
           var uluru = { lat: 41.033359, lng: 21.299727 };
           // The map, centered at Uluru
-          var map = new google.maps.Map(document.getElementById("map"), {
+          var map = new google.maps.Map(document.getElementById('map'), {
             zoom: 16,
-            center: uluru,
+            center: uluru
           });
           // The marker, positioned at Uluru
           var marker = new google.maps.Marker({ position: uluru, map: map });

@@ -1,30 +1,77 @@
 * {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
-.navbar {
-  background-color: #ffffff;
+
+nav {
+  background-color: #fff;
+  border-bottom: 3px solid #7edadd;
+}
+
+.navbar-brand img {
+  width: 100%;
+  max-width: 205px;
+  max-height: 55px;
+}
+
+.navbar-nav {
+  align-items: center;
+}
+
+.navbar-nav li:nth-child(7) {
+  margin-left: 10px !important;
+}
+
+.navbar-nav li:nth-child(8) {
+  margin-left: -10px !important;
+}
+
+.nav-item {
+  text-align: center;
+  margin: 0 10px;
+}
+
+.nav-item a.nav-link {
+  padding: 1px 0;
+}
+
+.nav-item.active {
+  border-bottom: 1px solid #3bb3c3;
+}
+
+.nav-item:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: white;
+  cursor: pointer;
+}
+
+.nav-item:active {
+  border-bottom: 1px solid #3bb3c3;
+}
+
+.nav-item:hover {
+  border-bottom: 1px solid #3bb3c3;
+}
+
+.nav-item:nth-child(7) {
+  border-bottom: none !important;
+}
+
+.nav-item:nth-child(8) {
+  border-bottom: none !important;
 }
 
 .nav-link {
   color: #5f5b5b;
-  font-size: 1rem;
+  font-size: 1.1rem;
+  font-weight: 500;
   line-height: 65px;
 }
 
-.nav-item:not(:last-child) {
-  padding-left: 20px;
-}
-
-.nav-item:active {
-  text-shadow: 0px 4px 4px rgba(59, 179, 195, 0.75);
-}
-
-.nav-item:hover {
-  text-shadow: 0px 4px 4px rgba(59, 179, 195, 0.75);
-}
-
-nav {
-  border-bottom: 3px solid #7edadd;
+.lang-mk img {
+  padding: 5px 5px;
+  /* background-color: #e0e0e0; */
+  border: 1.2px solid #e0e0e0;
+  border-bottom: 1.2px solid #3bb3c3;
 }
 
 .width {
@@ -35,6 +82,9 @@ nav {
   margin-bottom: 6vw;
 }
 
+/* Ne menuvaj properties na tagot [img]. Stavi si posebna klasa
+na slikite i menuvaj ja taa klasa. img tagot se koristi na site sliki
+ne samo na tie ti sto sakas da gi smenis. */
 img {
   width: 100%;
 }
