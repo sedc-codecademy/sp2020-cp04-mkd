@@ -254,9 +254,9 @@ nav {
   overflow: visible;
 
   font-style: normal;
-  font-weight: 300;
-  font-size: 24px;
-  line-height: 33px;
+  font-weight: light;
+  font-size: 22px;
+  line-height: 30px;
   text-align: center;
   color: #636e72;
 }
