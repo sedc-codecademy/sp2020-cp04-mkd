@@ -1,0 +1,161 @@
+{
+  "translation": [
+    {
+      "en": {
+        "aboutUs_para1": "Raising the level..."
+      },
+      "mk": {
+        "aboutUs_para1": "Подигнување на нивото..."
+      }
+    }
+  ],
+  "language": [
+    {
+      "mk": "mk",
+      "en": "en"
+    }
+  ],
+  "pages": {
+    "en": {
+      "home": "Home",
+      "about-us": "AboutUs",
+      "services": "Services",
+      "gallery": "Gallery",
+      "blog": "Blog",
+      "contact": "Contact",
+      "mk": "MK",
+      "en": "EN"
+    },
+    "mk": {
+      "home": "Почетна",
+      "about-us": "За Нас",
+      "services": "Услуги",
+      "gallery": "Галерија",
+      "blog": "Блог",
+      "contact": "Контакт",
+      "mk": "МК",
+      "en": "АНГ"
+    }
+  },
+  "staff": [
+    {
+      "title": "Dr.",
+      "firstName": "Josif",
+      "lastName": "Ristevski",
+      "subHeading": "Dentist and Founder",
+      "imageUrl": "./src/images/josif.png",
+      "modalText": {
+        "para1": "Born in Bitola on August 25, 1988. He completed his primary education in his hometown of Demir Hisar and medical high school at the Department of Dental Technicians, in Bitola in the year 2006/2007. He successfully completed his studies at the Faculty of Dentistry at The Ss.Cyril and Methodius University in Skopje in 2012.",
+        "para2": "In 2010, as a student, he won first prize at the International Scientific Congress of Dentistry Students in Ohrid on the topic of oral presentation (Total prosthesis, diagnosis problems and treatment plan under the mentorship of Asst.Dr.Blagoja Dashtevski (associates Asst.Dr.Vancho Spirov and Ass.Dr Edward Janev).",
+        "para3": "In 2010, as a student, he won first prize at the International Scientific Congress of Dentistry Students in Ohrid on the topic of oral presentation (Total prosthesis, diagnosis problems and treatment plan under the mentorship of Asst.Dr.Blagoja Dashtevski (associates Asst.Dr.Vancho Spirov and Ass.Dr Edward Janev).",
+        "para4": "After graduating, he leaves for Zagreb, Croatia to pursue private practice as well as to complete part of his mandatory internship in private clinics and dental laboratories such as ANDI DENT Dental Clinic and Dental Technical Laboratory, Dr. Gashparac and others. During his stay in Zagreb, Dr. Josif notarized his diploma in order to be able to further develop professionally in the field of dentistry in The Republic of Croatia.",
+        "para5": "Dr. Josif has participated in numerous seminars and has conducted many trainings in the field of dental prosthetics (Duceram kiss ceramic), Implantology (Ancilos implantology-Promedika and Ohrid-Vezika), Aesthetic dentistry (Lumineri), Oral surgery (Ivoclar Vivadent, Belgrade, Serbia), Maxillofacial Surgery (Skopje EACMFS educational center), Balcan Stomatological Educational Congress, etc.",
+        "para6": "To this day, Dr.Josif continues with his education and cooperation with his colleagues from North Macedonia and Zagreb, Croatia."
+      },
+      "en": {
+        "title": "Др.",
+        "firstName": "Јосиф",
+        "lastName": "Ристевски",
+        "subHeading": "Стоматолог и Основател",
+        "modalText": {
+          "para1": "Роден е на 25.08.1988 година во Битола. Основно образование завршува во родниот крај во Демир Хисар, Стручно средно образование завршува во ОСМУ Др Јован Калаузи насока Забен Техничар (2006/2007 година.) во Битола. Студиите за доктор по стоматологија успешно ги завршува на Стоматолошкиот факултет при УКИМ во Скопје во 2012 година",
+          "para2": "Во 2010 година како студент освојува прво место на Меѓународниот Научен конгрес на студентите по стоматологија во Охрид на тема,усна презентација (Тотална протеза,проблеми дијагноза и план на терапија под менторство на асс.Др Благоја Даштевски(соработници асс др.Ванчо Спиров и асс.Др Едвард Јанев)",
+          "para3": "Во 2011 година како апсолвент на стоматолошки факултет учествува на Меѓународниот стоматолошки конгрес на Хвар во Р Хрватска со сопствен труд (Класични и металкерамички фиксни конструкции –предности и недостатоци –ментор асс .Др Марјан Петков ).",
+          "para4": "Исто така за време на престојот во Загреб, Др Јосиф врши и нострификација на дипломата како би можел да оствари услови за понатамошен професионален развој од областа на стоматологијата во Р.Хрватска.",
+          "para5": "Др Јосиф има учествувано на бројни семинари и има остварено бројни обуки од полето на стоматолошката протетика(Duceram kiss ceramic) и имплантологија(ancilos implantology-Промедика, i Охрид -Везика), Eстетска стоматологија(lumineri ), Oрална хирургија.(Ivoclar Vivadent Beograd,Mаксилофацијална хирургија(Skopje EACMFS educational center), Balcan Stomatological Educational Congerss) .",
+          "para6": "Др Јосиф продолжува со континуирана едукација и соработка со своите колеги од Македонија и Загреб,Р.Хрватска."
+        }
+      }
+    },
+    {
+      "title": "",
+      "firstName": "Dobre",
+      "lastName": "Ristevski",
+      "subHeading": "Dental Technician",
+      "imageUrl": "./src/images/dobre.png",
+      "modalText": {
+        "para1": "Over 40 years of work experience. His first employment was in 1978, in the Health Center in Demir Hisar, immediately after graduating from the medical high school Dr.Pance Karagjozov in Skopje, where he worked in the Department of Dental Prosthetics until 2006.",
+        "para2": "After 2006 he continues working as a private dental technician, using the same laboratory as a concessionaire. Since 2017, he has been engaged in our dental practice as a professional associate and dental technician until this day. He has visited and participated in a number of professional seminars.",
+        "para3": "When it comes to dental technicians, our dental office also cooperates with other dental laboratories from Bitola and Zagreb, Croatia, achieving excellent results."
+      },
+      "en": {
+        "title": "",
+        "firstName": "Добре",
+        "lastName": "Ристевски",
+        "subHeading": "Стоматолошки Техничар",
+        "modalText": {
+          "para1": "Прво вработување му е во далечната 1978 година веднаш после завршувањето на средно медицинско училиште др .Панче Караѓозов во Скопје.",
+          "para2": "Имено првото вработување му е во Здравствениот Дом во Демир Хисар,каде што останува да работи во одделот Стоматолошка Протетика се до 2006,за после тоа после приватизацијата, да продолжи да работи како приватен забен техничар концесионер во истата лабораторија.",
+          "para3": "Од 2017 година е ангажиран во нашата стоматолошка ординација како стручен соработник,забен техничар се до денес. Има посетено и учествувано на голем број стручни семинари и активен општествен живот ."
+        }
+      }
+    },
+    {
+      "title": "",
+      "firstName": "Slavica",
+      "lastName": "Davidkovska",
+      "subHeading": "Dental Nurse",
+      "imageUrl": "./src/images/slavica.png",
+      "modalText": {
+        "para1": "Graduated medical high school in Bitola. She has previous work experience as a nurse, as well as a dental nurse in several dental practices in Bitola and has been a member of our team since 2019."
+      },
+      "en": {
+        "title": "Др.",
+        "firstName": "Славица",
+        "lastName": "Давидковска",
+        "subHeading": "Стоматолошка Сестра",
+        "modalText": {
+          "para1": "Стоматолошката сестра се вика Славица Давидовска од Битола,има завршено средно медицинско училиште во Битола, повеќегодишно работно искуство како медицинска сестра, како и стоматолошка сестра во повеќе стоматолошки ординации во Битола. Од 2019 година е член на тимот на стоматолошката ординација Мак Дентал Битола."
+        }
+      }
+    }
+  ],
+  "images": [
+    {
+      "homePage-hero": "",
+      "homePage-serv-1": "",
+      "homePage-serv-2": "",
+      "homePage-serv-3": "",
+      "homePage-serv-4": "",
+      "homePage-team": "",
+      "homePage-gallery1": "",
+      "homePage-gallery2": "",
+      "homePage-gallery3": ""
+    },
+    {
+      "aboutUs-team1": "",
+      "aboutUs-team2": "",
+      "aboutUs-team3": ""
+    },
+    {
+      "gallery-caro1": {
+        "img1": "",
+        "img2": "",
+        "img3": "",
+        "img4": ""
+      },
+      "gallery-caro2": {
+        "img1": "",
+        "img2": "",
+        "img3": "",
+        "img4": ""
+      },
+      "gallery-caro3": {
+        "img1": "",
+        "img2": "",
+        "img3": "",
+        "img4": ""
+      }
+    },
+    {
+      "blog-img1": "",
+      "blog-img2": "",
+      "blog-img3": "",
+      "blog-img4": "",
+      "blog-img5": "",
+      "blog-img6": "",
+      "blog-single-img1": "",
+      "blog-single-img2": ""
+    }
+  ]
+}

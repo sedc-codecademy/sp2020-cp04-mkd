@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Стоматолошка ординација Мак Дентал" />
+  <meta name="author" content="Team G-Stack from Seavus Academy" />
+  
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap");
+  </style>
+  <link href="../css/blogStyle.css"  type="text/css" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/footer.css" />
+
+  <title>BlogPage</title>
+
+</head>
+<body>
+  <nav class="navbar navbar-light navbar-expand-lg">
+    <a class="navbar-brand" href="#">
+      <img src="../images/logo/md-logo.jpg" alt="logo" />
+    </a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarDropdownMain"
+      aria-controls="navbarDropdownMain"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarDropdownMain">
+      <ul class="navbar-nav ml-auto text-center">
+        <!-- removed active class from home -->
+        <li class="nav-item">
+          <a class="nav-link" href="homepage.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="aboutUs-en.html">About us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="services.html">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="gallery.html">Gallery</a>
+        </li>
+        <!-- added active class to blog -->
+        <li class="nav-item active">
+          <a class="nav-link">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link lang-mk hidden-md-down" href="#">
+            <img src="../images/flags/MK.png" alt="Macedonian flag" />
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link lang-en" href="#">
+            <img src="../images/flags/GB.png" alt="English flag" />
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+    <!-- /NAVIGATION -->
+    <div id="mainPage" class="visibleClass" data-page="mainHomePage">
+    <!-- HERO IMAGE -->
+    <div class="row no-gutters hero mainHeroImage"> 
+      <div class="col-md-12 hero_box mainHeroImage">
+          <img 
+          src="../images/contentBlogImages/blogHeroImg.jpg"
+          class="img-responsive hero__box__image heroImage" 
+          />
+          <div class="hero__box__image--title img-title">
+            <div class="mainTitleOnImg">
+              <span class="hero__box__img--title--colour-blue">learn</span> more about
+              <br>
+              your oral health
+            </div> 
+            <button class="btn">Make an appointment</button>
+          </div>
+          
+      </div>
+    </div>
+    <!-- /HERO IMAGE -->
+    <br>
+    <br>
+
+
+    <!-- OUR BLOG TEXT -->
+    <div class="row ourBlogTextRow">
+      <div class="col blogText text-center">
+        <h2 class="titleSettings">Our Blog</h2>
+        <p class="smallText text-center">
+          Learn more about your oral health with our weekly blog posts. Our team will share with you the answers of the most asked questions that our patients have, as well as advices on how to correctly care about your teeth. Keep yourself updated!
+        </p>
+      </div>
+     <!-- /OUR BLOG TEXT -->
+     <!-- CAROUSEL -->
+    </div>
+    <div id="multi-item" class="carousel slide" data-ride="carousel">
+      
+      <div class="carousel-inner" role="listbox">
+        <!-- FIRST SLIDE -->
+        <div class="carousel-item active">
+        <div class="row blogContentRow text-center justify-content-between">
+          
+        
+          <div class="col imagePadding text-center">
+             <a id ="toStoryButton" data-page="singleBlogPage"  href="#" ><img src="../images/contentBlogImages/womanImg.jpg" alt="brushImage" class="blogImageSettings" />
+              <p class="textUnderImage">
+                 How to get rid of bad breath
+              </p>
+              </a>
+          </div>
+          <div class="col imagePadding text-center">
+            <a href="#"><img src="../images/contentBlogImages/image_One.jpg" alt="brushImage" class="blogImageSettings" />
+              <p class="textUnderImage">
+                Healty ways for healty teeth 
+              </p>
+              </a>
+          </div>
+          <div class="col imagePadding text-center">
+            <a href="#"><img src="../images/contentBlogImages/dental.jpg" alt="brushImage" class="blogImageSettings" />
+              <p class="textUnderImage">
+                Sensitive teeth?
+              </p>
+              </a>
+          </div>
+          <div class="col imagePadding text-center">
+            <a href="#"><img src="../images/contentBlogImages/teeth.jpg" alt="brushImage" class="blogImageSettings" />
+              <p class="textUnderImage">
+                 How to get rid of bad breath
+            </p>
+            </a>
+          </div>
+          <div class="col imagePadding text-center">
+            <a href="#"> 
+                <img src="../images/contentBlogImages/teeth.jpg" alt="brushImage" class="blogImageSettings" />
+                <p class="textUnderImage">
+                 Healty ways for healty teeths 
+                </p>
+            </a>
+          </div>
+          <div class="col imagePadding text-center">
+            <a href="#">
+              <img src="../images/contentBlogImages/teeth.jpg" alt="brushImage" class="blogImageSettings" />
+              <p class="textUnderImage">
+                How to get rid of bad breath
+              </p>
+            </a>
+          </div>
+        </div>
+        </div>
+          <!-- /FIRST SLIDE -->
+          <!--SECOND SLIDE  -->
+          <div class="carousel-item">
+            <div class="row blogContentRow text-center justify-content-between">
+          
+            
+              <div class="col col-md imagePadding text-center">
+                 <a href="#"><img src="../images/contentBlogImages/teeth.jpg" alt="brushImage" class="blogImageSettings" />
+                  <p class="textUnderImage">
+                     How to get rid of bad breath
+                  </p>
+                  </a>
+              </div>
+              <div class="col imagePadding text-center">
+                <a href="#"><img src="../images/contentBlogImages/image_One.jpg" alt="brushImage" class="blogImageSettings" />
+                  <p class="textUnderImage">
+                    Healty ways for healty teeth 
+                  </p>
+                  </a>
+              </div>
+              <div class="col imagePadding text-center">
+                <a href="#"><img src="../images/contentBlogImages/dental.jpg" alt="brushImage" class="blogImageSettings" />
+                  <p class="textUnderImage">
+                    Sensitive teeth?
+                  </p>
+                  </a>
+              </div>
+              <div class="col imagePadding text-center">
+                <a href="#"><img src="../images/contentBlogImages/teeth.jpg" alt="brushImage" class="blogImageSettings" />
+                  <p class="textUnderImage">
+                     How to get rid of bad breath
+                </p>
+                </a>
+              </div>
+              <div class="col imagePadding text-center">
+                <a href="#"> 
+                    <img src="../images/contentBlogImages/teeth.jpg" alt="brushImage" class="blogImageSettings" />
+                    <p class="textUnderImage">
+                     Healty ways for healty teeths 
+                    </p>
+                </a>
+              </div>
+              <div class="col imagePadding text-center">
+                <a href="#">
+                  <img src="../images/contentBlogImages/teeth.jpg" alt="brushImage" class="blogImageSettings" />
+                  <p class="textUnderImage">
+                    How to get rid of bad breath
+                  </p>
+                </a>
+              </div>
+            </div>
+            </div>
+          <!--/SECOND SLIDE  -->
+      </div>
+    
+          <!-- CAROUSEL CONTROLS -->
+      <div class="row arrowRow mainArrowRow">
+      <div class="col">
+
+        <a class="carousel-control-prev" href="#multi-item" role="button" data-slide="prev">
+          <span class="fontIcon">
+            <span class="carousel-control-prev-icon"></span>
+            
+          </span>
+          
+        </a>
+
+      </div>
+
+      <div class="col">
+
+        <a class="carousel-control-next" href="#multi-item" role="button" data-slide="next">
+          <span class="fontIcon">
+            <span class="carousel-control-next-icon"></span>
+            
+          </span>
+          
+        </a>
+
+      </div>
+
+      </div>
+        <!-- /CAROUSEL CONTROLS -->
+    </div>
+    <br>
+    <br>
+        <!-- /CAROUSEL -->
+    
+  </div>
+  
+  </div>   
+  <!-- Single Blog Page START -->
+
+  <div id="mainSingleBlogDiv" >
+    <div class="container-fluid mainDivBlogPage">
+      <br>
+      <br>
+      <br>
+        <div class="row">
+            <div class="col text-center">
+                <h2 class="textTitle">How to get rid of bad breath?</h2>
+                <br>
+                <img src="../images/contentBlogImages/womanImg.jpg" class="imgTitle" />
+                <br>
+                <br>
+                <p class="mainText">
+                  Most of us know halitosis simply as "bad breath." Although this is a relatively small health problem, 
+                  bad breath can be distressing. It is not surprising that we spend a lot of money every year on various solutions 
+                  that help us refresh our breath with sprays, toothpastes, antiseptics and dental floss. <br>
+                  <br>
+                   <span class="spanStyle">Causes of halitosis</span> <br>
+  
+                  The most common cause of bad breath is eating food. Garlic, onions, some types of fish, and diets rich in fat and meat can 
+                  all result in halitosis. When these foods are digested, volatile substances or chemicals are absorbed into the bloodstream 
+                  from where they reach the lungs where they are exhaled through your breath. Also, lack of food, hunger, fasting and a low-calorie 
+                  diet can cause "bad breath." During sleep, saliva flow is reduced and food debris dissolves in the mouth, causing bad breath in the
+                  morning. <br>
+                  <br>
+                  <span class="spanStyle">Halitosis can be also caused by:</span> 
+                  <ul class="mainText">
+                    <li>
+                      - decayed teeth   
+                    </li>
+                    <li>
+                       - smoking 
+                    </li>
+                    <li>
+                      - dentures  
+                    </li>
+                    <li>
+                      - periodontal diseases that cause loosening of the teeth, thus enabling the creation of pockets where bacteria colonize and lead to bad breath 
+                    </li>
+                    <li>
+                      - chronic lung or sinus infections 
+                    </li>
+                    <li>
+                      - breathing through the mouth due to enlarged tonsils  
+                    </li>
+                    <li>
+                      - infections in the mouth such as candidiasis 
+                    </li>
+                    <li>
+                      - systemic diseases, diabetes, 
+                      liver disease, kidney disease 
+                    </li>
+                    <li>
+                      - pregnancy 
+                    </li>
+                    <li>
+                      - not regular brushing and flossing 
+                    </li>
+                    <li>
+                      - Taking certain medications can also cause bad breath,
+                      especially those that reduce saliva flow and lead to dry mouth (for example, some antidepressants, antipsychotics, antihistamines, and
+                      medications to lower high blood pressure). 
+                    </li>
+                  </ul>
+                </p>  
+                  
+                <p class="mainText">
+                  <span class="spanStyle">Symptoms and complications of halitosis</span> <br>
+                  The awkward reason for halitosis is that many people
+                  are unaware that they have it. This is because the cells in the nose that are responsible for the sense of smell do not actually respond
+                  to a continuous flow of bad odor. If you have bad breath you may notice other people's negative reactions and tell your dentist to remove
+                  them. problems.
+                </p>
+                <img src="../images/contentBlogImages/glassOfWater.png" alt="WomanWithGlassOfWater" class="middleImg" /> 
+                <br>
+                <br>
+                <p class="mainText">
+                  <span class="spanStyle">Diagnosis of halitosis</span> <br>
+  
+                  It is easy to self-diagnose bad breath. You can lick your palm and in a few seconds when it dries you can smell it or take an empty glass, 
+                  exhale in it and then smell it. If you need a second opinion, consult your dentist. <br> 
+                  <br>
+                  Manufacturers of candy and chewing gum have made an industry out of the public's desire for fresh breath. These products can make your breath 
+                  sweet and "with menthol freshness." However, they are only temporarily beneficial in freshening the breath. In fact, they 
+                  often contain sugar and alcohol, which can lead to tooth decay and worsen the condition. <br>
+                  <br>
+                  Proper care of the mouth and teeth and regular visits to the dentist are important, and are the most effective way to control bad breath. Regular brushing, rinsing 
+                  the mouth, scraping the tongue and using dental floss can help prevent the problem. <br>
+                  <br>
+                  <span class="spanStyle">Here are some tips to get rid of bad breath: </span>
+                  <br>
+                  <ul class="mainText">
+                    <li>- brushing your teeth 3 times a day and flossing once a day</li> 
+                    <li>- Clean your tongue before going to bed by scraping</li>  
+                    <li>- to prevent hunger by eating regularly and skipping meals</li> 
+                    <li>- See your dentist for advice on maintaining proper care of your gums and teeth</li> 
+                    <li>- Keep your nose and sinuses clean - stimulate saliva during the day with sour fruits such as orange lemons and apples</li> 
+                    <li>- Eat more fiber foods. - chewing fibrous vegetables such as parsley to stimulate saliva flow</li> 
+                    <li>- Drink at least 8 glasses of water a day to keep your mouth moist</li> 
+                    <li>- reduced consumption of alcohol and coffee</li> 
+                    <li>- Ask your doctor or pharmacist if your medication causes dry mouth problems that can lead to bad breath.</li>
+                  </ul>
+                  
+                </p>
+            </div>
+        </div>
+    </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <!-- Single Blog Page END -->
+
+    <footer id="footer" class="page-footer">
+      <div class="container-fluid text-center text-md-left">
+        <div class="row">
+          <div class="col-md-2 mx-auto mb-4 p-0">
+            <div class="logo-img mb-2">
+              <img
+                src="../images/logo/md-logo.jpg"
+                class="img-fluid"
+                alt="Responsive image"
+              />
+            </div>
+            <ul class="work-days list-unstyled">
+              <li class="schedule mb-1">Mon. Wed. Fri.. 09.00 - 16.00</li>
+              <li class="schedule mb-1">Tue.Thur. 13.00 - 20.00</li>
+              <li class="schedule mb-1">Sat. 09.00 - 14.00</li>
+            </ul>
+          </div>
+
+          <div class="col-md-4 mx-auto mb-4 p-0 mx-md-n5 menu-items">
+            <ul class="list-unstyled">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Gallery</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="col-md-3 mx-auto text-center text-md-right pr-5 contacts">
+            <ul class="list-unstyled">
+              <li class="telNumber">+389 78 936 122</li>
+              <li><a href="#">mak.dental@yahoo.com</a></li>
+              <li><a href="#">Google Map</a></li>
+              <li><a href="#">Facebook</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="row pri-policy">
+          <div class="col-md-10 text-md-right pb-2 pr-3 pl-0 mx-auto">
+            <a href="#" class="link-unstyled">Privacy policy</a>
+          </div>
+        </div>
+        <hr class="mx-auto line" style="width: 100%; height: 2px;" />
+        <div class="row copyright">
+          <div class="col-md-11 text-md-right pt-0 pb-3 pr-3">
+            <p>Copyright © 2020, Dental Clinic Mak Dental - Bitola</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="../js/blogPage.js"></script>
+</body>
+</html>
