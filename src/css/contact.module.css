@@ -7,19 +7,18 @@
   font-style: normal;
   font-weight: 300;
   text-transform: capitalize;
-  font-size: 4vw;
-  line-height: 7vw;
+  font-size: 48px;
+  line-height: 72px;
   color: #3bb3c3;
   justify-content: center;
   text-align: center;
 }
 
 .contact-text {
-  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 300;
-  font-size: 2vw;
-  line-height: 3vw;
+  font-size: 20px;
+  line-height: 30px;
   color: #636e72;
   justify-content: center;
   text-align: center;
@@ -147,6 +146,7 @@ nav {
   font-size: 20px;
   line-height: 35px;
   text-align: center;
+  align-items: center;
   color: #ffffff;
   border: none;
   box-shadow: 0 4px 5px grey;
@@ -270,10 +270,13 @@ nav {
     font-size: 23px;
     line-height: 34px;
   }
+
+
 }  */
 
 /* Small devices (landscape phones, less than 768px) */
  /* @media (min-width: 576px) and (max-width: 767.98px) {
+
   .btn {
     width: 131px;
     height: 23px;
@@ -290,7 +293,8 @@ nav {
 } */
 
 /* Medium devices (tablets, less than 992px) */
- /* @media (min-width: 768px) and (max-width: 991.98px) {
+/* @media (min-width: 768px) and (max-width: 991.98px) {
+
   .btn {
     width: 131px;
     height: 25px;
@@ -304,7 +308,7 @@ nav {
     font-size: 32px;
     line-height: 45px;
   }
-}  */
+*/
 
 /* Large devices (desktops, less than 1200px) */
 /* @media (min-width: 992px) and (max-width: 1199.98px) {
@@ -324,7 +328,9 @@ nav {
 } */
 
 /* Extra large devices (large desktops, 1200px and up) */
- /* @media (min-width: 1200px) {
+/* @media (min-width: 1200px) {
+
+
   .btn {
     width: 320px;
     height: 52px;
@@ -338,5 +344,6 @@ nav {
     font-size: 79px;
     line-height: 120px;
   }
+
 } 
-  */
+*/
