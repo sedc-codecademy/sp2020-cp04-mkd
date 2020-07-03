@@ -169,16 +169,16 @@ body {
 .main_title--style {
   font-style: normal;
   font-weight: 300;
-  font-size: 4vw;
-  line-height: 7vw;
+  font-size: 48px;
+  line-height: 72px;
   color: #3bb3c3;
 }
 
 .text {
   font-style: normal;
-  font-weight: 300;
-  font-size: 2vw;
-  line-height: 3vw;
+  font-weight: light;
+  font-size: 20px;
+  line-height: 30px;
   text-align: center;
   color: #636e72;
 }
@@ -191,8 +191,8 @@ Po default .container im 70% viewport width. */
 } */
 
 .textPadding {
-  padding-left: 0;
-  padding-right: 0;
+  padding-left: 200px;
+  padding-right: 200px;
 }
 
 h4 {
