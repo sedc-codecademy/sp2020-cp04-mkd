@@ -89,7 +89,37 @@ nav {
   padding: 0px;
 }
 
-.mainHeroImage {
+/* HERO STYLE */
+.hero {
+  margin-bottom: 8vw;
+}
+
+.hero__box {
+  position: relative;
+}
+
+.hero__box__image {
+  width: 100%;
+}
+
+.hero__box__image--title {
+  position: absolute;
+  text-align: start;
+  left: 9%;
+  top: 34%;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 64px;
+  line-height: 90px;
+  text-transform: uppercase;
+  color: black;
+}
+
+.hero__box__img--title--colour-blue {
+  color: #3bb3c3;
+}
+
+/* .mainHeroImage {
   padding: 0px;
 }
 .heroImage {
@@ -99,7 +129,7 @@ nav {
   object-position: center;
   height: 574px;
   width: 100%;
-}
+} */
 
 /* .img-title {
     position: absolute;
@@ -119,7 +149,7 @@ nav {
     padding-top: 0px;
   } */
 
-.img-title {
+/* .img-title {
   position: absolute;
   text-align: start;
   left: 14%;
@@ -134,9 +164,48 @@ nav {
 
 .satisfied {
   color: #3bb3c3;
+} */
+
+.img {
+  width: 100%;
 }
 
+.box {
+  position: relative;
+}
+
+
+
 .btn {
+  background: #3bb3c3;
+  opacity: 0.8;
+  border-radius: 10px;
+  width: 255px;
+  height: 46px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 35px;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  border: none;
+  box-shadow: 0 4px 5px grey;
+  outline: 0;
+}
+
+.btn:active,
+.btn:hover {
+  background: #349caa;
+  color: #ffffff;
+}
+.btn:active {
+  box-shadow: 0 1px 2px grey;
+  color: #ffffff;
+}
+
+/* .btn {
   padding: 0;
   background: #3bb3c3;
   opacity: 0.8;
@@ -162,11 +231,12 @@ nav {
 .btn:active {
   box-shadow: 0 1px 2px grey;
   transform: translateY(4px);
-}
+} */
 
 .blogText {
-  height: 443px;
-  padding: 15%;
+  height: 200px;
+  padding-left: 15%;
+  padding-right: 15%;
 }
 
 .titleSettings {
@@ -193,9 +263,9 @@ nav {
 
 .blogContentRow {
   margin: auto;
-  height: 850px;
+  height: 800px;
   max-width: 1200px;
-  padding: 50px 80px 80px 100px;
+  padding: 50px 80px 0px 100px;
 }
 
 .my-col2 {
