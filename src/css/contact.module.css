@@ -136,7 +136,6 @@ nav {
 }
 
 .btn {
-  padding: 0;
   background: #3bb3c3;
   opacity: 0.8;
   border-radius: 10px;
@@ -255,6 +254,7 @@ nav {
   color: #7a7b7b;
 }
 
+
 /* Extra small devices (portrait phones, less than 576px) */
 /* @media (max-width: 575.98px) {
   .btn {
@@ -270,10 +270,13 @@ nav {
     font-size: 23px;
     line-height: 34px;
   }
-} */
+
+
+}  */
 
 /* Small devices (landscape phones, less than 768px) */
-/* @media (min-width: 576px) and (max-width: 767.98px) {
+ /* @media (min-width: 576px) and (max-width: 767.98px) {
+
   .btn {
     width: 131px;
     height: 23px;
@@ -291,6 +294,7 @@ nav {
 
 /* Medium devices (tablets, less than 992px) */
 /* @media (min-width: 768px) and (max-width: 991.98px) {
+
   .btn {
     width: 131px;
     height: 25px;
@@ -304,7 +308,7 @@ nav {
     font-size: 32px;
     line-height: 45px;
   }
-} */
+*/
 
 /* Large devices (desktops, less than 1200px) */
 /* @media (min-width: 992px) and (max-width: 1199.98px) {
@@ -325,6 +329,8 @@ nav {
 
 /* Extra large devices (large desktops, 1200px and up) */
 /* @media (min-width: 1200px) {
+
+
   .btn {
     width: 320px;
     height: 52px;
@@ -338,4 +344,6 @@ nav {
     font-size: 79px;
     line-height: 120px;
   }
-} */
+
+} 
+*/
