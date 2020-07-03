@@ -125,7 +125,7 @@ nav {
   left: 9%;
   top: 34%;
   font-style: normal;
-  font-weight: 300;
+  font-weight: 200;
   font-size: 64px;
   line-height: 90px;
   text-transform: uppercase;
@@ -137,16 +137,15 @@ nav {
 }
 
 .btn {
-  padding: 0;
   background: #3bb3c3;
-  opacity: 1;
+  opacity: 0.8;
   border-radius: 10px;
-  width: 25vw;
-  height: 4vw;
+  width: 255px;
+  height: 46px;
   font-style: normal;
-  font-weight: 100;
-  font-size: 2vw;
-  line-height: 3vw;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 35px;
   text-align: center;
   color: #ffffff;
   border: none;
@@ -158,11 +157,12 @@ nav {
 .btn:hover {
   background: #349caa;
   outline: 0;
+  color: white;
 }
 
 .btn:active {
   box-shadow: 0 1px 2px grey;
-  transform: translateY(4px);
+  color: white;
 }
 
 /* Form */
@@ -254,8 +254,9 @@ nav {
   color: #7a7b7b;
 }
 
+
 /* Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) {
+/* @media (max-width: 575.98px) {
   .btn {
     width: 97px;
     height: 22px;
@@ -269,10 +270,10 @@ nav {
     font-size: 23px;
     line-height: 34px;
   }
-}
+}  */
 
 /* Small devices (landscape phones, less than 768px) */
-@media (min-width: 576px) and (max-width: 767.98px) {
+ /* @media (min-width: 576px) and (max-width: 767.98px) {
   .btn {
     width: 131px;
     height: 23px;
@@ -286,10 +287,10 @@ nav {
     font-size: 32px;
     line-height: 45px;
   }
-}
+} */
 
 /* Medium devices (tablets, less than 992px) */
-@media (min-width: 768px) and (max-width: 991.98px) {
+ /* @media (min-width: 768px) and (max-width: 991.98px) {
   .btn {
     width: 131px;
     height: 25px;
@@ -303,10 +304,10 @@ nav {
     font-size: 32px;
     line-height: 45px;
   }
-}
+}  */
 
 /* Large devices (desktops, less than 1200px) */
-@media (min-width: 992px) and (max-width: 1199.98px) {
+/* @media (min-width: 992px) and (max-width: 1199.98px) {
   .btn {
     width: 195px;
     height: 34px;
@@ -320,10 +321,10 @@ nav {
     font-size: 48px;
     line-height: 67px;
   }
-}
+} */
 
 /* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
+ /* @media (min-width: 1200px) {
   .btn {
     width: 320px;
     height: 52px;
@@ -337,4 +338,5 @@ nav {
     font-size: 79px;
     line-height: 120px;
   }
-}
+} 
+  */
