@@ -79,7 +79,7 @@ nav {
 }
 
 .hero {
-  margin-bottom: 6vw;
+  margin-bottom: 8vw;
 }
 
 /* Ne menuvaj properties na tagot [img]. Stavi si posebna klasa
@@ -95,16 +95,16 @@ ne samo na tie ti sto sakas da gi smenis. */
 
 .hero_services_img_title {
   position: absolute;
-  height: 18vw;
+  /* height: 18vw; */
   text-align: start;
-  left: 6vw;
-  top: 17vw;
+  left: 9%;
+  top: 34%;
   font-style: normal;
-  font-weight: 300;
-  font-size: 6vw;
-  line-height: 7vw;
+  font-weight: 200;
+  font-size: 64px;
+  line-height: 90px;
   text-transform: uppercase;
-  color: #636e72;
+  color: black;
 }
 
 .hero_services_img_title--exclusive {
@@ -115,14 +115,16 @@ ne samo na tie ti sto sakas da gi smenis. */
   background: #3bb3c3;
   opacity: 0.8;
   border-radius: 10px;
-  width: 25vw;
-  height: 4vw;
+  width: 255px;
+  height: 46px;
   padding: 0;
+  font-family: Roboto;
   font-style: normal;
   font-weight: 300;
-  font-size: 2vw;
-  line-height: 3vw;
+  font-size: 20px;
+  line-height: 35px;
   text-align: center;
+  align-items: center;
   color: #ffffff;
   border: none;
   box-shadow: 0 4px 5px grey;
@@ -132,12 +134,12 @@ ne samo na tie ti sto sakas da gi smenis. */
 .btn:active,
 .btn:hover {
   background: #349caa;
+  color: white;
   outline: 0;
 }
 
 .btn:active {
   box-shadow: 0 1px 2px grey;
-
   color: #ffffff;
 }
 
