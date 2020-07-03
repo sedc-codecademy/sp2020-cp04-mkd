@@ -150,16 +150,16 @@ nav {
 }
 .text-style {
   font-style: normal;
-  font-weight: 300;
-  font-size: 2vw;
-  line-height: 3vw;
-  text-align: justify;
+  font-weight: light;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
   color: #636e72;
 }
 
 .text-padding {
-  padding-left: 20%;
-  padding-right: 20%;
+  padding-left: 200px;
+  padding-right: 200px;
 }
 
 .team-img {
@@ -232,6 +232,7 @@ nav {
 .h3ModalStyle {
   text-align: center;
   font-size: 1.5vw;
+  color: black;
 }
 /* Modal Content */
 .modal-content {
