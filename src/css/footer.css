@@ -14,7 +14,7 @@
 }
 
 .work-days {
-  color: #7a7b7b;
+  color: white;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -36,14 +36,14 @@
 
 .menu-items ul li a,
 .contacts ul li a {
-  color: #7a7b7b;
+  color: white;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
 }
 
 .pri-policy a {
-  color: #7a7b7b;
+  color: white;
 }
 
 .contacts ul {
@@ -51,7 +51,7 @@
 }
 
 .telNumber {
-  color: #7a7b7b;
+  color: white;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -67,10 +67,12 @@
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  color: #7a7b7b;
+  /* color: #7a7b7b; */
+  color: white;
 }
 
 .link-unstyled {
   text-decoration: none;
-  color: #7a7b7b;
+  /* color: #7a7b7b; */
+  color: white;
 }
