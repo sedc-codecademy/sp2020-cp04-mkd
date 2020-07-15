@@ -1,0 +1,335 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.my-container {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+nav {
+  background-color: #fff;
+  border-bottom: 3px solid #7edadd;
+}
+
+.navbar-brand img {
+  width: 100%;
+  max-width: 205px;
+  max-height: 55px;
+}
+
+.navbar-nav {
+  align-items: center;
+}
+
+.navbar-nav li:nth-child(7) {
+  margin-left: 10px !important;
+}
+
+.navbar-nav li:nth-child(8) {
+  margin-left: -10px !important;
+}
+
+.nav-item {
+  text-align: center;
+  margin: 0 10px;
+}
+
+.nav-item a.nav-link {
+  padding: 1px 0;
+}
+
+.nav-item.active {
+  border-bottom: 1px solid #3bb3c3;
+}
+
+.nav-item:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: white;
+  cursor: pointer;
+}
+
+.nav-item:active {
+  border-bottom: 1px solid #3bb3c3;
+}
+
+.nav-item:hover {
+  border-bottom: 1px solid #3bb3c3;
+}
+
+.nav-item:nth-child(7) {
+  border-bottom: none !important;
+}
+
+.nav-item:nth-child(8) {
+  border-bottom: none !important;
+}
+
+.nav-link {
+  color: #5f5b5b;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 65px;
+}
+/* changed mk to en */
+.lang-en img {
+  padding: 5px 5px;
+  /* background-color: #e0e0e0; */
+  border: 1.2px solid #e0e0e0;
+  border-bottom: 1.2px solid #3bb3c3;
+}
+
+.header {
+  height: 108px;
+  background-color: #3bb3c3;
+}
+.hero {
+  margin-bottom: 8vw;
+}
+
+.hero__box {
+  position: relative;
+}
+
+.hero__box__image {
+  width: 100%;
+}
+
+.hero__box__img--title {
+  position: absolute;
+  text-align: start;
+  left: 9%;
+  top: 34%;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 64px;
+  line-height: 90px;
+  text-transform: uppercase;
+  color: black;
+}
+.hero__box__img--title--colorised {
+  color: #3bb3c3;
+}
+
+#appointment-btn {
+  background: #3bb3c3;
+  opacity: 0.8;
+  border-radius: 10px;
+  width: 255px;
+  height: 46px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 35px;
+  text-align: center;
+  align-items: center;
+  color: #ffffff;
+  border: none;
+  box-shadow: 0 4px 5px grey;
+  outline: 0;
+}
+
+#appointment-btn:active,
+#appointment-btn:hover {
+  background: #349caa;
+  color: #ffffff;
+}
+#appointment-btn:active {
+  box-shadow: 0 1px 2px grey;
+  color: #ffffff;
+}
+
+.bef-aft {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 4vw;
+  line-height: 7vw;
+  color: #3bb3c3;
+}
+.text-style {
+  font-style: normal;
+  font-weight: light;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #636e72;
+}
+
+.text-padding {
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.team-img {
+  width: 20vw;
+  height: 20vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.team-img__btn--bio {
+  width: 22vw;
+  height: 22vw;
+  border: none;
+  background: none;
+  padding: 1vw;
+}
+
+.team-img__btn--bio img {
+  width: 100%;
+}
+
+.team-img__btn--bio:hover {
+  opacity: 0.7;
+}
+
+#mainDentist-btn--bio,
+#dentalTechnician-btn--bio,
+#nurse-btn--bio {
+  background: none;
+  border: none;
+  border-radius: 10cm;
+  color: #3bb3c3;
+  width: 17vw;
+  height: 3vw;
+  margin-top: -1vw;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1vw;
+  line-height: 3vw;
+  text-align: center;
+  outline: 0;
+  box-shadow: 0 1px 2px #3bb3c3;
+}
+
+#mainDentist-btn--bio:hover,
+#dentalTechnician-btn--bio:hover,
+#nurse-btn--bio:hover,
+#mainDentist-btn--bio:focus,
+#dentalTechnician-btn--bio:focus,
+#nurse-btn--bio:focus {
+  opacity: 0.7;
+  cursor: pointer;
+  box-shadow: 0 3px 4px #3bb3c3;
+  font-weight: initial;
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.h3ModalStyle {
+  text-align: center;
+  font-size: 1.5vw;
+  color: black;
+}
+/* Modal Content */
+.modal-content {
+  font-style: medium;
+  font-weight: 300;
+  font-size: 1vw;
+  line-height: 1.7vw;
+  text-align: justify;
+  color: #636e72;
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 70vw;
+  height: 85%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+}
+
+.modal-content h4 {
+  text-align: center;
+  font-size: 1.5vw;
+  margin-bottom: 1.5vw;
+  margin-top: 1vw;
+  color: #3bb3c3;
+}
+
+.modal-body {
+  overflow-y: auto;
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+/* The Close Button */
+.modal--close {
+  color: white;
+  float: right;
+  font-size: 2vw;
+  font-weight: bold;
+}
+
+.modal--close:hover,
+.modal--close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header {
+  padding: 2px 16px;
+  background-color: #3bb3c3;
+  color: white;
+}
+
+.scrollbar--style::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.9);
+  /* border-radius: 10px; */
+  background-color: white;
+}
+
+.scrollbar--style::-webkit-scrollbar {
+  width: 12px;
+  background-color: white;
+}
+
+.scrollbar--style::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #3bb3c3;
+  background-image: -webkit-linear-gradient(
+    90deg,
+    transparent,
+    rgba(0, 0, 0, 0.4) 10%,
+    transparent,
+    transparent
+  );
+}

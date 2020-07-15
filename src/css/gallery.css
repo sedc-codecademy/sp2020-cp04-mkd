@@ -1,0 +1,498 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+/* NAVBAR STYLEING */
+nav {
+  background-color: #fff;
+  border-bottom: 3px solid #7edadd;
+}
+
+.navbar-brand img {
+  width: 100%;
+  max-width: 205px;
+  max-height: 55px;
+}
+
+.navbar-nav {
+  align-items: center;
+}
+
+.navbar-nav li:nth-child(7) {
+  margin-left: 10px !important;
+}
+
+.navbar-nav li:nth-child(8) {
+  margin-left: -10px !important;
+}
+
+.nav-item {
+  text-align: center;
+  margin: 0 10px;
+}
+
+.nav-item a.nav-link {
+  padding: 1px 0;
+}
+
+.nav-item.active {
+  border-bottom: 1px solid #3bb3c3;
+}
+
+.nav-item:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: white;
+  cursor: pointer;
+}
+
+.nav-item:active {
+  border-bottom: 1px solid #3bb3c3;
+}
+
+.nav-item:hover {
+  border-bottom: 1px solid #3bb3c3;
+}
+
+.nav-item:nth-child(7) {
+  border-bottom: none !important;
+}
+
+.nav-item:nth-child(8) {
+  border-bottom: none !important;
+}
+
+.nav-link {
+  color: #5f5b5b;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 65px;
+}
+/* changed mk to en*/
+.lang-en img {
+  padding: 5px 5px;
+  /* background-color: #e0e0e0; */
+  border: 1.2px solid #e0e0e0;
+  border-bottom: 1.2px solid #3bb3c3;
+}
+/* END NAVBAR CSS */
+
+.my-container {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.hero {
+  margin-bottom: 8vw;
+}
+
+.hero__box {
+  position: relative;
+}
+
+.hero__box__image {
+  width: 100%;
+}
+
+.hero__box__image--title {
+  position: absolute;
+  text-align: start;
+  left: 9%;
+  top: 34%;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 64px;
+  line-height: 90px;
+  text-transform: uppercase;
+  color: black;
+}
+
+/* with vw */
+/* .hero__box__image--title {
+  position: absolute;
+  height: 18vw;
+  text-align: start;
+  left: 6vw;
+  top: 17vw;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 6vw;
+  line-height: 7vw;
+  text-transform: uppercase;
+  color: #636e72;
+} */
+
+.hero__box__img--title--satisfied {
+  color: #3bb3c3;
+}
+.btn {
+  background: #3bb3c3;
+  opacity: 0.8;
+  border-radius: 10px;
+  width: 255px;
+  height: 46px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 35px;
+  text-align: center;
+  align-items: center;
+  color: #ffffff;
+  border: none;
+  box-shadow: 0 4px 5px grey;
+  outline: 0;
+}
+.btn:active,
+.btn:hover {
+  background: #349caa;
+  color: white;
+}
+
+.btn:active {
+  box-shadow: 0 1px 2px grey;
+}
+
+.galeries-title {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 4vw;
+  line-height: 7vw;
+  color: #3bb3c3;
+  justify-content: center;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.galeries-text {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: light;
+  font-size: 20px;
+  line-height: 30px;
+  color: #636e72;
+  justify-content: center;
+  text-align: center;
+}
+
+.galeries-text__under-pic {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 15px;
+  color: #636e72;
+  text-align: center;
+  justify-content: center;
+  letter-spacing: 0.05em;
+}
+
+.img-fluid__size {
+  width: 540px;
+  height: 302px;
+}
+
+.carousel-control_icon-box {
+  position: relative;
+  width: 45px;
+  height: 45px;
+  background-color: #3bb3c3;
+  box-shadow: 0px 2px 10px rgba(54, 54, 54, 0.15);
+  border-radius: 5px;
+}
+
+.carousel-control-prev-icon__position {
+  position: absolute;
+  top: 18%;
+  left: 15%;
+  height: 30px;
+  width: 30px;
+}
+
+.carousel-control-next-icon__position {
+  position: absolute;
+  top: 18%;
+  left: 21%;
+  height: 30px;
+  width: 30px;
+}
+
+.carousel-control__before-after-gallery {
+  top: 104%;
+  width: 78vw;
+}
+
+.carousel-control__dental-office-gallery {
+  top: 100%;
+  width: 78vw;
+}
+
+.carousel-control__dental-tourism-gallery {
+  top: 102%;
+  width: 78vw;
+}
+
+.col-md-6__position {
+  justify-content: center;
+  text-align: center;
+}
+
+.row-alignment {
+  justify-content: center;
+  text-align: center;
+}
+
+.row-footer {
+  height: 331px;
+  margin-top: 140px;
+  background: #333333;
+}
+
+/* FOOTER CSS */
+.footer-position {
+  margin-top: 200px;
+}
+.page-footer {
+  background-color: #333333;
+}
+
+.logo-img img {
+  width: 160px;
+  height: 57px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.work-days {
+  color: #7a7b7b;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.menu-items {
+  margin-top: 20px;
+  line-height: 19px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.menu-items ul li,
+.contacts ul li {
+  margin-bottom: 12px;
+}
+
+.menu-items ul li a,
+.contacts ul li a,
+.pri-policy p a {
+  color: #7a7b7b;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.contacts ul {
+  margin-top: 20px;
+}
+
+.telNumber {
+  color: #7a7b7b;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.line {
+  background-color: #3bb3c3;
+}
+
+.copyright {
+  line-height: 19px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #7a7b7b;
+}
+
+.link-unstyled {
+  text-decoration: none;
+  color: #7a7b7b;
+}
+/* Extra extra small devices (portrait phones, less than 400px) */
+@media (max-width: 400px) {
+  .hero__box__image--title {
+    left: 13%;
+    top: 35%;
+    font-weight: 38;
+    font-size: 17px;
+    line-height: 22px;
+  }
+  .btn {
+    width: 73px;
+    height: 14px;
+    font-size: 6px;
+    border-radius: 3px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+  }
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (min-width: 401px) and (max-width: 575.98px) {
+  .btn {
+    width: 94px;
+    height: 19px;
+    font-size: 8px;
+    border-radius: 3px;
+    padding: 0px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .row-header {
+    height: 60px;
+  }
+  .col-md-6__position {
+    width: 50%;
+  }
+  .img-fluid__size {
+    width: 216px;
+    height: 121px;
+  }
+  .hero__box__image--title {
+    left: 13%;
+    top: 35%;
+    font-weight: 38;
+    font-size: 23px;
+    line-height: 33px;
+  }
+  .carousel-control__before-after-gallery {
+    top: 112%;
+  }
+  .carousel-control__dental-tourism-gallery {
+    top: 103%;
+  }
+  .carousel-control_icon-box {
+    width: 35px;
+    height: 35px;
+  }
+  .carousel-control-prev-icon__position {
+    top: 6%;
+    left: 5%;
+  }
+  .carousel-control-next-icon__position {
+    top: 6%;
+    left: 10%;
+  }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .btn {
+    width: 134px;
+    height: 32px;
+    font-size: 12px;
+    border-radius: 5px;
+    padding: 0px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .img-fluid__size {
+    width: 324px;
+    height: 182px;
+  }
+  .row-header {
+    height: 75px;
+  }
+  .hero__box__image--title {
+    left: 13%;
+    top: 32%;
+    font-weight: 75;
+    font-size: 32px;
+    line-height: 45px;
+  }
+  .col-md-6__position {
+    width: 50%;
+  }
+  .carousel-control__before-after-gallery {
+    top: 107%;
+  }
+  .carousel-control__dental-tourism-gallery {
+    top: 103%;
+  }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .btn {
+    width: 171px;
+    height: 33px;
+    font-size: 14px;
+    border-radius: 6px;
+    padding: 0px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .img-fluid__size {
+    width: 357px;
+    height: 200px;
+  }
+  .hero__box__image--title {
+    left: 11%;
+    top: 34%;
+    font-weight: 150;
+    font-size: 42px;
+    line-height: 62px;
+  }
+  .carousel-control__before-after-gallery {
+    top: 107%;
+  }
+  .carousel-control__dental-tourism-gallery {
+    top: 103%;
+  }
+}
+
+/* Large devices (desktops, less than 1200px) */
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .hero__box__image--title {
+    left: 9%;
+    top: 34%;
+    font-weight: 200;
+    font-size: 51px;
+    line-height: 76px;
+  }
+  .btn {
+    border-radius: 10px;
+    width: 217px;
+    height: 43px;
+    font-size: 17px;
+    margin: 0px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+
+/* @media (min-width: 1200px) {
+  .btn {
+    width: 320px;
+    height: 52px;
+    font-size: 25px;
+    border-radius: 10px;
+  }
+  .hero__box__image--title {
+    left: 14%;
+    top: 22%;
+    font-weight: 225;
+    font-size: 79px;
+    line-height: 120px;
+  }
+} */

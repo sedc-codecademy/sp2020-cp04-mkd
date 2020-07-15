@@ -1,0 +1,203 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+nav {
+  background-color: #fff;
+  border-bottom: 3px solid #7edadd;
+}
+
+.navbar-brand img {
+  width: 100%;
+  max-width: 205px;
+  max-height: 55px;
+}
+
+.navbar-nav {
+  align-items: center;
+}
+
+.navbar-nav li:nth-child(7) {
+  margin-left: 10px !important;
+}
+
+.navbar-nav li:nth-child(8) {
+  margin-left: -10px !important;
+}
+
+.nav-item {
+  text-align: center;
+  margin: 0 10px;
+}
+
+.nav-item a.nav-link {
+  padding: 1px 0;
+}
+
+.nav-item.active {
+  border-bottom: 1px solid #3bb3c3;
+}
+
+.nav-item:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: white;
+  cursor: pointer;
+}
+
+.nav-item:active {
+  border-bottom: 1px solid #3bb3c3;
+}
+
+.nav-item:hover {
+  border-bottom: 1px solid #3bb3c3;
+}
+
+.nav-item:nth-child(7) {
+  border-bottom: none !important;
+}
+
+.nav-item:nth-child(8) {
+  border-bottom: none !important;
+}
+
+.nav-link {
+  color: #5f5b5b;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 65px;
+}
+/* changed mk to en*/
+.lang-en img {
+  padding: 5px 5px;
+  /* background-color: #e0e0e0; */
+  border: 1.2px solid #e0e0e0;
+  border-bottom: 1.2px solid #3bb3c3;
+}
+
+.width {
+  min-width: 100vw;
+}
+
+.hero {
+  margin-bottom: 8vw;
+}
+
+/* Ne menuvaj properties na tagot [img]. Stavi si posebna klasa
+na slikite i menuvaj ja taa klasa. img tagot se koristi na site sliki
+ne samo na tie ti sto sakas da gi smenis. */
+.instr_img img {
+  width: 100%;
+}
+
+.box {
+  position: relative;
+}
+
+.hero_services_img_title {
+  position: absolute;
+  /* height: 18vw; */
+  text-align: start;
+  left: 9%;
+  top: 34%;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 64px;
+  line-height: 90px;
+  text-transform: uppercase;
+  color: black;
+}
+
+.hero_services_img_title--exclusive {
+  color: #3bb3c3;
+}
+
+.btn {
+  background: #3bb3c3;
+  opacity: 0.8;
+  border-radius: 10px;
+  width: 255px;
+  height: 46px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 35px;
+  text-align: center;
+  align-items: center;
+  color: #ffffff;
+  border: none;
+  box-shadow: 0 4px 5px grey;
+  outline: 0;
+}
+
+.btn:active,
+.btn:hover {
+  background: #349caa;
+  color: white;
+}
+
+.btn:active {
+  box-shadow: 0 1px 2px grey;
+  color: #ffffff;
+}
+
+/* end of hero section */
+
+/* start of dentalProshodonticsSection */
+
+/* .height100 {
+  min-height: 100vh;
+} */
+
+.dental_Title--title,
+.cosmetic_Title--title,
+.general_Dentistry--title,
+.children_Dentistry--title {
+  color: #636e72;
+  /* border: 1px solid black; */
+  font-style: normal;
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 72px;
+}
+
+.fixed_subTitle,
+.mobile_subTitle,
+.veneers_subTitle,
+.cleaning_and_polishing_subTitle,
+.dental_scaling-subTitle,
+.cosmetic_fillings-subTitle,
+.dental_jewellery-subTitle {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 36px;
+  color: #3bb3c3;
+}
+
+.fixed_Prostodontics--text--paragraph,
+.mobile_Prostodontics--text--paragraph,
+.dental_Veneers--text--paragraph,
+.dental_cleaning_and_polishing_Veneers--text--paragraph,
+.dental_scaling--text--paragraph,
+.cosmetic_fillings--text--paragraph,
+.dental_jewellery--text--paragraph,
+.general_dentistry--text--paragraph,
+.children_dentistry--text--paragraph {
+  color: #636e72;
+  font-style: normal;
+  font-weight: light;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: justify;
+}
+
+.dentalImg img,
+.cosmetic-img img,
+.general_Dentristry-img img,
+.children_Dentristry-img img {
+  width: 130px;
+  height: 130px;
+}
+
+/* end of dentalProshodonticsSectin*/
