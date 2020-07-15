@@ -156,10 +156,14 @@ nav {
   color: #636e72;
 }
 
-/* .text-padding {
-  padding-left: 200px;
-  padding-right: 200px;
-} */
+.text-padding {
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+.text-align {
+  text-align: justify;
+}
 
 .team-img {
   width: 20vw;
@@ -226,6 +230,7 @@ nav {
   width: 100%; /* Full width */
   background-color: rgb(0, 0, 0);
   background-color: rgba(0, 0, 0, 0.4);
+  
 }
 
 .h3ModalStyle {
@@ -255,12 +260,21 @@ nav {
   animation-duration: 0.4s;
 }
 
-.modal-content h4 {
+.modal-content  h3 {
   text-align: center;
-  font-size: 1.5vw;
+  font-size: 2.2vw;
   margin-bottom: 1.5vw;
   margin-top: 1vw;
-  color: #3bb3c3;
+  font-weight: bold;
+  margin-bottom: 0.2vw;
+}
+
+.style-proffesion{
+  font-size: 1.2vw;
+  color: #349caa;
+  text-align: center;
+  margin-bottom: 1vw;
+  margin-top: 0.2vw;
 }
 
 .modal-body {
