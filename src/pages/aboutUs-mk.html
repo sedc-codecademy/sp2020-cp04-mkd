@@ -22,7 +22,7 @@
 
   <body>
     <!-- HEADER -->
-    <nav class="navbar navbar-light navbar-expand-lg">
+    <nav class="navbar navbar-light sticky-top navbar-expand-lg">
       <a class="navbar-brand" href="#">
         <img src="../images/logo/md-logo.jpg" alt="logo" />
       </a>
@@ -40,23 +40,27 @@
 
       <div class="collapse navbar-collapse" id="navbarDropdownMain">
         <ul class="navbar-nav ml-auto text-center">
-          <li class="nav-item active">
-            <a class="nav-link">Home <span class="sr-only">(current)</span></a>
-          </li>
+          <!-- removed active class from home -->
           <li class="nav-item">
+            <a class="nav-link" href="homepage.html"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <!-- added active class to about us -->
+          <li class="nav-item active">
             <a class="nav-link">About us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link">Services</a>
+            <a class="nav-link" href="services.html">Services</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link">Gallery</a>
+            <a class="nav-link" href="gallery.html">Gallery</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link">Blog</a>
+            <a class="nav-link" href="blog.html">Blog</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="contact.html">Contact</a>
           </li>
           <li class="nav-item">
             <a class="nav-link lang-mk hidden-md-down" href="#">
@@ -72,33 +76,37 @@
       </div>
     </nav>
 
-    <!-- TOP PICTURE -->
-    <div class="">
-      <div class="hero__box">
-        <img
-          class="top-pic"
-          src="../images/aboutUs.png"
-          class="img-responsive"
-        />
-        <div class="hero__box__img--title">
-          <div>
-            ОВДЕ ВАШИТЕ<br />
-            <span class="hero__box__img--title--colorised">ЗАБИ</span> СЕ
-            БЕЗБЕДНИ
+    <!-- <div class="container-fluid my-container"> -->
+      <!-- HERO -->
+      <div class="row no-gutters hero">
+        <div class="col-md-12 hero__box">
+          <img
+            src="../images/heroAboutUsResized1.jpg"
+            class="img-responsive hero__box__image"
+          />
+          <div class="hero__box__img--title">
+            <div>
+              овде ваште <br />
+              <span class="hero__box__img--title--colorised">заби</span>
+              се безбедни
+            </div>
+            <button id="appointment-btn">Закажете термин</button>
           </div>
-          <button id="appointment-btn">Закажете преглед</button>
         </div>
-      </div>
+      <!-- </div> -->
     </div>
+    <br />
+    <br />
 
     <!-- Our Mission -->
-    <div
-      class="col my-col row bef-aft d-flex justify-content-center align-items-center"
-    >
+    <div class="container">
+      <div class="row">
+    <div class="col my-col row bef-aft d-flex justify-content-center align-items-center">
       Нашата мисија
     </div>
+  </div>
     <div
-      class="col my-col row text-style align-items-center justify-content-center text-padding"
+      class="col my-col row text-style align-items-center justify-content-center text-align"
     >
       Подигнување на нивото на забоздравствена култура и работење со поинаков
       пристап во пружањето на стоматолошки услуги на нашите пациенти,
@@ -125,7 +133,7 @@
       Историја
     </div>
     <div
-      class="col my-col row text-style align-items-center justify-content-center text-padding"
+      class="col my-col row text-style align-items-center justify-content-center text-align"
     >
       Стоматолошката ординација “Мак Дентал - Битола” официјално е отворена на
       15.07.2015, каде претходно во период од 2 години и претходеше адаптација и
@@ -152,7 +160,7 @@
       Нашиот тим
     </div>
     <div
-      class="col my-col row text-style align-items-center justify-content-center text-padding"
+      class="col my-col row text-style align-items-center justify-content-center text-align"
     >
       Запознајте ги луѓето кои ја претвараат Вашата визија во реалност
       <br /><br />
@@ -206,11 +214,11 @@
                   alt="Dr Josif"
                 />
 
-                <h4>
-                  Др.Јосиф Ристевски (основач и стоматолог на стоматолошка
-                  ординација Мак Дентал Битола)
-                </h4>
-                <p>
+              
+                <h3>Др.Јосиф Ристевски </h3>
+                <p class="style-proffesion"> основач и стоматолог на стоматолошката
+                  ординација Мак Дентал Битола </p>
+                <p class="text-align text-padding">
                   Роден е на 25.08.1988 година во Битола. Основно образование
                   завршува во родниот крај во Демир Хисар, Стручно средно
                   образование завршува во ОСМУ Др Јован Калаузи насока Забен
@@ -218,7 +226,7 @@
                   стоматологија успешно ги завршува на Стоматолошкиот факултет
                   при УКИМ во Скопје во 2012 година
                 </p>
-                <p>
+                <p class="text-align text-padding">
                   Во 2010 година како студент освојува прво место на
                   Меѓународниот Научен конгрес на студентите по стоматологија во
                   Охрид на тема,усна презентација (Тотална протеза,проблеми
@@ -226,27 +234,27 @@
                   Даштевски(соработници асс др.Ванчо Спиров и асс.Др Едвард
                   Јанев)
                 </p>
-                <p>
+                <p class="text-align text-padding">
                   Во 2011 година како апсолвент на стоматолошки факултет
                   учествува на Меѓународниот стоматолошки конгрес на Хвар во Р
                   Хрватска со сопствен труд (Класични и металкерамички фиксни
                   конструкции –предности и недостатоци –ментор асс .Др Марјан
                   Петков ).
                 </p>
-                <p>
+                <p class="text-align text-padding">
                   Во 2011 година како апсолвент на стоматолошки факултет
                   учествува на Меѓународниот стоматолошки конгрес на Хвар во Р
                   Хрватска со сопствен труд (Класични и металкерамички фиксни
                   конструкции –предности и недостатоци –ментор асс .Др Марјан
                   Петков ).
                 </p>
-                <p>
+                <p class="text-align text-padding">
                   Исто така за време на престојот во Загреб, Др Јосиф врши и
                   нострификација на дипломата како би можел да оствари услови за
                   понатамошен професионален развој од областа на стоматологијата
                   во Р.Хрватска.
                 </p>
-                <p>
+                <p class="text-align text-padding">
                   Др Јосиф има учествувано на бројни семинари и има остварено
                   бројни обуки од полето на стоматолошката протетика(Duceram
                   kiss ceramic) и имплантологија(ancilos implantology-Промедика,
@@ -255,7 +263,7 @@
                   хирургија(Skopje EACMFS educational center), Balcan
                   Stomatological Educational Congerss) .
                 </p>
-                <p>
+                <p class="text-align text-padding">
                   Др Јосиф продолжува со континуирана едукација и соработка со
                   своите колеги од Македонија и Загреб,Р.Хрватска.
                 </p>
@@ -277,8 +285,9 @@
               </div>
               <div class="modal-body scrollbar--style">
                 <img class="team-img" src="../images/dobre.png" alt="Dobre" />
-                <h4>Добре Ристевски, забен техничар</h4>
-                <p>
+                <h3>Добре Ристевски</h3>
+                <p class="style-proffesion"> забен техничар </p>
+                <p class="text-align text-padding">
                   Прво вработување му е во далечната 1978 година веднаш после
                   завршувањето на средно медицинско училиште др .Панче Караѓозов
                   во Скопје. Имено првото вработување му е во Здравствениот Дом
@@ -291,7 +300,7 @@
                   учествувано на голем број стручни семинари и активен
                   општествен живот .
                 </p>
-                <p>
+                <p class="text-align text-padding">
                   Кога сме кај забните техничари, нашата ординација соработува и
                   со други заботехнички лаборатории од Битола и од
                   Загреб,Р.Хрватска со кои заедно постигнуваме одличен резултат.
@@ -316,8 +325,9 @@
                   src="../images/slavica.png"
                   alt="Slavica"
                 />
-                <h4>Славица Давидовска, стоматолошка сестра</h4>
-                <p>
+                <h3>Славица Давидовска</h3>
+                <p class="style-proffesion"> стоматолошка сестра </p>
+                <p class="text-align text-padding">
                   Стоматолошката сестра се вика Славица Давидовска од Битола,има
                   завршено средно медицинско училиште во Битола, повеќегодишно
                   работно искуство како медицинска сестра, како и стоматолошка
@@ -331,6 +341,7 @@
         </div>
       </div>
     </div>
+  </div>
 
     <br /><br /><br /><br /><br /><br /><br /><br />
     <footer id="footer" class="page-footer">
