@@ -15,5 +15,5 @@ This project includes only the front-end for the application, written html/css/j
 ## Tools
 * Visual Studio Code
 
-## Licence
+## License
 * [Mit License](https://github.com/sedc-codecademy/sp2020-cp04-mkd/blob/master/LICENSE)
