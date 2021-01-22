@@ -1,3 +1,6 @@
+//  Button - Make an appointement
+let appointement = document.getElementById("appointment-btn");
+
 // Get the modal
 let mainDentistModal = document.getElementById("mainDentist-modal");
 let dentalTechnicianModal = document.getElementById("dentalTechnician-modal");
@@ -16,6 +19,10 @@ let nursePicBtn = document.getElementById("nursePic__btn--bio");
 let closeMainDentist = document.getElementById("closeMainDentist");
 let closeDentalTechnician = document.getElementById("closeDentalTechnician");
 let closeNurse = document.getElementById("closeNurse");
+
+// When client click on button Make an appointment
+appointement.onClick = function () {
+  location.href = "contact.html";
 
 // When the user clicks the button, open the modal 
 mainDentist.onclick = function() {
